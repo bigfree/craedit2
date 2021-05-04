@@ -8,16 +8,17 @@ import ReactFlow, {
 	removeElements,
 } from 'react-flow-renderer';
 import styles from './flow.module.scss';
+import { v4 as uuidv4 } from 'uuid';
 
 const initialElements: FlowElement[] = [
 	{
-		id: '1',
+		id: uuidv4(),
 		type: 'input',
 		data: { label: 'Input Node' },
 		position: { x: 250, y: 25 },
 	},
 	{
-		id: '2',
+		id: uuidv4(),
 		data: { label: 'Another Node' },
 		position: { x: 100, y: 125 },
 	},
@@ -34,8 +35,8 @@ const Flow: React.FC = (): JSX.Element => {
 		const initialElementsas = [
 			...elements,
 			{
-				id: Math.random().toString(),
-				data: { label: 'Another Node' },
+				id: uuidv4(),
+				data: { label: 'Another Node', adam: 123 },
 				position: { x: 100, y: 125 },
 			},
 		]
@@ -44,7 +45,11 @@ const Flow: React.FC = (): JSX.Element => {
 
 	useEffect(() => {
 		console.log(elements);
-	}, [onConnect])
+	}, [onConnect]);
+
+	const elementClick = (event: any, element: any) => {
+		console.log(event, element);
+	}
 
 	return (
 		<>
@@ -55,6 +60,7 @@ const Flow: React.FC = (): JSX.Element => {
 				           onConnect={onConnect}
 				           deleteKeyCode={46}
 				           snapToGrid={true}
+						   onElementClick={elementClick}
 				>
 					<Background
 						variant={BackgroundVariant.Dots}

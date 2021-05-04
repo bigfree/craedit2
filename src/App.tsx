@@ -1,19 +1,15 @@
 import React from 'react';
-import Flow from "./flow";
-
-import {Layout} from 'antd';
-
-const {Header, Content} = Layout;
+import Content from "./components/content/content";
+import Header from "./components/header/header";
+import style from './main.module.scss';
 
 function App() {
-    return (
-        <Layout className={'layout'}>
-            <Header/>
-            <Content>
-                <Flow/>
-            </Content>
-        </Layout>
-    );
+	return (
+		<main className={style.main}>
+			<Header/>
+			<Content/>
+		</main>
+	);
 }
 
 export default App;

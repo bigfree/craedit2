@@ -45,7 +45,7 @@ const Flow: React.FC = (): JSX.Element => {
 
 	useEffect(() => {
 		console.log(elements);
-	}, [onConnect]);
+	}, [elements]);
 
 	const elementClick = (event: any, element: any) => {
 		console.log(event, element);

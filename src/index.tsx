@@ -1,13 +1,18 @@
+import "antd/dist/antd.css";
+import { StoreProvider } from 'easy-peasy';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import './index.scss';
 import reportWebVitals from './reportWebVitals';
+import { store } from './store/store';
 
 ReactDOM.render(
-	<React.StrictMode>
-		<App/>
-	</React.StrictMode>,
+	<StoreProvider store={store}>
+		<React.StrictMode>
+			<App/>
+		</React.StrictMode>
+	</StoreProvider>,
 	document.getElementById('root')
 );
 

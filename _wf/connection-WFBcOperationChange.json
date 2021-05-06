@@ -1,0 +1,117 @@
+{
+    "CNtuvtxvt5ck": {
+        "id": "CNtuvtxvt5ck",
+        "from": "SP_OpBcChangeInsert",
+        "to": "TA_OpBcChangeInsert"
+    },
+    "CNeawk0q1xfv": {
+        "id": "CNeawk0q1xfv",
+        "from": "SP_OpBcChangeInsert",
+        "to": "SP_OpBcChangeApprove"
+    },
+    "CNj14qukv81u": {
+        "id": "CNj14qukv81u",
+        "from": "SP_OpBcChangeApprove",
+        "to": "CO_OpBcChangeWorkflowType20"
+    },
+    "CN3d6t5sridu": {
+        "id": "CN3d6t5sridu",
+        "from": "SP_OpBcChangeApprove",
+        "to": "CO_OpBcChangeWorkflowType22"
+    },
+    "CNqws7ylnv1a": {
+        "id": "CNqws7ylnv1a",
+        "from": "TA_OpBcChangeApproveInitial",
+        "to": "CO_OpBcChangeReject1"
+    },
+    "CNt6o1pygkvz": {
+        "id": "CNt6o1pygkvz",
+        "from": "CO_OpBcChangeReject1",
+        "to": "TA_OpBcChangeApproveExpansion"
+    },
+    "CN4cl9jfsstn": {
+        "id": "CN4cl9jfsstn",
+        "from": "TA_OpBcChangeApproveExpansion",
+        "to": "CO_OpBcChangeReject2"
+    },
+    "CNm7agt7punb": {
+        "id": "CNm7agt7punb",
+        "from": "CO_OpBcChangeReject2",
+        "to": "TA_OpBcChangeApproveFinance1"
+    },
+    "CNdi1pyo6rji": {
+        "id": "CNdi1pyo6rji",
+        "from": "CO_OpBcChangeWorkflowType22",
+        "to": "TA_OpBcChangeApproveNotification"
+    },
+    "CN8ejpr03jkf": {
+        "id": "CN8ejpr03jkf",
+        "from": "TA_OpBcChangeApproveNotification",
+        "to": "TA_OpBcChangeApproveFinance2"
+    },
+    "CNm31pov4e8s": {
+        "id": "CNm31pov4e8s",
+        "from": "TA_OpBcChangeApproveFinance2",
+        "to": "CO_OpBcChangeReject3"
+    },
+    "CNvv69yjyfdq": {
+        "id": "CNvv69yjyfdq",
+        "from": "CO_OpBcChangeReject3",
+        "to": "TA_OpBcChangeApproveProjectBoard"
+    },
+    "CNqwy4cpobae": {
+        "id": "CNqwy4cpobae",
+        "from": "SP_OpBcChangeApprove",
+        "to": "SP_OpBcChangeFinish"
+    },
+    "CNfwo7au2w9j": {
+        "id": "CNfwo7au2w9j",
+        "from": "SP_OpBcChangeFinish",
+        "to": "CO_OpBcNewFinalAccept"
+    },
+    "CNw0zc0snxra": {
+        "id": "CNw0zc0snxra",
+        "from": "SP_OpBcChangeFinish",
+        "to": "CO_OpBcChangeFinalReject"
+    },
+    "CNl4ditbzerr": {
+        "id": "CNl4ditbzerr",
+        "from": "CO_OpBcNewFinalAccept",
+        "to": "TA_OpBcChangeDeactivate"
+    },
+    "CNsnebph8l5c": {
+        "id": "CNsnebph8l5c",
+        "from": "TA_OpBcChangeDeactivate",
+        "to": "TA_OpBcChangeSapNumber"
+    },
+    "CNy2qrzunzzf": {
+        "id": "CNy2qrzunzzf",
+        "from": "CO_OpBcChangeFinalReject",
+        "to": "TA_OpBcChangeRejectEmailNotification"
+    },
+    "CN9i7s91pzyx": {
+        "id": "CN9i7s91pzyx",
+        "from": "SP_OpBcChangeApprove",
+        "to": "CO_OpBcChangeWorkflowType21"
+    },
+    "CNgrcdwkkpn7": {
+        "id": "CNgrcdwkkpn7",
+        "from": "CO_OpBcChangeWorkflowType20",
+        "to": "TA_OpBcChangeApproveInitial"
+    },
+    "CNz6h0qlxuu4": {
+        "id": "CNz6h0qlxuu4",
+        "from": "CO_OpBcChangeWorkflowType21",
+        "to": "TA_OpBcChangeApproveInitial"
+    },
+    "CNckmqin87nr": {
+        "id": "CNckmqin87nr",
+        "from": "TA_OpBcChangeSapNumber",
+        "to": "TA_OpBcChangeAcceptEmailNotification"
+    },
+    "CNqzbti7179l": {
+        "id": "CNqzbti7179l",
+        "from": "TA_OpBcChangeInsert",
+        "to": "TA_BcOpChangeStornoDisable"
+    }
+}

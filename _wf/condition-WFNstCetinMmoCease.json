@@ -1,0 +1,50 @@
+{
+    "CO_SrOhsCeaseRequestDelayed1": {
+        "id": "CO_SrOhsCeaseRequestDelayed1",
+        "conditionId": "CT_SrOhsCeaseRequestDelayed",
+        "name": "Nen\u00ed po\u017eadov\u00e1no odlo\u017een\u00ed OHS po\u017eadavku CEASE",
+        "params": "{\"_result\":0}",
+        "top": "241",
+        "left": "26"
+    },
+    "CO_SrOhsCeaseRequestDelayed2": {
+        "id": "CO_SrOhsCeaseRequestDelayed2",
+        "conditionId": "CT_SrOhsCeaseRequestDelayed",
+        "name": "Po\u017eadov\u00e1no odlo\u017een\u00ed OHS po\u017eadavku CEASE",
+        "params": "",
+        "top": "286",
+        "left": "853"
+    },
+    "CO_SrTO2Accept1": {
+        "id": "CO_SrTO2Accept1",
+        "conditionId": "CT_SrTechTO2ManuallyAccepted",
+        "name": "P\u0159ijet\u00ed objedn\u00e1vky TO2 manu\u00e1ln\u011b",
+        "params": "",
+        "top": "453",
+        "left": "125"
+    },
+    "CO_SrTO2Reject1": {
+        "id": "CO_SrTO2Reject1",
+        "conditionId": "CT_SrTechTO2ManuallyAccepted",
+        "name": "Zam\u00edtnut\u00ed objedn\u00e1vky TO2 manu\u00e1ln\u011b",
+        "params": "{\"_result\":0}",
+        "top": "451",
+        "left": "387"
+    },
+    "CO_SrTO2Accept2": {
+        "id": "CO_SrTO2Accept2",
+        "conditionId": "CT_SrTechTO2ManuallyAccepted",
+        "name": "P\u0159ijet\u00ed objedn\u00e1vky TO2 manu\u00e1ln\u011b",
+        "params": "",
+        "top": "448",
+        "left": "799"
+    },
+    "CO_SrTO2Reject2": {
+        "id": "CO_SrTO2Reject2",
+        "conditionId": "CT_SrTechTO2ManuallyAccepted",
+        "name": "Zam\u00edtnut\u00ed objedn\u00e1vky TO2 manu\u00e1ln\u011b",
+        "params": "{\"_result\":0}",
+        "top": "453",
+        "left": "1091"
+    }
+}

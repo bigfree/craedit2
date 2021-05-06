@@ -1,0 +1,25 @@
+{
+    "TA_UtChange": {
+        "id": "TA_UtChange",
+        "type": "M",
+        "name": "Zm\u011bna \u00fadaj\u016f na tiketu",
+        "canMerge": false,
+        "taskId": "TT_UtStandardTask",
+        "workplaceId": "WP_HelpDesk",
+        "setupActionId": "SA_UtSetDefaultWorkplace",
+        "term": "",
+        "termType": "day",
+        "nestedWorkflow": null,
+        "canRedo": false,
+        "notSendEmail": false,
+        "urgent": false,
+        "outOfWorkFlow": false,
+        "params": "",
+        "autofinishMessage": "",
+        "autoWorkOutAfterTerm": false,
+        "generateCancelOnGlobalCancel": false,
+        "disableControls": false,
+        "top": "147",
+        "left": "357"
+    }
+}

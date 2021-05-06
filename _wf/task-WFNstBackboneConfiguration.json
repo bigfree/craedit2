@@ -1,0 +1,27 @@
+{
+    "TA_SrBackboneConfiguration": {
+        "id": "TA_SrBackboneConfiguration",
+        "type": "M",
+        "name": "Konfigurace p\u00e1te\u0159n\u00ed s\u00edt\u011b",
+        "canMerge": false,
+        "taskId": "TT_SrBackboneConfiguration",
+        "workplaceId": "WP_ConfigurationData",
+        "setupActionId": "undefined",
+        "term": "1",
+        "termType": "work_day",
+        "nestedWorkflow": {
+            "0": ""
+        },
+        "canRedo": false,
+        "notSendEmail": false,
+        "urgent": false,
+        "outOfWorkFlow": false,
+        "params": "",
+        "autofinishMessage": "",
+        "autoWorkOutAfterTerm": false,
+        "generateCancelOnGlobalCancel": false,
+        "disableControls": false,
+        "top": "132",
+        "left": "259"
+    }
+}

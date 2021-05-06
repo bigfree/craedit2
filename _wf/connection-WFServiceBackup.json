@@ -1,0 +1,77 @@
+{
+    "CNgv6k83ku7o": {
+        "id": "CNgv6k83ku7o",
+        "from": "SP_SrDemand",
+        "to": "SP_SrSurvey"
+    },
+    "CNej93v9rh35": {
+        "id": "CNej93v9rh35",
+        "from": "SP_SrSurvey",
+        "to": "SP_SrOffer"
+    },
+    "CNydqgu25l9l": {
+        "id": "CNydqgu25l9l",
+        "from": "SP_SrOffer",
+        "to": "SP_SrOrder"
+    },
+    "CNc0gk6u7ytr": {
+        "id": "CNc0gk6u7ytr",
+        "from": "SP_SrOrder",
+        "to": "SP_SrFinalizedServiceParameters"
+    },
+    "CNrl1wrm8cxt": {
+        "id": "CNrl1wrm8cxt",
+        "from": "SP_SrFinalizedServiceParameters",
+        "to": "SP_SrNumberSAP"
+    },
+    "CNd2fnarami1": {
+        "id": "CNd2fnarami1",
+        "from": "SP_SrNumberSAP",
+        "to": "SP_SrCommision"
+    },
+    "CNlamlmbwxd1": {
+        "id": "CNlamlmbwxd1",
+        "from": "SP_SrCommision",
+        "to": "SP_SrInstallation"
+    },
+    "CNmgq909ylcl": {
+        "id": "CNmgq909ylcl",
+        "from": "SP_SrInstallation",
+        "to": "SP_PreConfigurationCompleted"
+    },
+    "CNywr45795u9": {
+        "id": "CNywr45795u9",
+        "from": "SP_PreConfigurationCompleted",
+        "to": "SP_SrTechnologyReady"
+    },
+    "CNnlx7bd621r": {
+        "id": "CNnlx7bd621r",
+        "from": "SP_SrTechnologyReady",
+        "to": "SP_SrDsFinished"
+    },
+    "CN474lmi9xao": {
+        "id": "CN474lmi9xao",
+        "from": "SP_SrDsFinished",
+        "to": "SP_SrDelivery"
+    },
+    "CNig927yh6ej": {
+        "id": "CNig927yh6ej",
+        "from": "SP_SrDelivery",
+        "to": "SP_SrFinish"
+    },
+    "CN4yywfg326r": {
+        "id": "CN4yywfg326r",
+        "from": "SP_SrFinish",
+        "to": "SP_SrEndPoint"
+    },
+    "CN4sjrdx3tif": {
+        "id": "CN4sjrdx3tif",
+        "from": "SP_PreConfigurationCompleted",
+        "to": "TA_SrBackupConfiguration"
+    },
+    "CN6qm529uv64": {
+        "id": "CN6qm529uv64",
+        "from": "SP_SrOrder",
+        "to": "TA_SrCreateTransferNesting1"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "SP_SrVatRevision": {
+        "id": "SP_SrVatRevision",
+        "type": "A",
+        "name": "Revize DPH",
+        "urgent": false,
+        "taskId": "TT_SrAutomat",
+        "workplaceId": "WP_System",
+        "setupActionId": "undefined",
+        "syncType": "FULL",
+        "term": "5",
+        "termType": "work_day",
+        "params": "",
+        "autofinishMessage": "",
+        "autoWorkOutAfterTerm": false,
+        "generateCancelOnGlobalCancel": false,
+        "top": "100",
+        "left": "10"
+    }
+}

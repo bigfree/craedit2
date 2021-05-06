@@ -1,0 +1,10 @@
+{
+    "CO_SrNewObjectNeeded": {
+        "id": "CO_SrNewObjectNeeded",
+        "conditionId": "CT_SrNewObjectNeeded",
+        "name": "Je pot\u0159eba zalo\u017eit nov\u00fd bod",
+        "params": "",
+        "top": "297",
+        "left": "135"
+    }
+}

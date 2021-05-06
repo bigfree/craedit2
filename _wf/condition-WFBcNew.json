@@ -1,0 +1,394 @@
+{
+    "CO_BcNewReject1": {
+        "id": "CO_BcNewReject1",
+        "conditionId": "CT_BcRejected",
+        "name": "Pokra\u010duje schvalov\u00e1n\u00ed BusinessCase",
+        "params": "{\"_result\":0}",
+        "top": "394",
+        "left": "327"
+    },
+    "CO_BcNewWorkflowType2": {
+        "id": "CO_BcNewWorkflowType2",
+        "conditionId": "CT_BcWorkflowType",
+        "name": "Smluvn\u00ed cena",
+        "params": "{\"BCP_TYP_SCHVAL\":2}",
+        "top": "384",
+        "left": "552"
+    },
+    "CO_BcNewWorkflowType1": {
+        "id": "CO_BcNewWorkflowType1",
+        "conditionId": "CT_BcWorkflowType",
+        "name": "Nav\u00fd\u0161en\u00ed ceny v limitu",
+        "params": "{\"BCP_TYP_SCHVAL\":1}",
+        "top": "336",
+        "left": "551"
+    },
+    "CO_BcNewWorkflowType3": {
+        "id": "CO_BcNewWorkflowType3",
+        "conditionId": "CT_BcWorkflowType",
+        "name": "Cen\u00edkov\u00e1 cena",
+        "params": "{\"BCP_TYP_SCHVAL\":3}",
+        "top": "430",
+        "left": "553"
+    },
+    "CO_BcNewWorkflowType4": {
+        "id": "CO_BcNewWorkflowType4",
+        "conditionId": "CT_BcWorkflowType",
+        "name": "Standardn\u00ed s cenou pod limit (korpor\u00e1t)",
+        "params": "{\"BCP_TYP_SCHVAL\":4}",
+        "top": "482",
+        "left": "555"
+    },
+    "CO_BcNewWorkflowType5": {
+        "id": "CO_BcNewWorkflowType5",
+        "conditionId": "CT_BcWorkflowType",
+        "name": "Standardn\u00ed s cenou pod limit (velkoprodej)",
+        "params": "{\"BCP_TYP_SCHVAL\":5}",
+        "top": "532",
+        "left": "555"
+    },
+    "CO_BcNewWorkflowType6": {
+        "id": "CO_BcNewWorkflowType6",
+        "conditionId": "CT_BcWorkflowType",
+        "name": "Standardn\u00ed s cenou pod limit (Major Account)",
+        "params": "{\"BCP_TYP_SCHVAL\":6}",
+        "top": "581",
+        "left": "555"
+    },
+    "CO_BcNewReject2": {
+        "id": "CO_BcNewReject2",
+        "conditionId": "CT_BcRejected",
+        "name": "Pokra\u010duje schvalov\u00e1n\u00ed BusinessCase",
+        "params": "{\"_result\":0}",
+        "top": "533",
+        "left": "1056"
+    },
+    "CO_BcNewWorkflowType8": {
+        "id": "CO_BcNewWorkflowType8",
+        "conditionId": "CT_BcWorkflowType",
+        "name": "Nestandardn\u00ed (v\u0161echny prodejn\u00ed skupiny)",
+        "params": "{\"BCP_TYP_SCHVAL\":8}",
+        "top": "701",
+        "left": "551"
+    },
+    "CO_BcNewWorkflowType9": {
+        "id": "CO_BcNewWorkflowType9",
+        "conditionId": "CT_BcWorkflowType",
+        "name": "Standardn\u00ed s cenou nad limit (v\u0161echny prodejn\u00ed skupiny)",
+        "params": "{\"BCP_TYP_SCHVAL\":9}",
+        "top": "769",
+        "left": "549"
+    },
+    "CO_BcNewWorkflowType10": {
+        "id": "CO_BcNewWorkflowType10",
+        "conditionId": "CT_BcWorkflowType",
+        "name": "Schvalov\u00e1n\u00ed nad limit (project board)",
+        "params": "{\"BCP_TYP_SCHVAL\":10}",
+        "top": "851",
+        "left": "552"
+    },
+    "CO_BcNewReject3": {
+        "id": "CO_BcNewReject3",
+        "conditionId": "CT_BcRejected",
+        "name": "Pokra\u010duje schvalov\u00e1n\u00ed BusinessCase",
+        "params": "{\"_result\":0}",
+        "top": "758",
+        "left": "1052"
+    },
+    "CO_BcNewReject4": {
+        "id": "CO_BcNewReject4",
+        "conditionId": "CT_BcRejected",
+        "name": "Pokra\u010duje schvalov\u00e1n\u00ed BusinessCase",
+        "params": "{\"_result\":0}",
+        "top": "825",
+        "left": "1534"
+    },
+    "CO_ExceededCEOLimit": {
+        "id": "CO_ExceededCEOLimit",
+        "conditionId": "CT_BcLimit",
+        "name": "Vy\u017e\u00e1d\u00e1no schvalov\u00e1n\u00ed G\u0158",
+        "params": "",
+        "top": "900",
+        "left": "1537"
+    },
+    "CO_BcNewReject5": {
+        "id": "CO_BcNewReject5",
+        "conditionId": "CT_BcRejected",
+        "name": "Pokra\u010duje schvalov\u00e1n\u00ed BusinessCase",
+        "params": "{\"_result\":0}",
+        "top": "913",
+        "left": "1054"
+    },
+    "CO_BcNewReject6": {
+        "id": "CO_BcNewReject6",
+        "conditionId": "CT_BcRejected",
+        "name": "BusinessCase byl schv\u00e1len",
+        "params": "{\"_result\":0}",
+        "top": "1309",
+        "left": "251"
+    },
+    "CO_BcNewReject7": {
+        "id": "CO_BcNewReject7",
+        "conditionId": "CT_BcRejected",
+        "name": "BusinessCase byl zam\u00edtnut",
+        "params": "",
+        "top": "1618",
+        "left": "39"
+    },
+    "CO_BcNewWorkflowType11": {
+        "id": "CO_BcNewWorkflowType11",
+        "conditionId": "CT_BcWorkflowType",
+        "name": "Standardn\u00ed s cenou pod limit (st\u00e1tn\u00ed spr\u00e1va)",
+        "params": "{\"BCP_TYP_SCHVAL\":11}",
+        "top": "630",
+        "left": "556"
+    },
+    "CO_BcCheckBcoLimits": {
+        "id": "CO_BcCheckBcoLimits",
+        "conditionId": "CT_BcCheckBcoLimits",
+        "name": "Standardn\u00ed pr\u016fchod BC",
+        "params": "{\"_result\":0}",
+        "top": "267",
+        "left": "172"
+    },
+    "CO_BcCheckBcoLimits2": {
+        "id": "CO_BcCheckBcoLimits2",
+        "conditionId": "CT_BcCheckBcoLimits",
+        "name": "Zrychlen\u00fd pr\u016fchod BC",
+        "params": "",
+        "top": "998",
+        "left": "334"
+    },
+    "CO_BcNewReject8": {
+        "id": "CO_BcNewReject8",
+        "conditionId": "CT_BcRejected",
+        "name": "Pokra\u010duje schvalov\u00e1n\u00ed BusinessCase",
+        "params": "{\"_result\":0}",
+        "top": "1106",
+        "left": "475"
+    },
+    "CO_BcNewWorkflowType7": {
+        "id": "CO_BcNewWorkflowType7",
+        "conditionId": "CT_BcWorkflowType",
+        "name": "Nav\u00fd\u0161en\u00ed ceny v limitu",
+        "params": "{\"BCP_TYP_SCHVAL\":1}",
+        "top": "1054.009259",
+        "left": "743.009259"
+    },
+    "CO_BcNewWorkflowType12": {
+        "id": "CO_BcNewWorkflowType12",
+        "conditionId": "CT_BcWorkflowType",
+        "name": "Smluvn\u00ed cena",
+        "params": "{\"BCP_TYP_SCHVAL\":2}",
+        "top": "1094.0115741",
+        "left": "743.0115741"
+    },
+    "CO_BcNewWorkflowType13": {
+        "id": "CO_BcNewWorkflowType13",
+        "conditionId": "CT_BcWorkflowType",
+        "name": "Cen\u00edkov\u00e1 cena",
+        "params": "{\"BCP_TYP_SCHVAL\":3}",
+        "top": "1138",
+        "left": "741"
+    },
+    "CO_BcNewWorkflowType14": {
+        "id": "CO_BcNewWorkflowType14",
+        "conditionId": "CT_BcWorkflowType",
+        "name": "Standardn\u00ed s cenou pod limit (korpor\u00e1t)",
+        "params": "{\"BCP_TYP_SCHVAL\":4}",
+        "top": "1198",
+        "left": "736"
+    },
+    "CO_BcNewWorkflowType15": {
+        "id": "CO_BcNewWorkflowType15",
+        "conditionId": "CT_BcWorkflowType",
+        "name": "Standardn\u00ed s cenou pod limit (velkoprodej)",
+        "params": "{\"BCP_TYP_SCHVAL\":5}",
+        "top": "1264",
+        "left": "732"
+    },
+    "CO_BcNewWorkflowType16": {
+        "id": "CO_BcNewWorkflowType16",
+        "conditionId": "CT_BcWorkflowType",
+        "name": "Standardn\u00ed s cenou pod limit (Major Account)",
+        "params": "{\"BCP_TYP_SCHVAL\":6}",
+        "top": "1325",
+        "left": "736"
+    },
+    "CO_BcNewWorkflowType17": {
+        "id": "CO_BcNewWorkflowType17",
+        "conditionId": "CT_BcWorkflowType",
+        "name": "Standardn\u00ed s cenou pod limit (st\u00e1tn\u00ed spr\u00e1va)",
+        "params": "{\"BCP_TYP_SCHVAL\":11}",
+        "top": "1390.006366",
+        "left": "742.006366"
+    },
+    "CO_BcNewWorkflowType18": {
+        "id": "CO_BcNewWorkflowType18",
+        "conditionId": "CT_BcWorkflowType",
+        "name": "Nestandardn\u00ed (v\u0161echny prodejn\u00ed skupiny)",
+        "params": "{\"BCP_TYP_SCHVAL\":8}",
+        "top": "1453",
+        "left": "740"
+    },
+    "CO_BcNewWorkflowType19": {
+        "id": "CO_BcNewWorkflowType19",
+        "conditionId": "CT_BcWorkflowType",
+        "name": "Standardn\u00ed s cenou nad limit (v\u0161echny prodejn\u00ed skupiny)",
+        "params": "{\"BCP_TYP_SCHVAL\":9}",
+        "top": "1516",
+        "left": "740"
+    },
+    "CO_BcNewWorkflowType20": {
+        "id": "CO_BcNewWorkflowType20",
+        "conditionId": "CT_BcWorkflowType",
+        "name": "Schvalov\u00e1n\u00ed nad limit (project board)",
+        "params": "{\"BCP_TYP_SCHVAL\":10}",
+        "top": "1600",
+        "left": "731"
+    },
+    "CO_BcNewReject10": {
+        "id": "CO_BcNewReject10",
+        "conditionId": "CT_BcRejected",
+        "name": "Pokra\u010duje schvalov\u00e1n\u00ed BusinessCase",
+        "params": "{\"_result\":0}",
+        "top": "1178",
+        "left": "1241"
+    },
+    "CO_BcNewReject9": {
+        "id": "CO_BcNewReject9",
+        "conditionId": "CT_BcRejected",
+        "name": "Pokra\u010duje schvalov\u00e1n\u00ed BusinessCase",
+        "params": "{\"_result\":0}",
+        "top": "1237",
+        "left": "1242"
+    },
+    "CO_BcNewReject11": {
+        "id": "CO_BcNewReject11",
+        "conditionId": "CT_BcRejected",
+        "name": "Pokra\u010duje schvalov\u00e1n\u00ed BusinessCase",
+        "params": "{\"_result\":0}",
+        "top": "1301",
+        "left": "1243"
+    },
+    "CO_BcNewReject12": {
+        "id": "CO_BcNewReject12",
+        "conditionId": "CT_BcRejected",
+        "name": "Pokra\u010duje schvalov\u00e1n\u00ed BusinessCase",
+        "params": "{\"_result\":0}",
+        "top": "1361",
+        "left": "1243"
+    },
+    "CO_BcNewReject13": {
+        "id": "CO_BcNewReject13",
+        "conditionId": "CT_BcRejected",
+        "name": "Pokra\u010duje schvalov\u00e1n\u00ed BusinessCase",
+        "params": "{\"_result\":0}",
+        "top": "1424",
+        "left": "1245"
+    },
+    "CO_BcNewReject14": {
+        "id": "CO_BcNewReject14",
+        "conditionId": "CT_BcRejected",
+        "name": "Pokra\u010duje schvalov\u00e1n\u00ed BusinessCase",
+        "params": "{\"_result\":0}",
+        "top": "1489",
+        "left": "1247"
+    },
+    "CO_BcNewReject15": {
+        "id": "CO_BcNewReject15",
+        "conditionId": "CT_BcRejected",
+        "name": "Pokra\u010duje schvalov\u00e1n\u00ed BusinessCase",
+        "params": "{\"_result\":0}",
+        "top": "1573",
+        "left": "1246"
+    },
+    "CO_BcNewReject16": {
+        "id": "CO_BcNewReject16",
+        "conditionId": "CT_BcRejected",
+        "name": "Pokra\u010duje schvalov\u00e1n\u00ed BusinessCase",
+        "params": "{\"_result\":0}",
+        "top": "1401",
+        "left": "1704"
+    },
+    "CO_BcNewReject17": {
+        "id": "CO_BcNewReject17",
+        "conditionId": "CT_BcRejected",
+        "name": "Pokra\u010duje schvalov\u00e1n\u00ed BusinessCase",
+        "params": "{\"_result\":0}",
+        "top": "1465",
+        "left": "1709"
+    },
+    "CO_ExceededCEOLimit1": {
+        "id": "CO_ExceededCEOLimit1",
+        "conditionId": "CT_BcLimit",
+        "name": "Vy\u017e\u00e1d\u00e1no schvalov\u00e1n\u00ed G\u0158",
+        "params": "",
+        "top": "1309",
+        "left": "2302"
+    },
+    "CO_ExceededCEOLimit2": {
+        "id": "CO_ExceededCEOLimit2",
+        "conditionId": "CT_BcLimit",
+        "name": "Vy\u017e\u00e1d\u00e1no schvalov\u00e1n\u00ed G\u0158",
+        "params": "",
+        "top": "1491",
+        "left": "2392"
+    },
+    "CO_BcCheckBcoLimits3": {
+        "id": "CO_BcCheckBcoLimits3",
+        "conditionId": "CT_BcCheckBcoLimits",
+        "name": "Standardn\u00ed pr\u016fchod BC",
+        "params": "{\"_result\":0}",
+        "top": "162",
+        "left": "963"
+    },
+    "CO_BcCheckBcoLimits4": {
+        "id": "CO_BcCheckBcoLimits4",
+        "conditionId": "CT_BcCheckBcoLimits",
+        "name": "Zrychlen\u00fd pr\u016fchod BC",
+        "params": "",
+        "top": "165",
+        "left": "534"
+    },
+    "CO_BcStopBad": {
+        "id": "CO_BcStopBad",
+        "conditionId": "CT_BcStopBad",
+        "name": "Zrychlen\u00e9 BC zam\u00edtnut\u00e9",
+        "params": "",
+        "top": "1020.0499877929688",
+        "left": "1986.050048828125"
+    },
+    "CO_BcCheckBcoLimits5": {
+        "id": "CO_BcCheckBcoLimits5",
+        "conditionId": "CT_BcCheckBcoLimits",
+        "name": "Zrychlen\u00fd pr\u016fchod BC",
+        "params": "",
+        "top": "1388",
+        "left": "362"
+    },
+    "CO_BcCheckBcoLimits6": {
+        "id": "CO_BcCheckBcoLimits6",
+        "conditionId": "CT_BcCheckBcoLimits",
+        "name": "Standardn\u00ed pr\u016fchod BC",
+        "params": "{\"_result\":0}",
+        "top": "1387",
+        "left": "73"
+    },
+    "CO_ExceededCEOLimit3": {
+        "id": "CO_ExceededCEOLimit3",
+        "conditionId": "CT_BcLimit",
+        "name": "Nevy\u017eadov\u00e1no schvalov\u00e1n\u00ed G\u0158",
+        "params": "{\"_result\":0}",
+        "top": "1288",
+        "left": "2046"
+    },
+    "CO_ExceededCEOLimit4": {
+        "id": "CO_ExceededCEOLimit4",
+        "conditionId": "CT_BcLimit",
+        "name": "Nevy\u017eadov\u00e1no schv\u00e1len\u00ed G\u0158",
+        "params": "{\"_result\":0}",
+        "top": "1494",
+        "left": "2048"
+    }
+}

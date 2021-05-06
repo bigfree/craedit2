@@ -1,0 +1,18 @@
+{
+    "CO_SrSharedFirewall": {
+        "id": "CO_SrSharedFirewall",
+        "conditionId": "CT_SrSharedFirewall",
+        "name": "Jedn\u00e1 se o sd\u00edlen\u00fd firewall",
+        "params": "",
+        "top": 682,
+        "left": 320
+    },
+    "CO_SrSharedFirewall2": {
+        "id": "CO_SrSharedFirewall2",
+        "conditionId": "CT_SrSharedFirewall",
+        "name": "Nejedn\u00e1 se o sd\u00edlen\u00fd firewall",
+        "params": "{\"_result\":0}",
+        "top": 685,
+        "left": 585
+    }
+}

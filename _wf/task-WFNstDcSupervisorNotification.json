@@ -1,0 +1,25 @@
+{
+    "TA_SrDcSupervisorNotification": {
+        "id": "TA_SrDcSupervisorNotification",
+        "type": "A",
+        "name": "Notifikace spr\u00e1vce DC",
+        "canMerge": false,
+        "taskId": "TT_SrDcAdminNotification",
+        "workplaceId": "WP_AdminEcho",
+        "setupActionId": "undefined",
+        "term": "1",
+        "termType": "hour",
+        "nestedWorkflow": null,
+        "canRedo": false,
+        "notSendEmail": false,
+        "urgent": false,
+        "outOfWorkFlow": false,
+        "params": "",
+        "autofinishMessage": "",
+        "autoWorkOutAfterTerm": false,
+        "generateCancelOnGlobalCancel": false,
+        "disableControls": false,
+        "top": "137",
+        "left": "268"
+    }
+}

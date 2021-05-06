@@ -1,0 +1,26 @@
+{
+    "CO_SrManualApprovalByUser": {
+        "id": "CO_SrManualApprovalByUser",
+        "conditionId": "CT_CommonTaskPassedByUser",
+        "name": "Ru\u010dn\u00ed schv\u00e1len\u00ed nebylo odpracov\u00e1no",
+        "params": "{\"WFKP_KOD\":\"TA_SrManualApproval\",\"_result\":0}",
+        "top": 309,
+        "left": 321
+    },
+    "CO_SrFillVat": {
+        "id": "CO_SrFillVat",
+        "conditionId": "CT_SrFillVat",
+        "name": "Je pot\u0159eba vyplnit DPH",
+        "params": "",
+        "top": 478,
+        "left": 307
+    },
+    "CO_SrIsChangeRequestApproved": {
+        "id": "CO_SrIsChangeRequestApproved",
+        "conditionId": "CT_SrIsChangeRequestApproved",
+        "name": "\u017d\u00e1dost nebyla dosud schv\u00e1lena",
+        "params": "{\"_result\":0}",
+        "top": "171",
+        "left": "817"
+    }
+}

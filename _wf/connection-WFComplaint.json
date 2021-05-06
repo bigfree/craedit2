@@ -1,0 +1,117 @@
+{
+    "CNx0yr3p3a61": {
+        "id": "CNx0yr3p3a61",
+        "from": "SP_ComplaintInsert",
+        "to": "TA_ComplaintInsert"
+    },
+    "CNvkszuq0s47": {
+        "id": "CNvkszuq0s47",
+        "from": "TA_ComplaintInsert",
+        "to": "TA_ComplaintCheck"
+    },
+    "CNwcsucjodva": {
+        "id": "CNwcsucjodva",
+        "from": "SP_ComplaintInsert",
+        "to": "SP_ComplaintSolve"
+    },
+    "CNk9rxx9hg2z": {
+        "id": "CNk9rxx9hg2z",
+        "from": "SP_ComplaintSolve",
+        "to": "CO_SegmentACustomer"
+    },
+    "CNffpi3ky2ge": {
+        "id": "CNffpi3ky2ge",
+        "from": "CO_SegmentACustomer",
+        "to": "TA_ResponseFromBusiness"
+    },
+    "CNzeg4d9d81e": {
+        "id": "CNzeg4d9d81e",
+        "from": "SP_ComplaintSolve",
+        "to": "SP_ComplaintApprove"
+    },
+    "CNoskiimquj0": {
+        "id": "CNoskiimquj0",
+        "from": "SP_ComplaintApprove",
+        "to": "CO_ComplaintRejected"
+    },
+    "CNo2kca1p8p1": {
+        "id": "CNo2kca1p8p1",
+        "from": "CO_ComplaintRejected",
+        "to": "TA_ComplaintDecision"
+    },
+    "CN0onjgy7acf": {
+        "id": "CN0onjgy7acf",
+        "from": "TA_ComplaintDecision",
+        "to": "CO_ComplaintAccepted"
+    },
+    "CNf56bg8qt8a": {
+        "id": "CNf56bg8qt8a",
+        "from": "CO_ComplaintAccepted",
+        "to": "CO_ComplaintAboveLimit"
+    },
+    "CNjhgkcvqfz0": {
+        "id": "CNjhgkcvqfz0",
+        "from": "CO_ComplaintAboveLimit",
+        "to": "TA_AboveLimitComplaintDecision"
+    },
+    "CN7vis2gegoy": {
+        "id": "CN7vis2gegoy",
+        "from": "SP_ComplaintApprove",
+        "to": "SP_ComplaintCustomerReaction"
+    },
+    "CNd9ti0glt9o": {
+        "id": "CNd9ti0glt9o",
+        "from": "SP_ComplaintCustomerReaction",
+        "to": "TA_ComplaintCustomerReaction"
+    },
+    "CNplxsss22la": {
+        "id": "CNplxsss22la",
+        "from": "SP_ComplaintCustomerReaction",
+        "to": "CO_ComplaintAccepted2"
+    },
+    "CN8fmg40zo2j": {
+        "id": "CN8fmg40zo2j",
+        "from": "CO_ComplaintAccepted2",
+        "to": "TA_ComplaintDiscount"
+    },
+    "CNxodnee6jcr": {
+        "id": "CNxodnee6jcr",
+        "from": "TA_ComplaintDiscount",
+        "to": "CO_ComplaintObjectionAdded"
+    },
+    "CNqllrtjsjuu": {
+        "id": "CNqllrtjsjuu",
+        "from": "CO_ComplaintObjectionAdded",
+        "to": "TA_ComplaintObjectionProcess"
+    },
+    "CNv3xmudr9va": {
+        "id": "CNv3xmudr9va",
+        "from": "SP_ComplaintCustomerReaction",
+        "to": "SP_ComplaintFinish"
+    },
+    "CNs6mx9x4d0n": {
+        "id": "CNs6mx9x4d0n",
+        "from": "SP_ComplaintFinish",
+        "to": "TA_ComplaintClose"
+    },
+    "CNrhyr43r2oz": {
+        "id": "CNrhyr43r2oz",
+        "from": "TA_ComplaintInsert",
+        "to": "TA_ComplaintInitialNotification"
+    },
+    "CNrp7g2cxnzu": {
+        "id": "CNrp7g2cxnzu",
+        "from": "TA_ComplaintDecision",
+        "to": "TA_ComplaintResultNotification"
+    },
+    "CNoqrbsk82ug": {
+        "id": "CNoqrbsk82ug",
+        "from": "TA_ComplaintClose",
+        "to": "TA_ComplaintCloseNotification"
+    },
+    "CNn48ww51s8a": {
+        "id": "CNn48ww51s8a",
+        "from": "TA_ComplaintInsert",
+        "to": "TA_ComplaintStornoDisable"
+    }
+}

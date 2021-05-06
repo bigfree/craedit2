@@ -1,0 +1,20 @@
+{
+    "SP_SrCostsIncrease": {
+        "id": "SP_SrCostsIncrease",
+        "type": "A",
+        "name": "Nav\u00fd\u0161en\u00ed n\u00e1klad\u016f",
+        "urgent": false,
+        "taskId": "TT_AutofinishTask",
+        "workplaceId": "WP_System",
+        "setupActionId": "undefined",
+        "syncType": "NONE",
+        "term": "",
+        "termType": "day",
+        "params": "",
+        "autofinishMessage": "",
+        "autoWorkOutAfterTerm": false,
+        "generateCancelOnGlobalCancel": false,
+        "top": "122",
+        "left": "35"
+    }
+}

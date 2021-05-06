@@ -1,0 +1,152 @@
+{
+    "CNh1i3f3px14": {
+        "id": "CNh1i3f3px14",
+        "from": "SP_BcNewInsert",
+        "to": "TA_BcNewInsert"
+    },
+    "CNk68mnbdbo3": {
+        "id": "CNk68mnbdbo3",
+        "from": "TA_BcNewInsert",
+        "to": "TA_BcNewCheck"
+    },
+    "CNrxmtakxtc4": {
+        "id": "CNrxmtakxtc4",
+        "from": "SP_BcNewInsert",
+        "to": "SP_BcNewApprove"
+    },
+    "CNdlkl88cwig": {
+        "id": "CNdlkl88cwig",
+        "from": "SP_BcNewApprove",
+        "to": "SP_BcNewFinish"
+    },
+    "CNffrzatxj9n": {
+        "id": "CNffrzatxj9n",
+        "from": "SP_BcNewFinish",
+        "to": "CO_BcNewReject6"
+    },
+    "CN1amhlqudhj": {
+        "id": "CN1amhlqudhj",
+        "from": "SP_BcNewFinish",
+        "to": "CO_BcNewReject7"
+    },
+    "CNvisdoq5q4t": {
+        "id": "CNvisdoq5q4t",
+        "from": "CO_BcNewReject6",
+        "to": "TA_BcNewAcceptInfo"
+    },
+    "CNhc7k1xgw66": {
+        "id": "CNhc7k1xgw66",
+        "from": "CO_BcNewReject6",
+        "to": "TA_BcNewAcceptInfoEmail"
+    },
+    "CNtl5yoiwixj": {
+        "id": "CNtl5yoiwixj",
+        "from": "CO_BcNewReject6",
+        "to": "TA_BcNewSapEnter"
+    },
+    "CNm7kxa60n24": {
+        "id": "CNm7kxa60n24",
+        "from": "CO_BcNewReject7",
+        "to": "TA_BcNewRejectInfo"
+    },
+    "CNrc45m4f27i": {
+        "id": "CNrc45m4f27i",
+        "from": "CO_BcNewReject7",
+        "to": "TA_BcNewRejectInfoEmail"
+    },
+    "CNz9hs91me1q": {
+        "id": "CNz9hs91me1q",
+        "from": "TA_BcNewCheck",
+        "to": "TA_BcNewStornoDisable"
+    },
+    "CN2739hpglpr": {
+        "id": "CN2739hpglpr",
+        "from": "SP_BcNewApprove",
+        "to": "CO_BcGenerated"
+    },
+    "CN4aj88o3idj": {
+        "id": "CN4aj88o3idj",
+        "from": "CO_BcGenerated",
+        "to": "CO_PriceGrMinPrice"
+    },
+    "CN18bovljnl2": {
+        "id": "CN18bovljnl2",
+        "from": "CO_PriceGrMinPrice",
+        "to": "TA_BcNewApproveAutomat"
+    },
+    "CN53gmpag3mj": {
+        "id": "CN53gmpag3mj",
+        "from": "CO_PriceGrMinPrice1",
+        "to": "CO_PriceSmMinPriceCon1"
+    },
+    "CNeyn6nvnaz7": {
+        "id": "CNeyn6nvnaz7",
+        "from": "CO_PriceSmMinPriceCon1",
+        "to": "TA_BcNewApproveManager"
+    },
+    "CNishqzaf1az": {
+        "id": "CNishqzaf1az",
+        "from": "CO_PriceGrMinPrice1",
+        "to": "CO_PriceSmMinPriceCon2"
+    },
+    "CNubykmb81am": {
+        "id": "CNubykmb81am",
+        "from": "CO_PriceSmMinPriceCon2",
+        "to": "TA_BcNewApproveSales"
+    },
+    "CNxx6hvrpn8f": {
+        "id": "CNxx6hvrpn8f",
+        "from": "CO_PriceGrMinPrice1",
+        "to": "CO_PriceSmMinPriceCon3"
+    },
+    "CNa1iuwm2h2n": {
+        "id": "CNa1iuwm2h2n",
+        "from": "CO_PriceSmMinPriceCon3",
+        "to": "TA_BcNewFinanceApprove4"
+    },
+    "CNvl673it1er": {
+        "id": "CNvl673it1er",
+        "from": "SP_BcNewApprove",
+        "to": "CO_IndividualPriceList"
+    },
+    "CN6a2x1rzba6": {
+        "id": "CN6a2x1rzba6",
+        "from": "CO_PriceSmMinPriceCon6",
+        "to": "TA_BcNewFinanceApprove"
+    },
+    "CNxq6faxt5a8": {
+        "id": "CNxq6faxt5a8",
+        "from": "CO_PriceSmMinPriceCon5",
+        "to": "TA_BcNewApproveSales1"
+    },
+    "CNg6appm9g9i": {
+        "id": "CNg6appm9g9i",
+        "from": "CO_PriceSmMinPriceCon4",
+        "to": "TA_BcNewApproveManager1"
+    },
+    "CNzo6czcdws4": {
+        "id": "CNzo6czcdws4",
+        "from": "CO_IndividualPriceList",
+        "to": "CO_PriceSmMinPriceCon4"
+    },
+    "CNxukxm6mg1k": {
+        "id": "CNxukxm6mg1k",
+        "from": "CO_IndividualPriceList",
+        "to": "CO_PriceSmMinPriceCon5"
+    },
+    "CNhpu3pmtjkc": {
+        "id": "CNhpu3pmtjkc",
+        "from": "CO_IndividualPriceList",
+        "to": "CO_PriceSmMinPriceCon6"
+    },
+    "CNaux3z0dqxf": {
+        "id": "CNaux3z0dqxf",
+        "from": "CO_BcGenerated",
+        "to": "CO_PriceGrMinPrice1"
+    },
+    "CNmnvn2vt5ft": {
+        "id": "CNmnvn2vt5ft",
+        "from": "CO_BcNewReject6",
+        "to": "TA_BcConnectBcoToOp"
+    }
+}

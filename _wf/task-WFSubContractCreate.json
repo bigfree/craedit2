@@ -1,0 +1,50 @@
+{
+    "TA_ScCompleteInformation": {
+        "id": "TA_ScCompleteInformation",
+        "type": "M",
+        "name": "Vypln\u011bn\u00ed parametr\u016f subdod\u00e1vky",
+        "canMerge": false,
+        "taskId": "TT_SubContractCreate",
+        "workplaceId": "WP_TechnicalSupport",
+        "setupActionId": "undefined",
+        "term": "",
+        "termType": "day",
+        "nestedWorkflow": null,
+        "canRedo": false,
+        "notSendEmail": false,
+        "urgent": false,
+        "outOfWorkFlow": false,
+        "params": "",
+        "autofinishMessage": "",
+        "autoWorkOutAfterTerm": false,
+        "generateCancelOnGlobalCancel": false,
+        "disableControls": false,
+        "top": 234,
+        "left": 143
+    },
+    "TA_ScOrderSubcontract": {
+        "id": "TA_ScOrderSubcontract",
+        "type": "M",
+        "name": "Objedn\u00e1n\u00ed subdod\u00e1vky",
+        "canMerge": false,
+        "taskId": "TT_SubContractCreate",
+        "workplaceId": "WP_SubContracts",
+        "setupActionId": "undefined",
+        "term": "",
+        "termType": "day",
+        "nestedWorkflow": {
+            "0": ""
+        },
+        "canRedo": false,
+        "notSendEmail": false,
+        "urgent": false,
+        "outOfWorkFlow": false,
+        "params": "",
+        "autofinishMessage": "",
+        "autoWorkOutAfterTerm": false,
+        "generateCancelOnGlobalCancel": false,
+        "disableControls": false,
+        "top": 338,
+        "left": 234
+    }
+}

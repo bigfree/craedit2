@@ -1,0 +1,17 @@
+{
+    "CNzvsvmdh7wh": {
+        "id": "CNzvsvmdh7wh",
+        "from": "SP_SrFrequencyOrder",
+        "to": "TA_SrFrequencyOrder"
+    },
+    "CNwgwzab5pzz": {
+        "id": "CNwgwzab5pzz",
+        "from": "TA_SrFrequencyOrder",
+        "to": "TA_SrFrequencyConfirmation"
+    },
+    "CN1nuikrz99r": {
+        "id": "CN1nuikrz99r",
+        "from": "TA_SrFrequencyConfirmation",
+        "to": "TA_CircuitCompleteNotification"
+    }
+}

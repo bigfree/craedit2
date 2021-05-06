@@ -1,0 +1,227 @@
+{
+    "CNgv6k83ku7o": {
+        "id": "CNgv6k83ku7o",
+        "from": "SP_SrDemand",
+        "to": "SP_SrSurvey"
+    },
+    "CNej93v9rh35": {
+        "id": "CNej93v9rh35",
+        "from": "SP_SrSurvey",
+        "to": "SP_SrOffer"
+    },
+    "CNydqgu25l9l": {
+        "id": "CNydqgu25l9l",
+        "from": "SP_SrOffer",
+        "to": "SP_SrOrder"
+    },
+    "CNpuv26y3dp8": {
+        "id": "CNpuv26y3dp8",
+        "from": "SP_SrOrder",
+        "to": "SP_SrFinalizedServiceParameters"
+    },
+    "CNzrjg7d85r9": {
+        "id": "CNzrjg7d85r9",
+        "from": "SP_SrFinalizedServiceParameters",
+        "to": "SP_SrNumberSAP"
+    },
+    "CNyxe10hzau9": {
+        "id": "CNyxe10hzau9",
+        "from": "SP_SrNumberSAP",
+        "to": "SP_SrCommision"
+    },
+    "CN5ez5o92p54": {
+        "id": "CN5ez5o92p54",
+        "from": "SP_SrCommision",
+        "to": "SP_SrTechnologyCreated"
+    },
+    "CNdd2hddujpm": {
+        "id": "CNdd2hddujpm",
+        "from": "SP_SrTechnologyCreated",
+        "to": "SP_SrInstallation"
+    },
+    "CNrjmipkyxgl": {
+        "id": "CNrjmipkyxgl",
+        "from": "SP_SrInstallation",
+        "to": "SP_SrTechnologyInstallationCompleted"
+    },
+    "CNfae6broua9": {
+        "id": "CNfae6broua9",
+        "from": "SP_SrTechnologyInstallationCompleted",
+        "to": "SP_SrDelivery"
+    },
+    "CNzs13kqv9o3": {
+        "id": "CNzs13kqv9o3",
+        "from": "SP_SrDelivery",
+        "to": "SP_SrFinish"
+    },
+    "CN8cy0vth7x6": {
+        "id": "CN8cy0vth7x6",
+        "from": "SP_SrFinish",
+        "to": "SP_SrEndPoint"
+    },
+    "CNdniyf8vvf2": {
+        "id": "CNdniyf8vvf2",
+        "from": "SP_SrSurvey",
+        "to": "TA_SrNewSilentStornoDisable"
+    },
+    "CN32mtcdswxe": {
+        "id": "CN32mtcdswxe",
+        "from": "SP_SrDemand",
+        "to": "TA_SrCreateInternalOrder"
+    },
+    "CNyrq9ise48f": {
+        "id": "CNyrq9ise48f",
+        "from": "SP_SrFinish",
+        "to": "CO_SrTechnologyGroupKo"
+    },
+    "CNtyi84kwt9l": {
+        "id": "CNtyi84kwt9l",
+        "from": "SP_SrTechnologyInstallationCompleted",
+        "to": "TA_SrAMNotificationInstallationFinish"
+    },
+    "CNey7xp6ndbe": {
+        "id": "CNey7xp6ndbe",
+        "from": "SP_SrCommision",
+        "to": "CO_SrIsTypeConstruction"
+    },
+    "CNomde6g5hbp": {
+        "id": "CNomde6g5hbp",
+        "from": "CO_SrIsTypeConstruction",
+        "to": "TA_SRCommisionManager"
+    },
+    "CNkcybq6oyfd": {
+        "id": "CNkcybq6oyfd",
+        "from": "TA_SRCommisionManager",
+        "to": "TA_SRNIFinalization"
+    },
+    "CN2hxg7rez4m": {
+        "id": "CN2hxg7rez4m",
+        "from": "CO_SrTechnologyGroupKo",
+        "to": "TA_SrCircuitDesignDocumentation"
+    },
+    "CN8kpt367vbe": {
+        "id": "CN8kpt367vbe",
+        "from": "SP_SrFinish",
+        "to": "TA_SrCloseSAP"
+    },
+    "CNf5zy5dhic9": {
+        "id": "CNf5zy5dhic9",
+        "from": "CO_SrIsSurveyRequired",
+        "to": "TA_SrFinalizatiotion"
+    },
+    "CNj31y5jda2c": {
+        "id": "CNj31y5jda2c",
+        "from": "SP_SrSurvey",
+        "to": "TA_SrAutomaticCreateSurveys"
+    },
+    "CNxajmm094pu": {
+        "id": "CNxajmm094pu",
+        "from": "TA_SrBCPApproved",
+        "to": "TA_SrCopySapNumberFromPbc1"
+    },
+    "CN54uf6v4zpo": {
+        "id": "CN54uf6v4zpo",
+        "from": "SP_SrNumberSAP",
+        "to": "TA_SRNICreateTechnologyElements"
+    },
+    "CN6e0x7pe7qw": {
+        "id": "CN6e0x7pe7qw",
+        "from": "SP_SrSurvey",
+        "to": "TA_SrSetInternalOrderStatus"
+    },
+    "CN_jr6cqjdt4": {
+        "id": "CN_jr6cqjdt4",
+        "from": "SP_SrOffer",
+        "to": "CO_SrIsBCPRequired1"
+    },
+    "CN_htf6ms64o": {
+        "id": "CN_htf6ms64o",
+        "from": "CO_SrIsBCPRequired1",
+        "to": "CO_SrIsBCPConnected1"
+    },
+    "CN_1s8q1ljlw": {
+        "id": "CN_1s8q1ljlw",
+        "from": "CO_SrIsBCPRequired1",
+        "to": "CO_SrBCPIsConnected2"
+    },
+    "CN_c5avr4sd1": {
+        "id": "CN_c5avr4sd1",
+        "from": "CO_SrIsBCPConnected1",
+        "to": "TA_SrConnectBCP"
+    },
+    "CN_c2aa8mxht": {
+        "id": "CN_c2aa8mxht",
+        "from": "TA_SrConnectBCP",
+        "to": "TA_SrBCPApproved"
+    },
+    "CN_nzhzlxsot": {
+        "id": "CN_nzhzlxsot",
+        "from": "CO_SrBCPIsConnected2",
+        "to": "TA_SrBCPApproved"
+    },
+    "CN_3pimoxbz9": {
+        "id": "CN_3pimoxbz9",
+        "from": "CO_SrIsBCRequired1",
+        "to": "CO_SrIsBCConnected1"
+    },
+    "CN_w7lzt65ze": {
+        "id": "CN_w7lzt65ze",
+        "from": "CO_SrIsBCRequired1",
+        "to": "CO_SrBCIsConnected2"
+    },
+    "CN_wsr3zjrav": {
+        "id": "CN_wsr3zjrav",
+        "from": "CO_SrIsBCConnected1",
+        "to": "TA_SrConnectBC"
+    },
+    "CN_3nnmyffbu": {
+        "id": "CN_3nnmyffbu",
+        "from": "TA_SrConnectBC",
+        "to": "TA_SrBcEvaluation"
+    },
+    "CN_ci7v8wl23": {
+        "id": "CN_ci7v8wl23",
+        "from": "CO_SrBCIsConnected2",
+        "to": "TA_SrBcEvaluation"
+    },
+    "CN_69dbjkjjo": {
+        "id": "CN_69dbjkjjo",
+        "from": "SP_SrOffer",
+        "to": "CO_SrIsBCRequired1"
+    },
+    "CN_td3ouctkm": {
+        "id": "CN_td3ouctkm",
+        "from": "TA_SrBcEvaluation",
+        "to": "TA_SrCopySapNumberFromBc"
+    },
+    "CN_icak29sxe": {
+        "id": "CN_icak29sxe",
+        "from": "SP_SrOffer",
+        "to": "CO_SrIsBCPRequired2"
+    },
+    "CN_6hpvzmm4k": {
+        "id": "CN_6hpvzmm4k",
+        "from": "CO_SrIsBCPRequired2",
+        "to": "CO_SrIsBCRequired2"
+    },
+    "CN_wtltj79ab": {
+        "id": "CN_wtltj79ab",
+        "from": "CO_SrIsBCRequired2",
+        "to": "TA_SrSapNumber"
+    },
+    "CN_dpxpjda8e": {
+        "id": "CN_dpxpjda8e",
+        "from": "TA_SrBCPApproved",
+        "to": "CO_SrIsSurveyRequired"
+    },
+    "CN_k8kni3ejq": {
+        "id": "CN_k8kni3ejq",
+        "from": "TA_SrSapNumber",
+        "to": "CO_SrIsSurveyRequired"
+    },
+    "CN_56wbnmyds": {
+        "id": "CN_56wbnmyds",
+        "from": "TA_SrBcEvaluation",
+        "to": "CO_SrIsSurveyRequired"
+    }
+}

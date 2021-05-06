@@ -1,0 +1,97 @@
+{
+    "CNpnjbj3fqpl": {
+        "id": "CNpnjbj3fqpl",
+        "from": "SP_StornoNotifications",
+        "to": "SP_StornoAll"
+    },
+    "CNx5coyexjei": {
+        "id": "CNx5coyexjei",
+        "from": "SP_StornoAll",
+        "to": "CO_StornoApproved1"
+    },
+    "CNg2ldo1uyxb": {
+        "id": "CNg2ldo1uyxb",
+        "from": "CO_StornoApproved1",
+        "to": "TA_StornoWorkflow"
+    },
+    "CN3pto6hmng4": {
+        "id": "CN3pto6hmng4",
+        "from": "CO_StornoApproved1",
+        "to": "TA_StornoStructure"
+    },
+    "CNhj2y6aoo9t": {
+        "id": "CNhj2y6aoo9t",
+        "from": "SP_StornoAll",
+        "to": "TA_StornoRequestNotification"
+    },
+    "CNbyijpt9o9o": {
+        "id": "CNbyijpt9o9o",
+        "from": "CO_StornoSimple",
+        "to": "TA_StornoMarkStructure1"
+    },
+    "CNz3spq6wc8y": {
+        "id": "CNz3spq6wc8y",
+        "from": "SP_StornoAll",
+        "to": "CO_StornoApproved2"
+    },
+    "CN7oox4yflmj": {
+        "id": "CN7oox4yflmj",
+        "from": "CO_StornoApproved2",
+        "to": "TA_StornoCancelStorno"
+    },
+    "CNaal907jyga": {
+        "id": "CNaal907jyga",
+        "from": "TA_StornoInit",
+        "to": "CO_StornoSimple"
+    },
+    "CNe35uz2hjy5": {
+        "id": "CNe35uz2hjy5",
+        "from": "TA_StornoInit",
+        "to": "CO_StornoNotSimple"
+    },
+    "CN2e0flcelqh": {
+        "id": "CN2e0flcelqh",
+        "from": "TA_StornoApprove",
+        "to": "TA_StornoMarkStructure2"
+    },
+    "CNox39oazz8q": {
+        "id": "CNox39oazz8q",
+        "from": "SP_StornoNotifications",
+        "to": "TA_StornoProcessBegin"
+    },
+    "CN1mvtho0c2y": {
+        "id": "CN1mvtho0c2y",
+        "from": "TA_StornoProcessBegin",
+        "to": "COthyp9y0kl1"
+    },
+    "CN368o3ex9br": {
+        "id": "CN368o3ex9br",
+        "from": "TA_StornoProcessBegin",
+        "to": "COxr1wab3mtg"
+    },
+    "CN8ith2wh97k": {
+        "id": "CN8ith2wh97k",
+        "from": "COthyp9y0kl1",
+        "to": "TA_StornoInit"
+    },
+    "CN92daidmunl": {
+        "id": "CN92daidmunl",
+        "from": "COxr1wab3mtg",
+        "to": "TA_StornoRejectMark"
+    },
+    "CNuvvxqc9cqu": {
+        "id": "CNuvvxqc9cqu",
+        "from": "CO_StornoNotSimple",
+        "to": "TA_StornoApprove"
+    },
+    "CN6o7tk7k1dt": {
+        "id": "CN6o7tk7k1dt",
+        "from": "CO_StornoApproved1",
+        "to": "CO_DeleteContractNumber"
+    },
+    "CNl62mfzrd6x": {
+        "id": "CNl62mfzrd6x",
+        "from": "CO_DeleteContractNumber",
+        "to": "TA_StornoDeleteContractNumber"
+    }
+}

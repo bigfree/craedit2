@@ -1,0 +1,20 @@
+{
+    "SP_SrProjectionIntervention": {
+        "id": "SP_SrProjectionIntervention",
+        "type": "A",
+        "name": "Fyzick\u00fd z\u00e1sah na housing",
+        "urgent": false,
+        "taskId": "TT_SrAutomat",
+        "workplaceId": "WP_System",
+        "setupActionId": "undefined",
+        "syncType": "NONE",
+        "term": "",
+        "termType": "day",
+        "params": "",
+        "autofinishMessage": "",
+        "autoWorkOutAfterTerm": false,
+        "generateCancelOnGlobalCancel": false,
+        "top": "100",
+        "left": "10"
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "TA_SubtaskBc": {
+        "id": "TA_SubtaskBc",
+        "type": "M",
+        "name": "Subdod\u00e1vka pro business case",
+        "canMerge": false,
+        "taskId": "TT_SubtaskBusinessCase",
+        "workplaceId": "WP_System",
+        "setupActionId": "undefined",
+        "nestedWorkflow": "",
+        "canRedo": false,
+        "sendEmail": false,
+        "urgent": false,
+        "outOfWorkFlow": true,
+        "params": "",
+        "top": "168",
+        "left": "537"
+    },
+    "TA_SubTaskComplaint": {
+        "id": "TA_SubTaskComplaint",
+        "type": "M",
+        "name": "Subdod\u00e1vka pro reklamace",
+        "canMerge": false,
+        "taskId": "TT_SubtaskComplaint",
+        "workplaceId": "WP_System",
+        "setupActionId": "undefined",
+        "nestedWorkflow": "",
+        "canRedo": false,
+        "sendEmail": false,
+        "urgent": false,
+        "outOfWorkFlow": true,
+        "params": "",
+        "top": "235",
+        "left": "540"
+    },
+    "TA_SubTaskServiceRequest": {
+        "id": "TA_SubTaskServiceRequest",
+        "type": "M",
+        "name": "Subdod\u00e1vka pro obchodn\u00ed p\u0159\u00edpad",
+        "canMerge": false,
+        "taskId": "TT_SubtaskServiceRequest",
+        "workplaceId": "WP_System",
+        "setupActionId": "undefined",
+        "nestedWorkflow": "",
+        "canRedo": false,
+        "sendEmail": false,
+        "urgent": false,
+        "outOfWorkFlow": true,
+        "params": "",
+        "top": "304",
+        "left": "539"
+    }
+}

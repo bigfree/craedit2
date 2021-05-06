@@ -1,0 +1,14 @@
+{
+    "SP_SrNpCancel": {
+        "id": "SP_SrNpCancel",
+        "type": "A",
+        "name": "Po\u017eadavek NP cancel",
+        "urgent": false,
+        "taskId": "TT_Automat",
+        "workplaceId": "WP_System",
+        "setupActionId": "undefined",
+        "params": "",
+        "top": "100",
+        "left": "10"
+    }
+}

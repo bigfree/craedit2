@@ -1,0 +1,47 @@
+{
+    "CN8qriafskc1": {
+        "id": "CN8qriafskc1",
+        "from": "SP_UtCreate",
+        "to": "SP_UtProcess"
+    },
+    "CN0fq0d0yekk": {
+        "id": "CN0fq0d0yekk",
+        "from": "SP_UtProcess",
+        "to": "SP_UtFinish"
+    },
+    "CN6c811w8pai": {
+        "id": "CN6c811w8pai",
+        "from": "CO_TiketTypeIsSet",
+        "to": "TA_UtCreate"
+    },
+    "CNg4gz0bjamp": {
+        "id": "CNg4gz0bjamp",
+        "from": "SP_UtFinish",
+        "to": "CO_UtFounderNotificationRequired"
+    },
+    "CNlvshj4a4pv": {
+        "id": "CNlvshj4a4pv",
+        "from": "CO_UtFounderNotificationRequired",
+        "to": "TA_UtFounderNotification"
+    },
+    "CNawhuhvhnx8": {
+        "id": "CNawhuhvhnx8",
+        "from": "SP_UtCreate",
+        "to": "CO_TiketTypeIsSet"
+    },
+    "CNqol63jic2e": {
+        "id": "CNqol63jic2e",
+        "from": "SP_UtProcess",
+        "to": "TA_UtCreateWorkflowByType"
+    },
+    "CNfiusg4bha4": {
+        "id": "CNfiusg4bha4",
+        "from": "SP_UtFinish",
+        "to": "CO_UtUpdateDateFinish"
+    },
+    "CN4lgm312ngq": {
+        "id": "CN4lgm312ngq",
+        "from": "CO_UtUpdateDateFinish",
+        "to": "TA_UtUpdateDateFinish"
+    }
+}

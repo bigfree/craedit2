@@ -1,0 +1,36 @@
+{
+    "TA_ResponseFromBusiness": {
+        "id": "TA_ResponseFromBusiness",
+        "type": "M",
+        "name": "Vyj\u00e1d\u0159en\u00ed obchodu",
+        "canMerge": false,
+        "taskId": "TT_ComplaintStatement",
+        "workplaceId": "WP_InternalSales",
+        "setupActionId": "undefined",
+        "nestedWorkflow": "",
+        "canRedo": false,
+        "sendEmail": false,
+        "urgent": false,
+        "outOfWorkFlow": true,
+        "params": "",
+        "top": "197",
+        "left": "81"
+    },
+    "TA_ComplaintSalesRequestNotification": {
+        "id": "TA_ComplaintSalesRequestNotification",
+        "type": "A",
+        "name": "Emailov\u00e1 notifikace o po\u017eadavku na vyj\u00e1d\u0159en\u00ed k reklamaci",
+        "canMerge": false,
+        "taskId": "TT_ComplaintSendRequestEmail",
+        "workplaceId": "WP_System",
+        "setupActionId": "undefined",
+        "nestedWorkflow": "",
+        "canRedo": false,
+        "sendEmail": false,
+        "urgent": false,
+        "outOfWorkFlow": true,
+        "params": "",
+        "top": "242",
+        "left": "56"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "SP_SrTO2ChangeOrder": {
+        "id": "SP_SrTO2ChangeOrder",
+        "type": "A",
+        "name": "Objedn\u00e1vka CHANGE TO2",
+        "urgent": false,
+        "taskId": "TT_Automat",
+        "workplaceId": "WP_System",
+        "setupActionId": "SA_SrOhsOrderCreate",
+        "syncType": "NONE",
+        "term": "",
+        "termType": "day",
+        "params": "{\"orderType\":\"CHANGE\"}",
+        "autofinishMessage": "",
+        "autoWorkOutAfterTerm": false,
+        "generateCancelOnGlobalCancel": false,
+        "top": "114",
+        "left": "26"
+    }
+}

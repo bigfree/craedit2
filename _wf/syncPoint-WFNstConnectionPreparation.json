@@ -1,0 +1,20 @@
+{
+    "SP_SrSoftcodeReservation": {
+        "id": "SP_SrSoftcodeReservation",
+        "type": "A",
+        "name": "P\u0159\u00edprava spoje",
+        "urgent": false,
+        "taskId": "TT_Automat",
+        "workplaceId": "WP_System",
+        "setupActionId": "undefined",
+        "syncType": "NONE",
+        "term": "",
+        "termType": "day",
+        "params": "",
+        "autofinishMessage": "",
+        "autoWorkOutAfterTerm": false,
+        "generateCancelOnGlobalCancel": false,
+        "top": "120",
+        "left": "32"
+    }
+}

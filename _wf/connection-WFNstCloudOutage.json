@@ -1,0 +1,12 @@
+{
+    "CN78ot2y2k6g": {
+        "id": "CN78ot2y2k6g",
+        "from": "SP_SrOutageSchedule",
+        "to": "TA_SrOutageSchedule"
+    },
+    "CN2ssif07de9": {
+        "id": "CN2ssif07de9",
+        "from": "TA_SrOutageSchedule",
+        "to": "TA_SrOutageInformation"
+    }
+}

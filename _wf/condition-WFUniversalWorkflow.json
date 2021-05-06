@@ -1,0 +1,18 @@
+{
+    "CO_SrServiceSurveylanceDocumented": {
+        "id": "CO_SrServiceSurveylanceDocumented",
+        "conditionId": "CT_SrServiceSurveylanceDocumented",
+        "name": "Po\u017eadov\u00e1no zakreslen\u00ed do dohledu",
+        "params": "",
+        "top": "869",
+        "left": "419"
+    },
+    "CO_SrPreCompletedByUser": {
+        "id": "CO_SrPreCompletedByUser",
+        "conditionId": "CT_CommonTaskPassedByUser",
+        "name": "Karta slu\u017eby nebyla p\u0159edvypln\u011bna",
+        "params": "{\"WFKP_KOD\":\"TA_SrPreCompleteServiceInformation\",\"_result\":0}",
+        "top": "384",
+        "left": "346"
+    }
+}

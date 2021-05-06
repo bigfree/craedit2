@@ -1,0 +1,34 @@
+{
+    "CO_SrServiceCustomerAutoTakeover1": {
+        "id": "CO_SrServiceCustomerAutoTakeover1",
+        "conditionId": "CT_SrServiceCustomerAutoTakeover",
+        "name": "Slu\u017eba se p\u0159ed\u00e1v\u00e1 z\u00e1kazn\u00edkovi automaticky",
+        "params": "",
+        "top": "313",
+        "left": "475"
+    },
+    "CO_SrServiceCustomerAutoTakeover2": {
+        "id": "CO_SrServiceCustomerAutoTakeover2",
+        "conditionId": "CT_SrServiceCustomerAutoTakeover",
+        "name": "Slu\u017eba se p\u0159ed\u00e1v\u00e1 z\u00e1kazn\u00edkovi ru\u010dn\u011b",
+        "params": "{\"_result\":0}",
+        "top": "314",
+        "left": "213"
+    },
+    "CO_SrServiceCustomerTakeover1": {
+        "id": "CO_SrServiceCustomerTakeover1",
+        "conditionId": "CT_SrServiceCustomerTakeover",
+        "name": "Slu\u017eba se p\u0159ed\u00e1v\u00e1 z\u00e1kazn\u00edkovi",
+        "params": "",
+        "top": "196",
+        "left": "128"
+    },
+    "CO_SrServiceCustomerTakeover2": {
+        "id": "CO_SrServiceCustomerTakeover2",
+        "conditionId": "CT_SrServiceCustomerTakeover",
+        "name": "Slu\u017eba se nep\u0159ed\u00e1v\u00e1 z\u00e1kazn\u00edkovi",
+        "params": "{\"_result\":0}",
+        "top": "134",
+        "left": "347"
+    }
+}

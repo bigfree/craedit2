@@ -1,0 +1,50 @@
+{
+    "CO_SrDispatchMaterial": {
+        "id": "CO_SrDispatchMaterial",
+        "conditionId": "CT_SrDispatchMaterial",
+        "name": "Vyskladnit materi\u00e1l",
+        "params": "",
+        "top": "380",
+        "left": "995"
+    },
+    "CO_SrPosDispatchMaterial": {
+        "id": "CO_SrPosDispatchMaterial",
+        "conditionId": "CT_SrPosDispatchMaterial",
+        "name": "Dovyskladnit materi\u00e1l",
+        "params": "",
+        "top": "507",
+        "left": "998"
+    },
+    "CO_SrInternalMontage1": {
+        "id": "CO_SrInternalMontage1",
+        "conditionId": "CT_SrIsMontageGroupCra",
+        "name": "Mont\u00e1\u017e je prov\u00e1d\u011bna extern\u00ed firmou",
+        "params": "",
+        "top": "391",
+        "left": "284"
+    },
+    "CO_SrInternalMotage2": {
+        "id": "CO_SrInternalMotage2",
+        "conditionId": "CT_SrIsMontageGroupCra",
+        "name": "Mont\u00e1\u017e je prov\u00e1d\u011bna extern\u00ed firmou",
+        "params": "",
+        "top": "383",
+        "left": "704"
+    },
+    "CO_SrIsSimOwnerChangedFromCraToCustomer": {
+        "id": "CO_SrIsSimOwnerChangedFromCraToCustomer",
+        "conditionId": "CT_SrIsSimOwnerChangedFromCraToCustomer",
+        "name": "Byl zm\u011bn\u011bn vlastn\u00edk SIM karty z \u010cRA na Z\u00e1kazn\u00edka",
+        "params": "",
+        "top": "235",
+        "left": "865"
+    },
+    "CO_SrIsSimOwnerChangedFromCraToCustomer1": {
+        "id": "CO_SrIsSimOwnerChangedFromCraToCustomer1",
+        "conditionId": "CT_SrIsSimOwnerChangedFromCraToCustomer",
+        "name": "Nebyl zm\u011bn\u011bn vlastn\u00edk SIM karty z \u010cRA na Z\u00e1kazn\u00edka",
+        "params": "{\"_result\":0}",
+        "top": "234",
+        "left": "1101"
+    }
+}

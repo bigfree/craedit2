@@ -1,0 +1,27 @@
+{
+    "SBvc0smimoy8": {
+        "id": "SBvc0smimoy8",
+        "from": "TA_SrCustomerAcceptation2",
+        "to": "TA_SrDecision"
+    },
+    "SBm3p13imr3n": {
+        "id": "SBm3p13imr3n",
+        "from": "TA_SrCustomerAcceptation1",
+        "to": "TA_SrDecision"
+    },
+    "SBp47nlvuq0l": {
+        "id": "SBp47nlvuq0l",
+        "from": "TA_SRNICreateTechnologyElements",
+        "to": "TA_SRNIFinalization"
+    },
+    "SBj6v37ncpvr": {
+        "id": "SBj6v37ncpvr",
+        "from": "TA_SrStornoDecision",
+        "to": "TA_SrDecision"
+    },
+    "SBhk7an6ctmu": {
+        "id": "SBhk7an6ctmu",
+        "from": "TA_SrStornoDecision",
+        "to": "TA_SrBcConnection"
+    }
+}

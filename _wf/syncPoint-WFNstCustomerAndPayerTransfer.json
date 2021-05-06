@@ -1,0 +1,38 @@
+{
+    "SP_SrCustomerTransfer": {
+        "id": "SP_SrCustomerTransfer",
+        "type": "A",
+        "name": "P\u0159enos z\u00e1kazn\u00edka",
+        "urgent": false,
+        "taskId": "TT_Automat",
+        "workplaceId": "WP_System",
+        "setupActionId": "undefined",
+        "syncType": "FULL",
+        "term": "1",
+        "termType": "work_day",
+        "params": "",
+        "autofinishMessage": "",
+        "autoWorkOutAfterTerm": false,
+        "generateCancelOnGlobalCancel": false,
+        "top": "206",
+        "left": "78"
+    },
+    "SP_SrPayerTransfer": {
+        "id": "SP_SrPayerTransfer",
+        "type": "A",
+        "name": "P\u0159enos pl\u00e1tce",
+        "urgent": false,
+        "taskId": "TT_Automat",
+        "workplaceId": "WP_System",
+        "setupActionId": "undefined",
+        "syncType": "FULL",
+        "term": "1",
+        "termType": "work_day",
+        "params": "",
+        "autofinishMessage": "",
+        "autoWorkOutAfterTerm": false,
+        "generateCancelOnGlobalCancel": false,
+        "top": "321",
+        "left": "76"
+    }
+}

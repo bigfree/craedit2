@@ -1,0 +1,25 @@
+{
+    "TA_SrStockMaterial": {
+        "id": "TA_SrStockMaterial",
+        "type": "M",
+        "name": "Naskladn\u011bn\u00ed demontu",
+        "canMerge": false,
+        "taskId": "TT_SrReleaseFromStore1",
+        "workplaceId": "WP_Logistics",
+        "setupActionId": "undefined",
+        "term": "",
+        "termType": "day",
+        "nestedWorkflow": null,
+        "canRedo": false,
+        "notSendEmail": false,
+        "urgent": false,
+        "outOfWorkFlow": false,
+        "params": "",
+        "autofinishMessage": "",
+        "autoWorkOutAfterTerm": false,
+        "generateCancelOnGlobalCancel": false,
+        "disableControls": false,
+        "top": "152",
+        "left": "324"
+    }
+}

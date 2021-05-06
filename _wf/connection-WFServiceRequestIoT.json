@@ -1,0 +1,502 @@
+{
+    "CNo2je0s8e2k": {
+        "id": "CNo2je0s8e2k",
+        "from": "SP_SrDemand",
+        "to": "CO_SrInsertType1"
+    },
+    "CNvnd18iy267": {
+        "id": "CNvnd18iy267",
+        "from": "CO_SrInsertType1",
+        "to": "TA_SrCompleteDemandInformation"
+    },
+    "CNgv6k83ku7o": {
+        "id": "CNgv6k83ku7o",
+        "from": "SP_SrDemand",
+        "to": "SP_SrSurvey"
+    },
+    "CNej93v9rh35": {
+        "id": "CNej93v9rh35",
+        "from": "SP_SrSurvey",
+        "to": "SP_SrOffer"
+    },
+    "CNydqgu25l9l": {
+        "id": "CNydqgu25l9l",
+        "from": "SP_SrOffer",
+        "to": "SP_SrOrder"
+    },
+    "CNuf4yindz0d": {
+        "id": "CNuf4yindz0d",
+        "from": "TA_SrCompletePrices",
+        "to": "TA_SrCheckPrices"
+    },
+    "CNyxe10hzau9": {
+        "id": "CNyxe10hzau9",
+        "from": "SP_SrNumberSAP",
+        "to": "SP_SrCommision"
+    },
+    "CN5ez5o92p54": {
+        "id": "CN5ez5o92p54",
+        "from": "SP_SrCommision",
+        "to": "SP_SrTechnologyCreated"
+    },
+    "CNdd2hddujpm": {
+        "id": "CNdd2hddujpm",
+        "from": "SP_SrTechnologyCreated",
+        "to": "SP_SrInstallation"
+    },
+    "CNrjmipkyxgl": {
+        "id": "CNrjmipkyxgl",
+        "from": "SP_SrInstallation",
+        "to": "SP_SrTechnologyInstallationCompleted"
+    },
+    "CNfae6broua9": {
+        "id": "CNfae6broua9",
+        "from": "SP_SrTechnologyInstallationCompleted",
+        "to": "SP_SrDelivery"
+    },
+    "CNzs13kqv9o3": {
+        "id": "CNzs13kqv9o3",
+        "from": "SP_SrDelivery",
+        "to": "SP_SrFinish"
+    },
+    "CN8cy0vth7x6": {
+        "id": "CN8cy0vth7x6",
+        "from": "SP_SrFinish",
+        "to": "SP_SrEndPoint"
+    },
+    "CNdniyf8vvf2": {
+        "id": "CNdniyf8vvf2",
+        "from": "SP_SrSurvey",
+        "to": "TA_SrNewSilentStornoDisable"
+    },
+    "CNt0oabkflbd": {
+        "id": "CNt0oabkflbd",
+        "from": "SP_SrFinalizedServiceParameters",
+        "to": "CO_SrProfitcentrumSelected"
+    },
+    "CN7utccscloo": {
+        "id": "CN7utccscloo",
+        "from": "SP_SrNumberSAP",
+        "to": "TA_SrSapNumberNotification"
+    },
+    "CNf1kn402rh1": {
+        "id": "CNf1kn402rh1",
+        "from": "SP_SrFinish",
+        "to": "TA_SrTechnologyElementsConfirmed"
+    },
+    "CNi1qia68iov": {
+        "id": "CNi1qia68iov",
+        "from": "SP_SrFinalizedServiceParameters",
+        "to": "TA_SrCompletePrices"
+    },
+    "CN63k6qpp38b": {
+        "id": "CN63k6qpp38b",
+        "from": "SP_SrOrder",
+        "to": "SP_SrFinalizedServiceParameters"
+    },
+    "CN6g6eizopfq": {
+        "id": "CN6g6eizopfq",
+        "from": "SP_SrFinalizedServiceParameters",
+        "to": "SP_SrNumberSAP"
+    },
+    "CNukotrsl4fj": {
+        "id": "CNukotrsl4fj",
+        "from": "TA_SrCompletePrices",
+        "to": "CO_SrFillVat"
+    },
+    "CNqxrmog5ooy": {
+        "id": "CNqxrmog5ooy",
+        "from": "CO_SrFillVat",
+        "to": "TA_SrEnterDph"
+    },
+    "CNesuzgkm0p6": {
+        "id": "CNesuzgkm0p6",
+        "from": "TA_SrCompleteDemandInformation",
+        "to": "TA_SrAMNotificationDemand"
+    },
+    "CN3yc9f0zpja": {
+        "id": "CN3yc9f0zpja",
+        "from": "SP_SrCommision",
+        "to": "TA_SrAMNotificationCommision"
+    },
+    "CNk9q1flnfq7": {
+        "id": "CNk9q1flnfq7",
+        "from": "SP_SrDelivery",
+        "to": "CO_SrPrivesRevisionSkipped"
+    },
+    "CNt44w7iwh49": {
+        "id": "CNt44w7iwh49",
+        "from": "CO_SrPrivesRevisionSkipped",
+        "to": "TA_SrCheckPricesAutofinish"
+    },
+    "CNr5drdpkiwv": {
+        "id": "CNr5drdpkiwv",
+        "from": "TA_SrTechnologyElementsConfirmed",
+        "to": "CO_SrHasSAP"
+    },
+    "CNgty073w3wi": {
+        "id": "CNgty073w3wi",
+        "from": "TA_SrCompletePrices",
+        "to": "TA_SrSetZekDefaults"
+    },
+    "CN4umgxefvpx": {
+        "id": "CN4umgxefvpx",
+        "from": "SP_SrFinish",
+        "to": "TA_SrContractDateUpdate"
+    },
+    "CN4g5t8iggiy": {
+        "id": "CN4g5t8iggiy",
+        "from": "CO_SrProfitcentrumSelected",
+        "to": "CO_SrHasCustomerPrefix1"
+    },
+    "CNatb8jysbcx": {
+        "id": "CNatb8jysbcx",
+        "from": "CO_SrHasCustomerPrefix1",
+        "to": "TA_SrUpdatePrefixFromCustomer"
+    },
+    "CN5zbjumnst5": {
+        "id": "CN5zbjumnst5",
+        "from": "CO_SrProfitcentrumSelected",
+        "to": "CO_SrHasCustomerPrefix2"
+    },
+    "CNkaqskv3lhu": {
+        "id": "CNkaqskv3lhu",
+        "from": "CO_SrHasCustomerPrefix2",
+        "to": "TA_SrProfitcentrumPrefix"
+    },
+    "CNur2jocw9nj": {
+        "id": "CNur2jocw9nj",
+        "from": "TA_SrProfitcentrumPrefix",
+        "to": "CO_SrExistsAnotherSop"
+    },
+    "CNdrc4vcxb2b": {
+        "id": "CNdrc4vcxb2b",
+        "from": "SP_SrNumberSAP",
+        "to": "TA_SrProfitcentrumFix1"
+    },
+    "CNulhfrthpwa": {
+        "id": "CNulhfrthpwa",
+        "from": "TA_SrProfitcentrumPrefix",
+        "to": "TA_SrUpdatePrefixOnCustomer"
+    },
+    "CN3okpjkq4oa": {
+        "id": "CN3okpjkq4oa",
+        "from": "CO_SrExistsAnotherSop",
+        "to": "TA_SrUpdateAnotherSop"
+    },
+    "CNp6o1r33x7n": {
+        "id": "CNp6o1r33x7n",
+        "from": "TA_SrSopContractNumberRequest",
+        "to": "CO_SrSopContractNumberRequired"
+    },
+    "CNc0i29s5cd1": {
+        "id": "CNc0i29s5cd1",
+        "from": "CO_SrSopContractNumberRequired",
+        "to": "TA_SrSopContractRequest"
+    },
+    "CNkthipuzdm8": {
+        "id": "CNkthipuzdm8",
+        "from": "SP_SrOrder",
+        "to": "CO_SrSopContractNumberBookingRequired"
+    },
+    "CNxpqd252hkc": {
+        "id": "CNxpqd252hkc",
+        "from": "CO_SrSopContractNumberBookingRequired",
+        "to": "TA_SrSopContractNumberRequest"
+    },
+    "CNxm5dvvw8wo": {
+        "id": "CNxm5dvvw8wo",
+        "from": "SP_SrFinish",
+        "to": "TA_SrCheckData"
+    },
+    "CNtcvsecwfe2": {
+        "id": "CNtcvsecwfe2",
+        "from": "SP_SrFinish",
+        "to": "TA_SrNotificationWorkflowFinished"
+    },
+    "CNu8yrgp5e2m": {
+        "id": "CNu8yrgp5e2m",
+        "from": "CO_SrHasSAP",
+        "to": "TA_SrCheckTechflowFinished"
+    },
+    "CN1533pluusx": {
+        "id": "CN1533pluusx",
+        "from": "TA_SrCheckTechflowFinished",
+        "to": "TA_SrCloseSAP"
+    },
+    "CN1atm6h8c5o": {
+        "id": "CN1atm6h8c5o",
+        "from": "TA_SrCompletePrices",
+        "to": "CO_SrIsInPriceList"
+    },
+    "CNuoffm4hqaa": {
+        "id": "CNuoffm4hqaa",
+        "from": "TA_SrUpdateAnotherSop",
+        "to": "TA_SrAntoherTasksPass"
+    },
+    "CNaz0bd674iy": {
+        "id": "CNaz0bd674iy",
+        "from": "SP_SrTechnologyCreated",
+        "to": "TA_SRDocumentsCheck"
+    },
+    "CNfx0kwjxckq": {
+        "id": "CNfx0kwjxckq",
+        "from": "CO_SrIsInPriceList",
+        "to": "TA_SrBcConnection"
+    },
+    "CNh155lysx4n": {
+        "id": "CNh155lysx4n",
+        "from": "TA_SrBcConnection",
+        "to": "TA_SrBcEvaluation"
+    },
+    "CN2tl6yq24na": {
+        "id": "CN2tl6yq24na",
+        "from": "TA_SrBcEvaluation",
+        "to": "CO_AllBcAccepted"
+    },
+    "CN4qyzh3qejv": {
+        "id": "CN4qyzh3qejv",
+        "from": "TA_SrDocumentApprovement",
+        "to": "CO_SRPropertyOwnerConfirmation"
+    },
+    "CNpbuhxoy5pp": {
+        "id": "CNpbuhxoy5pp",
+        "from": "CO_SRPropertyOwnerConfirmation",
+        "to": "TA_SRPropertyOwnerConfirmation"
+    },
+    "CN8ig6b4hgzn": {
+        "id": "CN8ig6b4hgzn",
+        "from": "TA_SrDocumentApprovement",
+        "to": "CO6bdwv6arzz"
+    },
+    "CNeu90enrmcq": {
+        "id": "CNeu90enrmcq",
+        "from": "CO6bdwv6arzz",
+        "to": "TA_SrCreateContractInSap"
+    },
+    "CNqyr9v5jgs3": {
+        "id": "CNqyr9v5jgs3",
+        "from": "TA_SrCreateContractInSap",
+        "to": "TA_SrContractApproved"
+    },
+    "CNlj9tab9z0m": {
+        "id": "CNlj9tab9z0m",
+        "from": "TA_SrCompletePrices",
+        "to": "CO_SrIsInPriceList1"
+    },
+    "CNeswmvvhi9k": {
+        "id": "CNeswmvvhi9k",
+        "from": "CO_SRPropertyOwnerConfirmation1",
+        "to": "TA_SRPropertyOwnerConfirmation1"
+    },
+    "CNrtrnuuqdwg": {
+        "id": "CNrtrnuuqdwg",
+        "from": "CO6bdwv6arz1",
+        "to": "TA_SrCreateContractInSap2"
+    },
+    "CNm2douazwy7": {
+        "id": "CNm2douazwy7",
+        "from": "TA_SrCreateContractInSap2",
+        "to": "TA_SrContractApproved2"
+    },
+    "CNn1aevrbta8": {
+        "id": "CNn1aevrbta8",
+        "from": "SP_SrDemand",
+        "to": "TA_SrNotifyCreateWfIot"
+    },
+    "CNpvwat8da46": {
+        "id": "CNpvwat8da46",
+        "from": "TA_SrDocumentApprovement",
+        "to": "TA_SrNewStornoDisable1"
+    },
+    "CN6i6qc1cgfx": {
+        "id": "CN6i6qc1cgfx",
+        "from": "TA_SrUpdateCosts1",
+        "to": "TA_SrSapNumber"
+    },
+    "CNfod1a0cium": {
+        "id": "CNfod1a0cium",
+        "from": "CO_AllBcAccepted",
+        "to": "TA_SrCustomerAcceptation2"
+    },
+    "CNkgb1d6wrxr": {
+        "id": "CNkgb1d6wrxr",
+        "from": "TA_SrCustomerAcceptation2",
+        "to": "TA_SrDocumentApprovement"
+    },
+    "CN6r6d5b86dy": {
+        "id": "CN6r6d5b86dy",
+        "from": "TA_SrCustomerAcceptation2",
+        "to": "TA_SrUpdateCosts1"
+    },
+    "CN1tlknrwqkv": {
+        "id": "CN1tlknrwqkv",
+        "from": "CO_SrIsInPriceList1",
+        "to": "CO_SrCapexOpexIotLimit"
+    },
+    "CN06e7e7h1g9": {
+        "id": "CN06e7e7h1g9",
+        "from": "TA_SrDocumentApprovement1",
+        "to": "CO6bdwv6arz1"
+    },
+    "CNdyvkl5g2dx": {
+        "id": "CNdyvkl5g2dx",
+        "from": "TA_SrDocumentApprovement1",
+        "to": "CO_SRPropertyOwnerConfirmation1"
+    },
+    "CN7zjzpl8f7i": {
+        "id": "CN7zjzpl8f7i",
+        "from": "TA_SrDocumentApprovement1",
+        "to": "TA_SrNewStornoDisable"
+    },
+    "CNjhkaqhqvif": {
+        "id": "CNjhkaqhqvif",
+        "from": "CO_SrCapexOpexIotLimit",
+        "to": "TA_SrUpdateCosts"
+    },
+    "CNk6o1nax54s": {
+        "id": "CNk6o1nax54s",
+        "from": "CO_SrIsInPriceList1",
+        "to": "CO_SrCapexOpexIotLimit1"
+    },
+    "CNq3apookb5q": {
+        "id": "CNq3apookb5q",
+        "from": "CO_SrCapexOpexIotLimit1",
+        "to": "TA_SrBcConnection1"
+    },
+    "CN2nxmomci8u": {
+        "id": "CN2nxmomci8u",
+        "from": "TA_SrBcConnection1",
+        "to": "TA_SrBcEvaluation1"
+    },
+    "CNicqdw51pks": {
+        "id": "CNicqdw51pks",
+        "from": "TA_SrBcEvaluation1",
+        "to": "CO_AllBcAccepted1"
+    },
+    "CNxait6at79n": {
+        "id": "CNxait6at79n",
+        "from": "CO_AllBcAccepted1",
+        "to": "TA_SrCustomerAcceptation1"
+    },
+    "CNaqldytwrhv": {
+        "id": "CNaqldytwrhv",
+        "from": "TA_SrDocumentApprovement2",
+        "to": "COz57q5iafg6"
+    },
+    "CN660errvl1q": {
+        "id": "CN660errvl1q",
+        "from": "TA_SrDocumentApprovement2",
+        "to": "CO_SRPropertyOwnerConfirmation2"
+    },
+    "CN89b1ybi7fd": {
+        "id": "CN89b1ybi7fd",
+        "from": "TA_SrDocumentApprovement2",
+        "to": "TA_SrNewStornoDisable2"
+    },
+    "CN8r9ah5u9r6": {
+        "id": "CN8r9ah5u9r6",
+        "from": "TA_SrCustomerAcceptation1",
+        "to": "TA_SrUpdateCosts2"
+    },
+    "CNlt6fmg521f": {
+        "id": "CNlt6fmg521f",
+        "from": "TA_SrCustomerAcceptation1",
+        "to": "TA_SrDocumentApprovement2"
+    },
+    "CN33fcswhrtq": {
+        "id": "CN33fcswhrtq",
+        "from": "TA_SrUpdateCosts2",
+        "to": "TA_SrSapNumber2"
+    },
+    "CNbf1xed30gp": {
+        "id": "CNbf1xed30gp",
+        "from": "COz57q5iafg6",
+        "to": "TA_SrCreateContractInSap3"
+    },
+    "CN33hotv5n3q": {
+        "id": "CN33hotv5n3q",
+        "from": "TA_SrCreateContractInSap3",
+        "to": "TA_SrContractApproved3"
+    },
+    "CN4pdwrgm79q": {
+        "id": "CN4pdwrgm79q",
+        "from": "CO_SRPropertyOwnerConfirmation2",
+        "to": "TA_SRPropertyOwnerConfirmation2"
+    },
+    "CN6yqj8t0xwv": {
+        "id": "CN6yqj8t0xwv",
+        "from": "TA_SrUpdateCosts",
+        "to": "TA_SrDocumentApprovement1"
+    },
+    "CN_yuueu90zu": {
+        "id": "CN_yuueu90zu",
+        "from": "TA_SrUpdateCosts",
+        "to": "CO_SrHasIotDevice"
+    },
+    "CN_kzk8rj03m": {
+        "id": "CN_kzk8rj03m",
+        "from": "TA_SrUpdateCosts",
+        "to": "CO_SrHasIotDevice1"
+    },
+    "CN_w5b5oha79": {
+        "id": "CN_w5b5oha79",
+        "from": "CO_SrHasIotDevice1",
+        "to": "TA_SrSapNumber1"
+    },
+    "CN_b03b1vjph": {
+        "id": "CN_b03b1vjph",
+        "from": "CO_SrHasIotDevice",
+        "to": "TA_SrCreateCommissionInSap"
+    },
+    "CN_kfsr3b3b1": {
+        "id": "CN_kfsr3b3b1",
+        "from": "CO_SrCommisionCreatedWithError",
+        "to": "TA_SrDataCorrectionCommission"
+    },
+    "CN_5j56zrf8i": {
+        "id": "CN_5j56zrf8i",
+        "from": "TA_SrDataCorrectionCommission",
+        "to": "CO_SrHasSapNumber1"
+    },
+    "CN_5t26lsojt": {
+        "id": "CN_5t26lsojt",
+        "from": "CO_SrCommisionCreatedWithErrorManual",
+        "to": "TA_SrSapNumber3"
+    },
+    "CN_79f9sexmr": {
+        "id": "CN_79f9sexmr",
+        "from": "CO_SrHasSapNumber1",
+        "to": "TA_SrSapNumber3"
+    },
+    "CN_b5idc9rhp": {
+        "id": "CN_b5idc9rhp",
+        "from": "TA_SrDataCorrectionCommission",
+        "to": "CO_SrHasSapNumber"
+    },
+    "CN_dldw7d4fa": {
+        "id": "CN_dldw7d4fa",
+        "from": "CO_SrCommisionCreated",
+        "to": "TA_SrCommissionNumberTransferred"
+    },
+    "CN_bqcsc0qay": {
+        "id": "CN_bqcsc0qay",
+        "from": "CO_SrHasSapNumber",
+        "to": "TA_SrCommissionNumberTransferred"
+    },
+    "CN_imvk8mr65": {
+        "id": "CN_imvk8mr65",
+        "from": "TA_SrCreateCommissionInSap",
+        "to": "CO_SrCommisionCreated"
+    },
+    "CN_y0uafujct": {
+        "id": "CN_y0uafujct",
+        "from": "TA_SrCreateCommissionInSap",
+        "to": "CO_SrCommisionCreatedWithError"
+    },
+    "CN_oqjwi6fwq": {
+        "id": "CN_oqjwi6fwq",
+        "from": "TA_SrCreateCommissionInSap",
+        "to": "CO_SrCommisionCreatedWithErrorManual"
+    }
+}

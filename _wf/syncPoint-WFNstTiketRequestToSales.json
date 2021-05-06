@@ -1,0 +1,20 @@
+{
+    "SP_UtRequest": {
+        "id": "SP_UtRequest",
+        "type": "A",
+        "name": "Po\u017eadavek na vyj\u00e1d\u0159en\u00ed",
+        "urgent": false,
+        "taskId": "TT_UtStandardTask",
+        "workplaceId": "WP_System",
+        "setupActionId": "undefined",
+        "syncType": "FULL",
+        "term": "",
+        "termType": "day",
+        "params": "",
+        "autofinishMessage": "",
+        "autoWorkOutAfterTerm": false,
+        "generateCancelOnGlobalCancel": false,
+        "top": "138",
+        "left": "57"
+    }
+}

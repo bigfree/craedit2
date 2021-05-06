@@ -1,0 +1,147 @@
+{
+    "CNc0gk6u7ytr": {
+        "id": "CNc0gk6u7ytr",
+        "from": "SP_SrOrder",
+        "to": "SP_SrFinalizedServiceParameters"
+    },
+    "CNrl1wrm8cxt": {
+        "id": "CNrl1wrm8cxt",
+        "from": "SP_SrFinalizedServiceParameters",
+        "to": "SP_SrNumberSAP"
+    },
+    "CNd2fnarami1": {
+        "id": "CNd2fnarami1",
+        "from": "SP_SrNumberSAP",
+        "to": "SP_SrCommision"
+    },
+    "CNlamlmbwxd1": {
+        "id": "CNlamlmbwxd1",
+        "from": "SP_SrCommision",
+        "to": "SP_SrInstallation"
+    },
+    "CNmgq909ylcl": {
+        "id": "CNmgq909ylcl",
+        "from": "SP_SrInstallation",
+        "to": "SP_PreConfigurationCompleted"
+    },
+    "CNywr45795u9": {
+        "id": "CNywr45795u9",
+        "from": "SP_PreConfigurationCompleted",
+        "to": "SP_SrTechnologyReady"
+    },
+    "CNnlx7bd621r": {
+        "id": "CNnlx7bd621r",
+        "from": "SP_SrTechnologyReady",
+        "to": "SP_SrDsFinished"
+    },
+    "CN474lmi9xao": {
+        "id": "CN474lmi9xao",
+        "from": "SP_SrDsFinished",
+        "to": "SP_SrDelivery"
+    },
+    "CNig927yh6ej": {
+        "id": "CNig927yh6ej",
+        "from": "SP_SrDelivery",
+        "to": "SP_SrFinish"
+    },
+    "CN4yywfg326r": {
+        "id": "CN4yywfg326r",
+        "from": "SP_SrFinish",
+        "to": "SP_SrEndPoint"
+    },
+    "CNdqqda94q11": {
+        "id": "CNdqqda94q11",
+        "from": "SP_SrOrder",
+        "to": "TA_SrCompleteCeaseService"
+    },
+    "CNyk8jnzx5rc": {
+        "id": "CNyk8jnzx5rc",
+        "from": "SP_SrDelivery",
+        "to": "TA_SrServiceCompleationInit"
+    },
+    "CNgv6k83ku7o": {
+        "id": "CNgv6k83ku7o",
+        "from": "SP_SrDemand",
+        "to": "SP_SrSurvey"
+    },
+    "CNej93v9rh35": {
+        "id": "CNej93v9rh35",
+        "from": "SP_SrSurvey",
+        "to": "SP_SrOffer"
+    },
+    "CNydqgu25l9l": {
+        "id": "CNydqgu25l9l",
+        "from": "SP_SrOffer",
+        "to": "SP_SrOrder"
+    },
+    "CNfh4etft53a": {
+        "id": "CNfh4etft53a",
+        "from": "TA_SrSswDeconfigration",
+        "to": "CO_SrWsServiceOwnNumbers"
+    },
+    "CNf0t3bm9ebi": {
+        "id": "CNf0t3bm9ebi",
+        "from": "CO_SrNumberAttributes4",
+        "to": "TA_SrNumberReturn"
+    },
+    "CNfjbz17xz9h": {
+        "id": "CNfjbz17xz9h",
+        "from": "TA_SrNumberReturn",
+        "to": "TA_SrReturnOut"
+    },
+    "CNqzc1z92g49": {
+        "id": "CNqzc1z92g49",
+        "from": "TA_SrReturnOut",
+        "to": "TA_SrReturnOutBilling"
+    },
+    "CNyg3aq6iiob": {
+        "id": "CNyg3aq6iiob",
+        "from": "SP_PreConfigurationCompleted",
+        "to": "TA_SrSswDeconfigration"
+    },
+    "CNaikwg7i3iq": {
+        "id": "CNaikwg7i3iq",
+        "from": "CO_SrNumberAttributes5",
+        "to": "TA_SrNumberReturnTmcz2"
+    },
+    "CN7rbihlgwmi": {
+        "id": "CN7rbihlgwmi",
+        "from": "TA_SrNumberReturnTmcz2",
+        "to": "CO_SrNumberAttributes7"
+    },
+    "CNn5elr6xk9x": {
+        "id": "CNn5elr6xk9x",
+        "from": "CO_SrNumberAttributes7",
+        "to": "TA_SrOperatorIdChange"
+    },
+    "CNwkhvwv6i8a": {
+        "id": "CNwkhvwv6i8a",
+        "from": "CO_SrNumberAttributes6",
+        "to": "TA_SrNumberReturnTmcz"
+    },
+    "CNylzj94dvem": {
+        "id": "CNylzj94dvem",
+        "from": "CO_SrWsServiceOwnNumbers",
+        "to": "CO_SrNumberAttributes4"
+    },
+    "CN0cyw02guu1": {
+        "id": "CN0cyw02guu1",
+        "from": "CO_SrWsServiceOwnNumbers",
+        "to": "CO_SrNumberAttributes5"
+    },
+    "CNsyf6nhcbbe": {
+        "id": "CNsyf6nhcbbe",
+        "from": "CO_SrWsServiceOwnNumbers",
+        "to": "CO_SrNumberAttributes6"
+    },
+    "CNhjpbb5qes4": {
+        "id": "CNhjpbb5qes4",
+        "from": "TA_SrSswDeconfigration",
+        "to": "TA_SrServiceBillingCease"
+    },
+    "CNims3f9tex4": {
+        "id": "CNims3f9tex4",
+        "from": "TA_SrSswDeconfigration",
+        "to": "TA_SrDetachDevices"
+    }
+}

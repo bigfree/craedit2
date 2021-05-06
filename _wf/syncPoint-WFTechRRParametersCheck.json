@@ -1,0 +1,20 @@
+{
+    "SP_SrParametersCheck": {
+        "id": "SP_SrParametersCheck",
+        "type": "A",
+        "name": "Kontrola parametr\u016f (RR verification)",
+        "urgent": false,
+        "taskId": "TT_Automat",
+        "workplaceId": "WP_System",
+        "setupActionId": "undefined",
+        "syncType": "NONE",
+        "term": "",
+        "termType": "day",
+        "params": "",
+        "autofinishMessage": "",
+        "autoWorkOutAfterTerm": false,
+        "generateCancelOnGlobalCancel": false,
+        "top": "100",
+        "left": "10"
+    }
+}

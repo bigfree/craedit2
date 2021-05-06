@@ -1,0 +1,27 @@
+{
+    "TA_SrSOPFundsTransferRequest": {
+        "id": "TA_SrSOPFundsTransferRequest",
+        "type": "M",
+        "name": "P\u0159evod finan\u010dn\u00edch prost\u0159edk\u016f v r\u00e1mci SOP",
+        "canMerge": false,
+        "taskId": "TT_SrSapNumber",
+        "workplaceId": "WP_SalesReporting",
+        "setupActionId": "undefined",
+        "term": "1",
+        "termType": "day",
+        "nestedWorkflow": {
+            "0": ""
+        },
+        "canRedo": false,
+        "notSendEmail": false,
+        "urgent": false,
+        "outOfWorkFlow": false,
+        "params": "",
+        "autofinishMessage": "",
+        "autoWorkOutAfterTerm": false,
+        "generateCancelOnGlobalCancel": false,
+        "disableControls": false,
+        "top": "179",
+        "left": "197"
+    }
+}

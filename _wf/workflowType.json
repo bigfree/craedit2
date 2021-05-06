@@ -1,0 +1,27 @@
+{
+    "CN07tkgw8p2v": {
+        "id": "CN07tkgw8p2v",
+        "from": "SP_OperationBcNew",
+        "to": "SPov6lbfxg99"
+    },
+    "WT_BusinessCase": {
+        "id": "WT_BusinessCase",
+        "name": "Business Case"
+    },
+    "WT_TroubleTicket": {
+        "id": "WT_TroubleTicket",
+        "name": "Trouble Ticket"
+    },
+    "WT_Complaint": {
+        "id": "WT_Complaint",
+        "name": "Complaint"
+    },
+    "WT_System": {
+        "id": "WT_System",
+        "name": "System"
+    },
+    "WT_ServiceRequest": {
+        "id": "WT_ServiceRequest",
+        "name": "Service Request"
+    }
+}

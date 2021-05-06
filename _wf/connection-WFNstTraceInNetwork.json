@@ -1,0 +1,12 @@
+{
+    "CNffp3hn22po": {
+        "id": "CNffp3hn22po",
+        "from": "SP_SrTraceInNetwork",
+        "to": "TA_SrTraceInNetwork"
+    },
+    "CN6kzxsl5bxr": {
+        "id": "CN6kzxsl5bxr",
+        "from": "TA_SrTraceInNetwork",
+        "to": "TA_TraceCompleteNotification"
+    }
+}

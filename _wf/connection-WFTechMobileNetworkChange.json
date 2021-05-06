@@ -1,0 +1,142 @@
+{
+    "CNosb36mnkiv": {
+        "id": "CNosb36mnkiv",
+        "from": "SP_SrCommision",
+        "to": "SP_SrTechnologyCreated"
+    },
+    "CNvxerq61nst": {
+        "id": "CNvxerq61nst",
+        "from": "SP_SrTechnologyCreated",
+        "to": "SP_SrInstallation"
+    },
+    "CN7fokqggk6q": {
+        "id": "CN7fokqggk6q",
+        "from": "SP_SrInstallation",
+        "to": "SP_PreConfigurationCompleted"
+    },
+    "CNet08k9qxdp": {
+        "id": "CNet08k9qxdp",
+        "from": "SP_PreConfigurationCompleted",
+        "to": "SP_SrTechnologyReady"
+    },
+    "CNm7l9b2019n": {
+        "id": "CNm7l9b2019n",
+        "from": "SP_SrTechnologyReady",
+        "to": "SP_SrDelivery"
+    },
+    "CN5ktmvf2dzc": {
+        "id": "CN5ktmvf2dzc",
+        "from": "SP_SrDelivery",
+        "to": "SP_SrFinish"
+    },
+    "CNl6hkddw8jl": {
+        "id": "CNl6hkddw8jl",
+        "from": "SP_SrFinish",
+        "to": "SP_SrEndPoint"
+    },
+    "CNbyqnyik9h4": {
+        "id": "CNbyqnyik9h4",
+        "from": "TA_SrExtPartnerAssign",
+        "to": "CO_SrDispatchMaterial"
+    },
+    "CNr1g3kglfk3": {
+        "id": "CNr1g3kglfk3",
+        "from": "CO_SrDispatchMaterial",
+        "to": "TA_SrDispatchMaterial"
+    },
+    "CNphwfqvfsvo": {
+        "id": "CNphwfqvfsvo",
+        "from": "TA_SrDispatchMaterial",
+        "to": "CO_SrPosDispatchMaterial"
+    },
+    "CN99c5nc38k4": {
+        "id": "CN99c5nc38k4",
+        "from": "CO_SrPosDispatchMaterial",
+        "to": "TA_SrPosDispatchMaterial"
+    },
+    "CNqqlo0k7af3": {
+        "id": "CNqqlo0k7af3",
+        "from": "SP_SrDelivery",
+        "to": "TA_SrTakeoverDateCompletion"
+    },
+    "CNkpz8fp3cn7": {
+        "id": "CNkpz8fp3cn7",
+        "from": "SP_SrCommision",
+        "to": "TA_SrSetStornoMode"
+    },
+    "CNn20fwmdu8b": {
+        "id": "CNn20fwmdu8b",
+        "from": "SP_SrDelivery",
+        "to": "TA_SrNewStornoDisable"
+    },
+    "CNoxtx9vitic": {
+        "id": "CNoxtx9vitic",
+        "from": "CO_SrInternalMontage1",
+        "to": "TA_SrMontage"
+    },
+    "CNtizhob6icj": {
+        "id": "CNtizhob6icj",
+        "from": "CO_SrInternalMotage2",
+        "to": "TA_SrMontagePreparation"
+    },
+    "CNqsfeuquwjt": {
+        "id": "CNqsfeuquwjt",
+        "from": "CO_SrInternalMontage1",
+        "to": "TA_SrMontagePreparationCancel"
+    },
+    "CNzrlawcqz5c": {
+        "id": "CNzrlawcqz5c",
+        "from": "SP_SrTechnologyCreated",
+        "to": "TA_SrTechCopyDataFromSurvey"
+    },
+    "CNqdm2awt676": {
+        "id": "CNqdm2awt676",
+        "from": "CO_SrInternalMotage2",
+        "to": "TA_SrNotifyExternalCompany"
+    },
+    "CNskd4pho0d9": {
+        "id": "CNskd4pho0d9",
+        "from": "TA_SrExtPartnerAssign",
+        "to": "CO_SrInternalMotage2"
+    },
+    "CN04z04j7zeh": {
+        "id": "CN04z04j7zeh",
+        "from": "SP_PreConfigurationCompleted",
+        "to": "CO_SrInternalMontage1"
+    },
+    "CN_fw6i0517k": {
+        "id": "CN_fw6i0517k",
+        "from": "TA_SrLineOrderCompletion",
+        "to": "CO_SrIsSimOwnerChangedFromCraToCustomer"
+    },
+    "CN_afizcok49": {
+        "id": "CN_afizcok49",
+        "from": "CO_SrIsSimOwnerChangedFromCraToCustomer",
+        "to": "TA_SrDisconnectCraSim"
+    },
+    "CN_mzmeeuz5e": {
+        "id": "CN_mzmeeuz5e",
+        "from": "TA_SrLineOrderCompletion",
+        "to": "CO_SrIsSimOwnerChangedFromCraToCustomer1"
+    },
+    "CN_ey7mputew": {
+        "id": "CN_ey7mputew",
+        "from": "TA_SrDisconnectCraSim",
+        "to": "TA_SrExtPartnerAssign"
+    },
+    "CN_0vq3l7wkn": {
+        "id": "CN_0vq3l7wkn",
+        "from": "CO_SrIsSimOwnerChangedFromCraToCustomer1",
+        "to": "TA_SrExtPartnerAssign"
+    },
+    "CN_lvf1cvv4r": {
+        "id": "CN_lvf1cvv4r",
+        "from": "TA_SrTechCopyParamsFromSurvey",
+        "to": "TA_SrLineOrderCompletion"
+    },
+    "CN_15d8lj5uj": {
+        "id": "CN_15d8lj5uj",
+        "from": "TA_SrTechCopyDataFromSurvey",
+        "to": "TA_SrTechCopyParamsFromSurvey"
+    }
+}

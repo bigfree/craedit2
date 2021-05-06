@@ -1,0 +1,98 @@
+{
+    "CO_UtHasWorkplaceAwc": {
+        "id": "CO_UtHasWorkplaceAwc",
+        "conditionId": "CT_UtHasWorkplace",
+        "name": "Ve WF slu\u017eeb bylo pou\u017eito pracovi\u0161t\u011b AWC",
+        "params": "{\"WFPRAC_KOD\":\"WP_ConfigurationAWC\"}",
+        "top": "172",
+        "left": "331"
+    },
+    "CO_UtHasWorkplaceData": {
+        "id": "CO_UtHasWorkplaceData",
+        "conditionId": "CT_UtHasWorkplace",
+        "name": "Ve WF slu\u017eeb bylo pou\u017eito pracovi\u0161t\u011b DATA",
+        "params": "{\"WFPRAC_KOD\":\"WP_ConfigurationData\"}",
+        "top": "172",
+        "left": "558"
+    },
+    "CO_UtHasWorkplaceSdh": {
+        "id": "CO_UtHasWorkplaceSdh",
+        "conditionId": "CT_UtHasWorkplace",
+        "name": "Ve WF slu\u017eeb bylo pou\u017eito pracovi\u0161t\u011b SDH",
+        "params": "{\"WFPRAC_KOD\":\"WP_ConfigurationSdh\"}",
+        "top": "174",
+        "left": "772"
+    },
+    "CO_UtHasWorkplaceInternet": {
+        "id": "CO_UtHasWorkplaceInternet",
+        "conditionId": "CT_UtHasWorkplace",
+        "name": "Ve WF slu\u017eeb bylo pou\u017eito pracovi\u0161t\u011b INTERNET",
+        "params": "{\"WFPRAC_KOD\":\"WP_ConfigurationInternet\"}",
+        "top": "174",
+        "left": "986"
+    },
+    "CO_UtHasWorkplaceVoip": {
+        "id": "CO_UtHasWorkplaceVoip",
+        "conditionId": "CT_UtHasWorkplace",
+        "name": "Ve WF slu\u017eeb bylo pou\u017eito pracovi\u0161t\u011b VOIP",
+        "params": "{\"WFPRAC_KOD\":\"WP_ConfigurationVoip\"}",
+        "top": "173",
+        "left": "1199"
+    },
+    "CO_UtHasWorkplaceAwc2": {
+        "id": "CO_UtHasWorkplaceAwc2",
+        "conditionId": "CT_UtHasWorkplace",
+        "name": "Ve WF slu\u017eeb bylo pou\u017eito pracovi\u0161t\u011b AWC",
+        "params": "{\"WFPRAC_KOD\":\"WP_ConfigurationAWC\"}",
+        "top": "494",
+        "left": "322"
+    },
+    "CO_UtHasWorkplaceData2": {
+        "id": "CO_UtHasWorkplaceData2",
+        "conditionId": "CT_UtHasWorkplace",
+        "name": "Ve WF slu\u017eeb bylo pou\u017eito pracovi\u0161t\u011b DATA",
+        "params": "{\"WFPRAC_KOD\":\"WP_ConfigurationData\"}",
+        "top": "494",
+        "left": "549"
+    },
+    "CO_UtHasWorkplaceSdh2": {
+        "id": "CO_UtHasWorkplaceSdh2",
+        "conditionId": "CT_UtHasWorkplace",
+        "name": "Ve WF slu\u017eeb bylo pou\u017eito pracovi\u0161t\u011b SDH",
+        "params": "{\"WFPRAC_KOD\":\"WP_ConfigurationSdh\"}",
+        "top": "494",
+        "left": "771"
+    },
+    "CO_UtHasWorkplaceInternet2": {
+        "id": "CO_UtHasWorkplaceInternet2",
+        "conditionId": "CT_UtHasWorkplace",
+        "name": "Ve WF slu\u017eeb bylo pou\u017eito pracovi\u0161t\u011b INTERNET",
+        "params": "{\"WFPRAC_KOD\":\"WP_ConfigurationInternet\"}",
+        "top": "495",
+        "left": "992"
+    },
+    "CO_UtHasWorkplaceVoip2": {
+        "id": "CO_UtHasWorkplaceVoip2",
+        "conditionId": "CT_UtHasWorkplace",
+        "name": "Ve WF slu\u017eeb bylo pou\u017eito pracovi\u0161t\u011b VOIP",
+        "params": "{\"WFPRAC_KOD\":\"WP_ConfigurationVoip\"}",
+        "top": "497",
+        "left": "1218"
+    },
+    "CO_UtNoServiceCeaseRequest": {
+        "id": "CO_UtNoServiceCeaseRequest",
+        "conditionId": "CT_UtServiceCeaseRequest",
+        "name": "Nen\u00ed po\u017eadavek na storno slu\u017eeb",
+        "params": "{\"_result\":0}",
+        "top": "387",
+        "left": "89"
+    },
+    "CO_UtServiceCeaseRequest": {
+        "id": "CO_UtServiceCeaseRequest",
+        "conditionId": "CT_UtServiceCeaseRequest",
+        "name": "Po\u017eadavek na storno slu\u017eeb",
+        "params": "",
+        "top": "372",
+        "left": "602"
+    }
+}

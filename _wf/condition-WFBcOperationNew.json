@@ -1,0 +1,66 @@
+{
+    "CO_OpBcNewReject1": {
+        "id": "CO_OpBcNewReject1",
+        "conditionId": "CT_BcRejected",
+        "name": "Pokra\u010duje schvalov\u00e1n\u00ed BusinessCase",
+        "params": "{\"_result\":0}",
+        "top": "401",
+        "left": "331"
+    },
+    "CO_OpBcNewFinalAccept": {
+        "id": "CO_OpBcNewFinalAccept",
+        "conditionId": "CT_BcRejected",
+        "name": "BusinessCase schv\u00e1len",
+        "params": "{\"_result\":0}",
+        "top": "763",
+        "left": "338"
+    },
+    "CO_OpBcNewFinalReject": {
+        "id": "CO_OpBcNewFinalReject",
+        "conditionId": "CT_BcRejected",
+        "name": "BusinessCase zam\u00edtnut",
+        "params": "{\"_result\":1}",
+        "top": "739",
+        "left": "612"
+    },
+    "CO_OpBcNewReject3": {
+        "id": "CO_OpBcNewReject3",
+        "conditionId": "CT_BcRejected",
+        "name": "Pokra\u010duje schvalov\u00e1n\u00ed BusinessCase",
+        "params": "{\"_result\":0}",
+        "top": "485",
+        "left": "616"
+    },
+    "CO_OpBcNewReject2": {
+        "id": "CO_OpBcNewReject2",
+        "conditionId": "CT_BcRejected",
+        "name": "Pokra\u010duje schvalov\u00e1n\u00ed BusinessCase",
+        "params": "{\"_result\":0}",
+        "top": "565",
+        "left": "332"
+    },
+    "CO_OpBcNewWorkflowType20": {
+        "id": "CO_OpBcNewWorkflowType20",
+        "conditionId": "CT_BcWorkflowType",
+        "name": "Provozn\u00ed investice pod limit (telco)",
+        "params": "{\"BCP_TYP_SCHVAL\":20}",
+        "top": "253",
+        "left": "331"
+    },
+    "CO_OpBcChangeWorkflowType21": {
+        "id": "CO_OpBcChangeWorkflowType21",
+        "conditionId": "CT_BcWorkflowType",
+        "name": "Provozn\u00ed investice pod limit (broadcast)",
+        "params": "{\"BCP_TYP_SCHVAL\":21}",
+        "top": "264",
+        "left": "117"
+    },
+    "CO_OpBcChangeWorkflowType22": {
+        "id": "CO_OpBcChangeWorkflowType22",
+        "conditionId": "CT_BcWorkflowType",
+        "name": "Provozn\u00ed investice nad limit",
+        "params": "{\"BCP_TYP_SCHVAL\":22}",
+        "top": "236",
+        "left": "615"
+    }
+}

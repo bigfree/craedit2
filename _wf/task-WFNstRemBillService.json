@@ -1,0 +1,27 @@
+{
+    "TA_RemBillService": {
+        "id": "TA_RemBillService",
+        "type": "M",
+        "name": "Odmaz\u00e1n\u00ed slu\u017eby z Billingu",
+        "canMerge": false,
+        "taskId": "TTServiceRequestElement",
+        "workplaceId": "WP_Billing",
+        "setupActionId": "undefined",
+        "term": "",
+        "termType": "day",
+        "nestedWorkflow": {
+            "0": ""
+        },
+        "canRedo": false,
+        "notSendEmail": false,
+        "urgent": false,
+        "outOfWorkFlow": false,
+        "params": "",
+        "autofinishMessage": "",
+        "autoWorkOutAfterTerm": false,
+        "generateCancelOnGlobalCancel": false,
+        "disableControls": false,
+        "top": "265",
+        "left": "231"
+    }
+}

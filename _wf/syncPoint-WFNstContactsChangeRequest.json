@@ -1,0 +1,20 @@
+{
+    "SP_SrContactsChangeRequest": {
+        "id": "SP_SrContactsChangeRequest",
+        "type": "A",
+        "name": "Po\u017eadavek na zm\u011bnu kontaktn\u00edch osob",
+        "urgent": false,
+        "taskId": "TT_SrAutomat",
+        "workplaceId": "WP_System",
+        "setupActionId": "undefined",
+        "syncType": "NONE",
+        "term": "",
+        "termType": "day",
+        "params": "",
+        "autofinishMessage": "",
+        "autoWorkOutAfterTerm": false,
+        "generateCancelOnGlobalCancel": false,
+        "top": "104",
+        "left": "54"
+    }
+}

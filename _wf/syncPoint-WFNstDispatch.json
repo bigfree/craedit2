@@ -1,0 +1,20 @@
+{
+    "SP_SrDispatch": {
+        "id": "SP_SrDispatch",
+        "type": "A",
+        "name": "Vyskladn\u011bn\u00ed pro mont\u00e1\u017e",
+        "urgent": false,
+        "taskId": "TT_Automat",
+        "workplaceId": "WP_System",
+        "setupActionId": "undefined",
+        "syncType": "NONE",
+        "term": "",
+        "termType": "day",
+        "params": "",
+        "autofinishMessage": "",
+        "autoWorkOutAfterTerm": false,
+        "generateCancelOnGlobalCancel": false,
+        "top": "111",
+        "left": "34"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "CO_SrChangeOfAuthorizedPersons": {
+        "id": "CO_SrChangeOfAuthorizedPersons",
+        "conditionId": "CT_IsRequiredChangeOfAuthorizedPersons",
+        "name": "Zm\u011bna opr\u00e1vn\u011bn\u00fdch osob",
+        "params": "",
+        "top": 387,
+        "left": 415
+    }
+}

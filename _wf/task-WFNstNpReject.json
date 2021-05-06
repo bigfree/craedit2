@@ -1,0 +1,25 @@
+{
+    "TA_SrNpRejectInsert": {
+        "id": "TA_SrNpRejectInsert",
+        "type": "M",
+        "name": "Zalo\u017een\u00ed po\u017eadavku NP reject",
+        "canMerge": false,
+        "taskId": "TT_SrNpRejectInsert",
+        "workplaceId": "WP_InternalSales",
+        "setupActionId": "SA_SrAutoTakeIAMTasks",
+        "term": "",
+        "termType": "day",
+        "nestedWorkflow": null,
+        "canRedo": false,
+        "notSendEmail": false,
+        "urgent": false,
+        "outOfWorkFlow": false,
+        "params": "{\"_nestings\":[\"WFNstNpCancel\"]}",
+        "autofinishMessage": "",
+        "autoWorkOutAfterTerm": false,
+        "generateCancelOnGlobalCancel": false,
+        "disableControls": false,
+        "top": "173",
+        "left": "102"
+    }
+}

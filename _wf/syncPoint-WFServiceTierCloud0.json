@@ -1,0 +1,38 @@
+{
+    "SP_BcChangeInsert": {
+        "id": "SP_BcChangeInsert",
+        "type": "A",
+        "name": "Zalo\u017een\u00ed zm\u011bny BC",
+        "urgent": false,
+        "taskId": "TT_Automat",
+        "workplaceId": "WP_System",
+        "setupActionId": "SA_BcSetStatus",
+        "params": "{\"BCP_STATUS\":0}",
+        "top": "100",
+        "left": "10"
+    },
+    "SP_BcChangeApprove": {
+        "id": "SP_BcChangeApprove",
+        "type": "A",
+        "name": "Schvalov\u00e1n\u00ed zm\u011bny BC",
+        "urgent": false,
+        "taskId": "TT_Automat",
+        "workplaceId": "WP_System",
+        "setupActionId": "SA_BcSetStatus",
+        "params": "{\"BCP_STATUS\":1}",
+        "top": "222",
+        "left": "11"
+    },
+    "SP_BcChangeFinish": {
+        "id": "SP_BcChangeFinish",
+        "type": "A",
+        "name": "Dokon\u010den\u00ed zm\u011bny BC",
+        "urgent": false,
+        "taskId": "TT_Automat",
+        "workplaceId": "WP_System",
+        "setupActionId": "SA_BcSetDecisionDate",
+        "params": "",
+        "top": "377",
+        "left": "13"
+    }
+}

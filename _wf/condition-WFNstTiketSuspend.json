@@ -1,0 +1,58 @@
+{
+    "CO_UtServiceCeaseRequest": {
+        "id": "CO_UtServiceCeaseRequest",
+        "conditionId": "CT_UtServiceCeaseRequest",
+        "name": "Po\u017eadavek na storno slu\u017eeb",
+        "params": "",
+        "top": "375",
+        "left": "1230"
+    },
+    "CO_UtServiceIsSuspended1": {
+        "id": "CO_UtServiceIsSuspended1",
+        "conditionId": "CT_UtServiceSuspendState",
+        "name": "Slu\u017eba nen\u00ed pozastavena",
+        "params": "{\"OBELE_SUSPEND\":1}",
+        "top": "172",
+        "left": "331"
+    },
+    "CO_UtServiceIsSuspended2": {
+        "id": "CO_UtServiceIsSuspended2",
+        "conditionId": "CT_UtServiceSuspendState",
+        "name": "Slu\u017eba nen\u00ed pozastavena",
+        "params": "{\"OBELE_SUSPEND\":1}",
+        "top": "409",
+        "left": "452"
+    },
+    "CO_UtNoServiceCeaseRequest1": {
+        "id": "CO_UtNoServiceCeaseRequest1",
+        "conditionId": "CT_UtServiceCeaseRequest",
+        "name": "Nen\u00ed po\u017eadavek na storno slu\u017eeb",
+        "params": "{\"_result\":0}",
+        "top": "376",
+        "left": "74"
+    },
+    "CO_UtNoServiceCeaseRequest2": {
+        "id": "CO_UtNoServiceCeaseRequest2",
+        "conditionId": "CT_UtServiceCeaseRequest",
+        "name": "Nen\u00ed po\u017eadavek na storno slu\u017eeb",
+        "params": "{\"_result\":0}",
+        "top": "344",
+        "left": "730"
+    },
+    "CO_UtServiceSuspendConfirmed": {
+        "id": "CO_UtServiceSuspendConfirmed",
+        "conditionId": "CT_UtServiceSuspendState",
+        "name": "Obnoven\u00ed slu\u017eeb nen\u00ed potvzeno",
+        "params": "{\"OBELE_SUSPEND\":2}",
+        "top": "325",
+        "left": "361"
+    },
+    "CO_UtServiceResumed": {
+        "id": "CO_UtServiceResumed",
+        "conditionId": "CT_UtServiceSuspendState",
+        "name": "Slu\u017eba nen\u00ed obnovena",
+        "params": "{\"OBELE_SUSPEND\":3}",
+        "top": "527",
+        "left": "206"
+    }
+}

@@ -1,0 +1,87 @@
+{
+    "CN203dni88h0": {
+        "id": "CN203dni88h0",
+        "from": "SP_UtActivationBCS",
+        "to": "TA_UtTiketActivationRemoteHands"
+    },
+    "CNe3zo08tw4c": {
+        "id": "CNe3zo08tw4c",
+        "from": "TA_UtTiketActivationRemoteHands",
+        "to": "TA_UtTiketActivationData"
+    },
+    "CNflu9yamszr": {
+        "id": "CNflu9yamszr",
+        "from": "TA_UtTiketActivationData",
+        "to": "TA_UtTiketActivationVoice"
+    },
+    "CNpa3imsmgsa": {
+        "id": "CNpa3imsmgsa",
+        "from": "TA_UtTiketActivationAccess",
+        "to": "TA_UtTiketHandoverRemoteHands"
+    },
+    "CN92zb87echf": {
+        "id": "CN92zb87echf",
+        "from": "SP_UtActivationBCS",
+        "to": "SP_UtDeactivationBCS"
+    },
+    "CNelq5mdq3z5": {
+        "id": "CNelq5mdq3z5",
+        "from": "SP_UtDeactivationBCS",
+        "to": "TA_UtTiketStartDeactivation"
+    },
+    "CN551t5ib77u": {
+        "id": "CN551t5ib77u",
+        "from": "TA_UtTiketStartDeactivation",
+        "to": "TA_UtTiketDeactivationRemoteHands"
+    },
+    "CN0h401dzkwr": {
+        "id": "CN0h401dzkwr",
+        "from": "TA_UtTiketStartDeactivation",
+        "to": "TA_UtTiketDeActivationData"
+    },
+    "CN06688jv57i": {
+        "id": "CN06688jv57i",
+        "from": "TA_UtTiketStartDeactivation",
+        "to": "TA_UtTiketDeactivationVoice"
+    },
+    "CNxmyv3jkhcu": {
+        "id": "CNxmyv3jkhcu",
+        "from": "TA_UtTiketStartDeactivation",
+        "to": "TA_UtTiketAccessDeactivation"
+    },
+    "CNe7zysgejfu": {
+        "id": "CNe7zysgejfu",
+        "from": "TA_UtTiketActivationVoice",
+        "to": "TA_UtTiketActivationCloud"
+    },
+    "CNvsoeg8qz8b": {
+        "id": "CNvsoeg8qz8b",
+        "from": "TA_UtTiketActivationCloud",
+        "to": "TA_UtTiketActivationAccess"
+    },
+    "CN6jqawxs8hn": {
+        "id": "CN6jqawxs8hn",
+        "from": "TA_UtTiketStartDeactivation",
+        "to": "TA_UtTiketDeactivationCloud"
+    },
+    "CN4gfqzc1uik": {
+        "id": "CN4gfqzc1uik",
+        "from": "TA_UtTiketActivationRemoteHands",
+        "to": "CO_UtIsProductionFlow"
+    },
+    "CNko9zurtbgc": {
+        "id": "CNko9zurtbgc",
+        "from": "CO_UtIsProductionFlow",
+        "to": "TA_NotificationActivationBcs"
+    },
+    "CNnh9nvhh9ok": {
+        "id": "CNnh9nvhh9ok",
+        "from": "TA_UtTiketStartDeactivation",
+        "to": "CO_UtIsProductionFlow2"
+    },
+    "CNxn5gnc6lh4": {
+        "id": "CNxn5gnc6lh4",
+        "from": "CO_UtIsProductionFlow2",
+        "to": "TA_NotificationDeactivationBcs"
+    }
+}

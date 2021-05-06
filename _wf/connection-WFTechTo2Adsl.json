@@ -1,0 +1,112 @@
+{
+    "CNosb36mnkiv": {
+        "id": "CNosb36mnkiv",
+        "from": "SP_SrCommision",
+        "to": "SP_SrTechnologyCreated"
+    },
+    "CNvxerq61nst": {
+        "id": "CNvxerq61nst",
+        "from": "SP_SrTechnologyCreated",
+        "to": "SP_SrInstallation"
+    },
+    "CN7fokqggk6q": {
+        "id": "CN7fokqggk6q",
+        "from": "SP_SrInstallation",
+        "to": "SP_PreConfigurationCompleted"
+    },
+    "CNet08k9qxdp": {
+        "id": "CNet08k9qxdp",
+        "from": "SP_PreConfigurationCompleted",
+        "to": "SP_SrTechnologyReady"
+    },
+    "CNm7l9b2019n": {
+        "id": "CNm7l9b2019n",
+        "from": "SP_SrTechnologyReady",
+        "to": "SP_SrDelivery"
+    },
+    "CN5ktmvf2dzc": {
+        "id": "CN5ktmvf2dzc",
+        "from": "SP_SrDelivery",
+        "to": "SP_SrFinish"
+    },
+    "CNl6hkddw8jl": {
+        "id": "CNl6hkddw8jl",
+        "from": "SP_SrFinish",
+        "to": "SP_SrEndPoint"
+    },
+    "CNbyqnyik9h4": {
+        "id": "CNbyqnyik9h4",
+        "from": "TA_SrExtPartnerAssign",
+        "to": "CO_SrDispatchMaterial"
+    },
+    "CNr1g3kglfk3": {
+        "id": "CNr1g3kglfk3",
+        "from": "CO_SrDispatchMaterial",
+        "to": "TA_SrDispatchMaterial"
+    },
+    "CNphwfqvfsvo": {
+        "id": "CNphwfqvfsvo",
+        "from": "TA_SrDispatchMaterial",
+        "to": "CO_SrPosDispatchMaterial"
+    },
+    "CN99c5nc38k4": {
+        "id": "CN99c5nc38k4",
+        "from": "CO_SrPosDispatchMaterial",
+        "to": "TA_SrPosDispatchMaterial"
+    },
+    "CN4acl74dyjy": {
+        "id": "CN4acl74dyjy",
+        "from": "TA_SrDispatchMaterial",
+        "to": "TA_SrServiceInformation"
+    },
+    "CN3plocx602i": {
+        "id": "CN3plocx602i",
+        "from": "TA_SrTO2OrderCoordination",
+        "to": "TA_SrExtPartnerAssign"
+    },
+    "CNydxj11prqi": {
+        "id": "CNydxj11prqi",
+        "from": "SP_SrCommision",
+        "to": "TA_SrSetStornoMode"
+    },
+    "CN04zuv8mmo9": {
+        "id": "CN04zuv8mmo9",
+        "from": "SP_SrDelivery",
+        "to": "TA_SrNewStornoDisable"
+    },
+    "CNa53gm60l8k": {
+        "id": "CNa53gm60l8k",
+        "from": "TA_SrExtPartnerAssign",
+        "to": "TA_SrNotifyExternalCompany"
+    },
+    "CNasqacjr1zk": {
+        "id": "CNasqacjr1zk",
+        "from": "TA_SrExtPartnerAssign",
+        "to": "CO_SrInternalMontage"
+    },
+    "CNpcbvtqh436": {
+        "id": "CNpcbvtqh436",
+        "from": "CO_SrInternalMontage",
+        "to": "TA_SrMontage"
+    },
+    "CNztzibr31kg": {
+        "id": "CNztzibr31kg",
+        "from": "SP_SrDelivery",
+        "to": "TA_SrTakeoverDateCompletion"
+    },
+    "CNob7d4phgel": {
+        "id": "CNob7d4phgel",
+        "from": "SP_SrTechnologyCreated",
+        "to": "TA_SrTO2OrderCoordination"
+    },
+    "CNm1opzg3d9g": {
+        "id": "CNm1opzg3d9g",
+        "from": "CO_SrPreCompletedByUser",
+        "to": "TA_SrInfoOHSOrderCancel"
+    },
+    "CNejzi71apje": {
+        "id": "CNejzi71apje",
+        "from": "TA_SrTO2OrderCoordination",
+        "to": "CO_SrPreCompletedByUser"
+    }
+}

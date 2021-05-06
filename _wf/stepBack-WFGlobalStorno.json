@@ -1,0 +1,7 @@
+{
+    "SBktswyte56d": {
+        "id": "SBktswyte56d",
+        "from": "TA_StornoApprove",
+        "to": "TA_StornoProcessBegin"
+    }
+}

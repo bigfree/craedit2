@@ -1,0 +1,27 @@
+{
+    "CNqhcjpyi7ap": {
+        "id": "CNqhcjpyi7ap",
+        "from": "SP_UtFaultSolution",
+        "to": "TA_UtFaultSolving"
+    },
+    "CNhjgphtr1et": {
+        "id": "CNhjgphtr1et",
+        "from": "TA_UtFaultSolving",
+        "to": "TA_UtFaultSolved"
+    },
+    "CNd8bvjo253y": {
+        "id": "CNd8bvjo253y",
+        "from": "TA_UtFaultSolved",
+        "to": "TA_UtFaultSubTiketUpdate"
+    },
+    "CN577zoi0lk7": {
+        "id": "CN577zoi0lk7",
+        "from": "TA_UtFaultSubTiketUpdate",
+        "to": "TA_UtInterruptionSelect"
+    },
+    "CN983r6pxuq7": {
+        "id": "CN983r6pxuq7",
+        "from": "TA_UtInterruptionSelect",
+        "to": "TA_UtFaultAutomaticClolse"
+    }
+}

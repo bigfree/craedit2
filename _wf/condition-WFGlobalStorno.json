@@ -1,0 +1,58 @@
+{
+    "CO_StornoNotSimple": {
+        "id": "CO_StornoNotSimple",
+        "conditionId": "CT_StornoType",
+        "name": "Nelze prov\u00e9st zjednodu\u0161en\u00e9 storno",
+        "params": "{\"WFWORK_STORNO_DOPL\":4}",
+        "top": "302",
+        "left": "566"
+    },
+    "CO_StornoSimple": {
+        "id": "CO_StornoSimple",
+        "conditionId": "CT_StornoType",
+        "name": "Lze prov\u00e9st zjednodu\u0161en\u00e9 storno",
+        "params": "{\"WFWORK_STORNO_DOPL\":2}",
+        "top": "344",
+        "left": "274"
+    },
+    "CO_StornoApproved1": {
+        "id": "CO_StornoApproved1",
+        "conditionId": "CT_StornoApproved",
+        "name": "Storno schv\u00e1leno",
+        "params": "",
+        "top": "571",
+        "left": "273"
+    },
+    "CO_StornoApproved2": {
+        "id": "CO_StornoApproved2",
+        "conditionId": "CT_StornoApproved",
+        "name": "Storno zam\u00edtnuto",
+        "params": "{\"_result\":0}",
+        "top": "506",
+        "left": "271"
+    },
+    "COthyp9y0kl1": {
+        "id": "COthyp9y0kl1",
+        "conditionId": "CT_StornoRejected",
+        "name": "Storno schv\u00e1leno (prvn\u00ed pr\u016fchod)",
+        "params": "{\"_result\":0}",
+        "top": "202",
+        "left": "276"
+    },
+    "COxr1wab3mtg": {
+        "id": "COxr1wab3mtg",
+        "conditionId": "CT_StornoRejected",
+        "name": "Storno zam\u00edtnuto",
+        "params": "",
+        "top": "161",
+        "left": "562"
+    },
+    "CO_DeleteContractNumber": {
+        "id": "CO_DeleteContractNumber",
+        "conditionId": "CT_DeleteContractNumber",
+        "name": "Odmaz\u00e1n\u00ed r\u00e1mcov\u00e9 smlouvy",
+        "params": "",
+        "top": "735",
+        "left": "356"
+    }
+}

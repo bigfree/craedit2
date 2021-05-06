@@ -1,0 +1,107 @@
+{
+    "CNc0gk6u7ytr": {
+        "id": "CNc0gk6u7ytr",
+        "from": "SP_SrOrder",
+        "to": "SP_SrFinalizedServiceParameters"
+    },
+    "CNrl1wrm8cxt": {
+        "id": "CNrl1wrm8cxt",
+        "from": "SP_SrFinalizedServiceParameters",
+        "to": "SP_SrNumberSAP"
+    },
+    "CNd2fnarami1": {
+        "id": "CNd2fnarami1",
+        "from": "SP_SrNumberSAP",
+        "to": "SP_SrCommision"
+    },
+    "CNlamlmbwxd1": {
+        "id": "CNlamlmbwxd1",
+        "from": "SP_SrCommision",
+        "to": "SP_SrInstallation"
+    },
+    "CNmgq909ylcl": {
+        "id": "CNmgq909ylcl",
+        "from": "SP_SrInstallation",
+        "to": "SP_PreConfigurationCompleted"
+    },
+    "CNywr45795u9": {
+        "id": "CNywr45795u9",
+        "from": "SP_PreConfigurationCompleted",
+        "to": "SP_SrTechnologyReady"
+    },
+    "CNnlx7bd621r": {
+        "id": "CNnlx7bd621r",
+        "from": "SP_SrTechnologyReady",
+        "to": "SP_SrDsFinished"
+    },
+    "CN474lmi9xao": {
+        "id": "CN474lmi9xao",
+        "from": "SP_SrDsFinished",
+        "to": "SP_SrDelivery"
+    },
+    "CNig927yh6ej": {
+        "id": "CNig927yh6ej",
+        "from": "SP_SrDelivery",
+        "to": "SP_SrFinish"
+    },
+    "CN4yywfg326r": {
+        "id": "CN4yywfg326r",
+        "from": "SP_SrFinish",
+        "to": "SP_SrEndPoint"
+    },
+    "CNdqqda94q11": {
+        "id": "CNdqqda94q11",
+        "from": "SP_SrOrder",
+        "to": "TA_SrCompleteCeaseService"
+    },
+    "CNmbojkacp47": {
+        "id": "CNmbojkacp47",
+        "from": "SP_PreConfigurationCompleted",
+        "to": "TA_SrServiceDeconfiguration"
+    },
+    "CNyk8jnzx5rc": {
+        "id": "CNyk8jnzx5rc",
+        "from": "SP_SrDelivery",
+        "to": "TA_SrServiceCompleationInit"
+    },
+    "CNgv6k83ku7o": {
+        "id": "CNgv6k83ku7o",
+        "from": "SP_SrDemand",
+        "to": "SP_SrSurvey"
+    },
+    "CNej93v9rh35": {
+        "id": "CNej93v9rh35",
+        "from": "SP_SrSurvey",
+        "to": "SP_SrOffer"
+    },
+    "CNydqgu25l9l": {
+        "id": "CNydqgu25l9l",
+        "from": "SP_SrOffer",
+        "to": "SP_SrOrder"
+    },
+    "CNiord8ggltl": {
+        "id": "CNiord8ggltl",
+        "from": "TA_SrServiceDeconfiguration",
+        "to": "CO_SrServiceSurveillanceRemoved"
+    },
+    "CNknsv719t8g": {
+        "id": "CNknsv719t8g",
+        "from": "CO_SrServiceSurveillanceRemoved",
+        "to": "TA_SrServiceDocumentationErase"
+    },
+    "CNxeeh1mwmir": {
+        "id": "CNxeeh1mwmir",
+        "from": "SP_SrTechnologyReady",
+        "to": "TA_SrDetachDevices"
+    },
+    "CNxmr7hnd55a": {
+        "id": "CNxmr7hnd55a",
+        "from": "SP_PreConfigurationCompleted",
+        "to": "TA_SrServiceBillingCease"
+    },
+    "CN7m9m503pxv": {
+        "id": "CN7m9m503pxv",
+        "from": "SP_PreConfigurationCompleted",
+        "to": "TA_SrTeminatingProfileScrubCenter"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "CNiqch1x5k23": {
+        "id": "CNiqch1x5k23",
+        "from": "SP_SrSurveyWirelesConnectivity",
+        "to": "TA_SrCreateWirelesConnectivitySurvey"
+    },
+    "CN838c9q5ew2": {
+        "id": "CN838c9q5ew2",
+        "from": "TA_SrCreateWirelesConnectivitySurvey",
+        "to": "TA_SrWirelessAvailability"
+    },
+    "CN1vb7iq0q9g": {
+        "id": "CN1vb7iq0q9g",
+        "from": "SP_SrSurveyWirelesConnectivity",
+        "to": "SP_SrSurveyAccountManagerNotification"
+    },
+    "CNr0gn5jij5c": {
+        "id": "CNr0gn5jij5c",
+        "from": "SP_SrSurveyAccountManagerNotification",
+        "to": "TA_SrSurveyAccountManagerNotification"
+    }
+}

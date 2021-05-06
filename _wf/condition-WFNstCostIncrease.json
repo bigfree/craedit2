@@ -1,0 +1,10 @@
+{
+    "CO_SrTechDocUpdateRequired": {
+        "id": "CO_SrTechDocUpdateRequired",
+        "conditionId": "CT_SrTechDocUpdateRequired",
+        "name": "Po\u017eadov\u00e1na \u00faprava technick\u00e9 dokumentace",
+        "params": "",
+        "top": "271",
+        "left": "36"
+    }
+}

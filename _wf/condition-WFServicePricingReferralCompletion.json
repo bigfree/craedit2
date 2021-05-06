@@ -1,0 +1,74 @@
+{
+    "CO_SrServiceHelpdeskTakeover": {
+        "id": "CO_SrServiceHelpdeskTakeover",
+        "conditionId": "CT_SrServiceHdTakeover",
+        "name": "P\u0159ed\u00e1n\u00ed slu\u017eby hlepdesku",
+        "params": "",
+        "top": "134",
+        "left": "644"
+    },
+    "CO_SrServiceIsReadyForBilling5": {
+        "id": "CO_SrServiceIsReadyForBilling5",
+        "conditionId": "CT_SrServiceIsReadyForBilling",
+        "name": "Slu\u017eba je p\u0159ipravena na p\u0159enos",
+        "params": "",
+        "top": "342",
+        "left": "1062"
+    },
+    "CO_SrServiceIsReadyForBilling6": {
+        "id": "CO_SrServiceIsReadyForBilling6",
+        "conditionId": "CT_SrServiceIsReadyForBilling",
+        "name": "Slu\u017eba nen\u00ed p\u0159ipravena na p\u0159enos",
+        "params": "{\"_result\":0}",
+        "top": "345",
+        "left": "1495"
+    },
+    "CO_SrServiceBillingAutoTransfer7": {
+        "id": "CO_SrServiceBillingAutoTransfer7",
+        "conditionId": "CT_SrServiceBillingAutoTransfer",
+        "name": "Slu\u017eba se p\u0159en\u00e1\u0161\u00ed do billingu ru\u010dn\u011b",
+        "params": "{\"_result\":0}",
+        "top": "458",
+        "left": "908"
+    },
+    "CO_SrServiceBillingAutoTransfer8": {
+        "id": "CO_SrServiceBillingAutoTransfer8",
+        "conditionId": "CT_SrServiceBillingAutoTransfer",
+        "name": "Slu\u017eba se p\u0159en\u00e1\u0161\u00ed do billingu automaticky",
+        "params": "",
+        "top": "459",
+        "left": "1162"
+    },
+    "CO_SrServiceIsTransferred3": {
+        "id": "CO_SrServiceIsTransferred3",
+        "conditionId": "CT_SrServiceIsTransfered",
+        "name": "Slu\u017eba ji\u017e byla p\u0159enesena",
+        "params": "{\"_result\":0}",
+        "top": "657",
+        "left": "1119"
+    },
+    "CO_SrServiceBillingAutoTransfer9": {
+        "id": "CO_SrServiceBillingAutoTransfer9",
+        "conditionId": "CT_SrServiceBillingAutoTransfer",
+        "name": "Slu\u017eba se p\u0159en\u00e1\u0161\u00ed do billingu ru\u010dn\u011b",
+        "params": "{\"_result\":0}",
+        "top": "514",
+        "left": "1407"
+    },
+    "CO_SrServiceBillingAutoTransfer10": {
+        "id": "CO_SrServiceBillingAutoTransfer10",
+        "conditionId": "CT_SrServiceBillingAutoTransfer",
+        "name": "Slu\u017eba se p\u0159en\u00e1\u0161\u00ed do billingu automaticky",
+        "params": "",
+        "top": "514",
+        "left": "1631"
+    },
+    "CO_SrServiceIsTransferred4": {
+        "id": "CO_SrServiceIsTransferred4",
+        "conditionId": "CT_SrServiceIsTransfered",
+        "name": "Slu\u017eba ji\u017e byla p\u0159enesena",
+        "params": "{\"_result\":0}",
+        "top": "602",
+        "left": "1633"
+    }
+}

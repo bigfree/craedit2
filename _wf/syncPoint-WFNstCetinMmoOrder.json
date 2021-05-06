@@ -1,0 +1,20 @@
+{
+    "SP_SrTO2OrderOrder": {
+        "id": "SP_SrTO2OrderOrder",
+        "type": "A",
+        "name": "Objedn\u00e1vka ORDER CETIN",
+        "urgent": false,
+        "taskId": "TT_Automat",
+        "workplaceId": "WP_System",
+        "setupActionId": "SA_SrOhsOrderCreate",
+        "syncType": "NONE",
+        "term": "",
+        "termType": "day",
+        "params": "{\"orderType\":\"ORDER_MMO\"}",
+        "autofinishMessage": "",
+        "autoWorkOutAfterTerm": false,
+        "generateCancelOnGlobalCancel": false,
+        "top": "115",
+        "left": "25"
+    }
+}

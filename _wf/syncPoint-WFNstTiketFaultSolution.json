@@ -1,0 +1,20 @@
+{
+    "SP_UtFaultSolution": {
+        "id": "SP_UtFaultSolution",
+        "type": "A",
+        "name": "\u0158e\u0161en\u00ed poruchy",
+        "urgent": false,
+        "taskId": "TT_UtStandardTask",
+        "workplaceId": "WP_System",
+        "setupActionId": "undefined",
+        "syncType": "FULL",
+        "term": "",
+        "termType": "day",
+        "params": "",
+        "autofinishMessage": "",
+        "autoWorkOutAfterTerm": false,
+        "generateCancelOnGlobalCancel": false,
+        "top": "138",
+        "left": "57"
+    }
+}

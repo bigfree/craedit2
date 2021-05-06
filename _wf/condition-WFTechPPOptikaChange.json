@@ -1,0 +1,26 @@
+{
+    "CO_SrTechCheckRequired": {
+        "id": "CO_SrTechCheckRequired",
+        "conditionId": "CT_SrTechCheckRequired",
+        "name": "Po\u017eadov\u00e1na kontrola technologie",
+        "params": "",
+        "top": "635.75",
+        "left": "791"
+    },
+    "CO_SrTechCheckFailed": {
+        "id": "CO_SrTechCheckFailed",
+        "conditionId": "CT_SrTechCheckOK",
+        "name": "Kontrola technologie nen\u00ed v po\u0159\u00e1dku",
+        "params": "{\"_result\":0}",
+        "top": "850.75",
+        "left": "543"
+    },
+    "CO_SrInternalMotage": {
+        "id": "CO_SrInternalMotage",
+        "conditionId": "CT_SrIsMontageGroupCra",
+        "name": "Mont\u00e1\u017e je prov\u00e1d\u011bna intern\u011b",
+        "params": "",
+        "top": "419.75",
+        "left": "519"
+    }
+}

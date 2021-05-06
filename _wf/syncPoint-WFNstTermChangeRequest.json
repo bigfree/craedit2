@@ -1,0 +1,20 @@
+{
+    "SP_SrTermChangeRequest": {
+        "id": "SP_SrTermChangeRequest",
+        "type": "A",
+        "name": "Zm\u011bna po\u017eadovan\u00e9ho term\u00ednu realizace",
+        "urgent": false,
+        "taskId": "TT_SrAutomat",
+        "workplaceId": "WP_System",
+        "setupActionId": "undefined",
+        "syncType": "NONE",
+        "term": "",
+        "termType": "day",
+        "params": "",
+        "autofinishMessage": "",
+        "autoWorkOutAfterTerm": false,
+        "generateCancelOnGlobalCancel": false,
+        "top": "109",
+        "left": "48"
+    }
+}

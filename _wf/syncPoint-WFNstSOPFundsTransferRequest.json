@@ -1,0 +1,20 @@
+{
+    "SP_SrSOPFundsTransferRequest": {
+        "id": "SP_SrSOPFundsTransferRequest",
+        "type": "A",
+        "name": "P\u0159evod finan\u010dn\u00edch prost\u0159edk\u016f v r\u00e1mci SOP",
+        "urgent": false,
+        "taskId": "TT_SrAutomat",
+        "workplaceId": "WP_System",
+        "setupActionId": "undefined",
+        "syncType": "NONE",
+        "term": "",
+        "termType": "day",
+        "params": "",
+        "autofinishMessage": "",
+        "autoWorkOutAfterTerm": false,
+        "generateCancelOnGlobalCancel": false,
+        "top": "99",
+        "left": "62"
+    }
+}

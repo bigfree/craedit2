@@ -1,0 +1,66 @@
+{
+    "CO_SrDispatchMaterial": {
+        "id": "CO_SrDispatchMaterial",
+        "conditionId": "CT_SrDispatchMaterial",
+        "name": "Vyskladnit materi\u00e1l",
+        "params": "",
+        "top": 526,
+        "left": 1155
+    },
+    "CO_SrPosDispatchMaterial": {
+        "id": "CO_SrPosDispatchMaterial",
+        "conditionId": "CT_SrPosDispatchMaterial",
+        "name": "Dovyskladnit materi\u00e1l",
+        "params": "",
+        "top": 674,
+        "left": 1051
+    },
+    "CO_SrInternalMontage": {
+        "id": "CO_SrInternalMontage",
+        "conditionId": "CT_SrIsMontageGroupCra",
+        "name": "Mont\u00e1\u017e je prov\u00e1d\u011bna extern\u00ed firmou",
+        "params": "",
+        "top": 524.25,
+        "left": 933.25
+    },
+    "CO_SrTO2Accept": {
+        "id": "CO_SrTO2Accept",
+        "conditionId": "CT_SrTechTO2ManuallyAccepted",
+        "name": "P\u0159ijet\u00ed objedn\u00e1vky TO2 manu\u00e1ln\u011b",
+        "params": "",
+        "top": 376,
+        "left": 597
+    },
+    "CO_SrTO2OperationTypeOrderOrChange": {
+        "id": "CO_SrTO2OperationTypeOrderOrChange",
+        "conditionId": "CT_SrTechTO2OperationTypeOrderOrChange",
+        "name": "Operace typu Order nebo Change",
+        "params": "",
+        "top": 523,
+        "left": 273
+    },
+    "CO_SrTO2Reject": {
+        "id": "CO_SrTO2Reject",
+        "conditionId": "CT_SrTechTO2ManuallyAccepted",
+        "name": "Zam\u00edtnut\u00ed objedn\u00e1vky TO2 manu\u00e1ln\u011b",
+        "params": "{\"_result\":0}",
+        "top": 362,
+        "left": 1198
+    },
+    "CO_SrTO2OperationTypeOrderOrChange2": {
+        "id": "CO_SrTO2OperationTypeOrderOrChange2",
+        "conditionId": "CT_SrTechTO2OperationTypeOrderOrChange",
+        "name": "Operace typu Order nebo Change",
+        "params": "",
+        "top": 523.38330078125,
+        "left": 712.38330078125
+    },
+    "CO_SrTO2Accept2": {
+        "id": "CO_SrTO2Accept2",
+        "conditionId": "CT_SrTechTO2ManuallyAccepted",
+        "name": "Objedn\u00e1vka akceptov\u00e1na",
+        "params": "",
+        "top": 874.0333251953125,
+        "left": 385.0333251953125
+    }
+}

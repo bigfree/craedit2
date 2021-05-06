@@ -1,0 +1,38 @@
+{
+    "SP_SrProjectionSurvey": {
+        "id": "SP_SrProjectionSurvey",
+        "type": "M",
+        "name": "Pr\u016fzkum (\u0158EF)",
+        "urgent": false,
+        "taskId": "TT_SrProjectionSurvey",
+        "workplaceId": "WP_ExtPartnerManager",
+        "setupActionId": "undefined",
+        "syncType": "NONE",
+        "term": "5",
+        "termType": "work_day",
+        "params": "{\"_nestings\":[\"WFSurveyOnProjection\",\"WFSurveyExtPartner\"],\"connectionsPanel\":{\"type\":\"survey\",\"term\":432000,\"termErrorMessage\":\"Datum: minim\u00e1ln\u011b p\u011bt pracovn\u00edch dn\u00ed!\"},\"_suspensions\":[346,348,353,356,795]}",
+        "autofinishMessage": "",
+        "autoWorkOutAfterTerm": false,
+        "generateCancelOnGlobalCancel": false,
+        "top": "172",
+        "left": "120"
+    },
+    "SP_SrSurveyAccountManagerNotification": {
+        "id": "SP_SrSurveyAccountManagerNotification",
+        "type": "A",
+        "name": "Odesl\u00e1n\u00ed notifikace",
+        "urgent": false,
+        "taskId": "TT_SrAutomat",
+        "workplaceId": "WP_System",
+        "setupActionId": "undefined",
+        "syncType": "NONE",
+        "term": "1",
+        "termType": "hour",
+        "params": "",
+        "autofinishMessage": "",
+        "autoWorkOutAfterTerm": false,
+        "generateCancelOnGlobalCancel": false,
+        "top": "302",
+        "left": "210"
+    }
+}

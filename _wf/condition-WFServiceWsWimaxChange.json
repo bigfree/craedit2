@@ -1,0 +1,50 @@
+{
+    "CO_SrCpeConfigurationRequired": {
+        "id": "CO_SrCpeConfigurationRequired",
+        "conditionId": "CT_SrCpeConfigurationRequired",
+        "name": "Po\u017eadov\u00e1na konfigurace CPE",
+        "params": "",
+        "top": "960",
+        "left": "370"
+    },
+    "CO_SrIpAdressCount1": {
+        "id": "CO_SrIpAdressCount1",
+        "conditionId": "CT_SrIpAdressCount",
+        "name": "Po\u017eadovan\u00fd po\u010det IP adres 1-3",
+        "params": "{\"COUNT\":\"<4\"}",
+        "top": "792",
+        "left": "330"
+    },
+    "CO_SrIpAdressCount2": {
+        "id": "CO_SrIpAdressCount2",
+        "conditionId": "CT_SrIpAdressCount",
+        "name": "Po\u017eadovan\u00fd po\u010det IP adres 4+",
+        "params": "{\"COUNT\":\">3\"}",
+        "top": "787.9999952470703",
+        "left": "579.9999799882812"
+    },
+    "CO_SrCpeConfigurationRequired1": {
+        "id": "CO_SrCpeConfigurationRequired1",
+        "conditionId": "CT_SrCpeConfigurationRequired",
+        "name": "Po\u017eadov\u00e1na konfigurace CPE",
+        "params": "",
+        "top": "1083",
+        "left": "605"
+    },
+    "CO_SrPreCompletedByUser": {
+        "id": "CO_SrPreCompletedByUser",
+        "conditionId": "CT_CommonTaskPassedByUser",
+        "name": "Karta slu\u017eby nebyla p\u0159edvypln\u011bna",
+        "params": "{\"WFKP_KOD\":\"TA_SrPreCompleteServiceInformation\",\"_result\":0}",
+        "top": "377",
+        "left": "334"
+    },
+    "CO_SrCPEConfigurationPassedByUser": {
+        "id": "CO_SrCPEConfigurationPassedByUser",
+        "conditionId": "CT_CommonTaskPassedByUser",
+        "name": "P\u0159edkonfigrace CPE nebyla dod\u00e1na",
+        "params": "{\"WFKP_KOD\":\"TA_SrCpeConfiguration\",\"_result\":0}",
+        "top": "1151",
+        "left": "695"
+    }
+}

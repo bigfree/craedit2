@@ -1,0 +1,152 @@
+{
+    "CNc0gk6u7ytr": {
+        "id": "CNc0gk6u7ytr",
+        "from": "SP_SrOrder",
+        "to": "SP_SrFinalizedServiceParameters"
+    },
+    "CNrl1wrm8cxt": {
+        "id": "CNrl1wrm8cxt",
+        "from": "SP_SrFinalizedServiceParameters",
+        "to": "SP_SrNumberSAP"
+    },
+    "CNd2fnarami1": {
+        "id": "CNd2fnarami1",
+        "from": "SP_SrNumberSAP",
+        "to": "SP_SrCommision"
+    },
+    "CNlamlmbwxd1": {
+        "id": "CNlamlmbwxd1",
+        "from": "SP_SrCommision",
+        "to": "SP_SrInstallation"
+    },
+    "CNmgq909ylcl": {
+        "id": "CNmgq909ylcl",
+        "from": "SP_SrInstallation",
+        "to": "SP_PreConfigurationCompleted"
+    },
+    "CNywr45795u9": {
+        "id": "CNywr45795u9",
+        "from": "SP_PreConfigurationCompleted",
+        "to": "SP_SrTechnologyReady"
+    },
+    "CNnlx7bd621r": {
+        "id": "CNnlx7bd621r",
+        "from": "SP_SrTechnologyReady",
+        "to": "SP_SrDsFinished"
+    },
+    "CN474lmi9xao": {
+        "id": "CN474lmi9xao",
+        "from": "SP_SrDsFinished",
+        "to": "SP_SrDelivery"
+    },
+    "CNig927yh6ej": {
+        "id": "CNig927yh6ej",
+        "from": "SP_SrDelivery",
+        "to": "SP_SrFinish"
+    },
+    "CN4yywfg326r": {
+        "id": "CN4yywfg326r",
+        "from": "SP_SrFinish",
+        "to": "SP_SrEndPoint"
+    },
+    "CNcrbcezade4": {
+        "id": "CNcrbcezade4",
+        "from": "TA_SrCompleteServiceInformation1",
+        "to": "TA_SrNpChangeFlowRequest"
+    },
+    "CNmbojkacp47": {
+        "id": "CNmbojkacp47",
+        "from": "SP_PreConfigurationCompleted",
+        "to": "TA_SrNpAcceptation"
+    },
+    "CN17dz19o9ju": {
+        "id": "CN17dz19o9ju",
+        "from": "TA_SrNpAcceptation",
+        "to": "TA_SrNpActivated"
+    },
+    "CNgv6k83ku7o": {
+        "id": "CNgv6k83ku7o",
+        "from": "SP_SrDemand",
+        "to": "SP_SrSurvey"
+    },
+    "CNej93v9rh35": {
+        "id": "CNej93v9rh35",
+        "from": "SP_SrSurvey",
+        "to": "SP_SrOffer"
+    },
+    "CNydqgu25l9l": {
+        "id": "CNydqgu25l9l",
+        "from": "SP_SrOffer",
+        "to": "SP_SrOrder"
+    },
+    "CNua5nlmthhs": {
+        "id": "CNua5nlmthhs",
+        "from": "TA_SrNpProcessing",
+        "to": "TA_SrServiceUnhideTask"
+    },
+    "CNi5a20i87pt": {
+        "id": "CNi5a20i87pt",
+        "from": "TA_SrNpActivated",
+        "to": "TA_SrNpChangeFlowRequestCancel"
+    },
+    "CNe32ipd6250": {
+        "id": "CNe32ipd6250",
+        "from": "SP_SrCommision",
+        "to": "TA_SrCompleteServiceInformation1"
+    },
+    "CNp7z15g7oei": {
+        "id": "CNp7z15g7oei",
+        "from": "TA_SrCompleteServiceInformation1",
+        "to": "TA_SrNpProcessing"
+    },
+    "CNcnm5suzn5o": {
+        "id": "CNcnm5suzn5o",
+        "from": "SP_SrDemand",
+        "to": "TA_SrSetStornoMode"
+    },
+    "CN7nek57wkv1": {
+        "id": "CN7nek57wkv1",
+        "from": "SP_SrDelivery",
+        "to": "TA_SrNewStornoDisable"
+    },
+    "CNbrmpbh7whl": {
+        "id": "CNbrmpbh7whl",
+        "from": "TA_SrCompleteServiceInformation1",
+        "to": "CO_SrNPNotifyTechContact2"
+    },
+    "CNyeldcbwn40": {
+        "id": "CNyeldcbwn40",
+        "from": "CO_SrNPNotifyTechContact2",
+        "to": "TA_SrNPNotifyTechContact2"
+    },
+    "CNnsjb79zyec": {
+        "id": "CNnsjb79zyec",
+        "from": "SP_SrDelivery",
+        "to": "TA_SrServiceCompletionInit"
+    },
+    "CNiclzlmplpm": {
+        "id": "CNiclzlmplpm",
+        "from": "TA_SrCompleteServiceInformation1",
+        "to": "TA_SrNpEnsure"
+    },
+    "CNw3lwrza6a8": {
+        "id": "CNw3lwrza6a8",
+        "from": "SP_SrDelivery",
+        "to": "CO_SrInternalMontage"
+    },
+    "CNrr85qxotfc": {
+        "id": "CNrr85qxotfc",
+        "from": "CO_SrInternalMontage",
+        "to": "TA_SrMontage"
+    },
+    "CN8z52hk7lfu": {
+        "id": "CN8z52hk7lfu",
+        "from": "TA_SrNpActivated",
+        "to": "TA_SrBillingActivatedCliTransfer"
+    },
+    "CNhtoqxi0kew": {
+        "id": "CNhtoqxi0kew",
+        "from": "TA_SrMontage",
+        "to": "TA_SrMontageTakeover"
+    }
+}

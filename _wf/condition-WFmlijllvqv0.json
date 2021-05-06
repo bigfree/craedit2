@@ -1,0 +1,26 @@
+{
+    "CO_SrPosDispatchMaterial": {
+        "id": "CO_SrPosDispatchMaterial",
+        "conditionId": "CT_SrPosDispatchMaterial",
+        "name": "Dovyskladnit materi\u00e1l",
+        "params": "",
+        "top": "286",
+        "left": "344"
+    },
+    "CO_SrOneStepWf": {
+        "id": "CO_SrOneStepWf",
+        "conditionId": "CT_SrOneStepWF",
+        "name": "Jedn\u00e1 se o jednokrokov\u00e9 workflow",
+        "params": "",
+        "top": "504",
+        "left": "128"
+    },
+    "CO_SrNotOneStepWf": {
+        "id": "CO_SrNotOneStepWf",
+        "conditionId": "CT_SrOneStepWF",
+        "name": "V\u00edcekrokov\u00e9 worflow",
+        "params": "{\"_result\":0}",
+        "top": "459",
+        "left": "192"
+    }
+}

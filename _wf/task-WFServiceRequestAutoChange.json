@@ -1,0 +1,102 @@
+{
+    "TA_SrCompleteDemandInformation": {
+        "id": "TA_SrCompleteDemandInformation",
+        "type": "M",
+        "name": "Vypln\u011bn\u00ed popt\u00e1vky",
+        "canMerge": false,
+        "taskId": "TT_SrInsertDemand",
+        "workplaceId": "WP_InternalSales",
+        "setupActionId": "SA_SrAutoTakeIAMTasks",
+        "term": "",
+        "termType": "day",
+        "nestedWorkflow": {
+            "0": ""
+        },
+        "canRedo": false,
+        "notSendEmail": false,
+        "urgent": false,
+        "outOfWorkFlow": true,
+        "params": "",
+        "autofinishMessage": "",
+        "autoWorkOutAfterTerm": false,
+        "generateCancelOnGlobalCancel": false,
+        "disableControls": false,
+        "top": "187",
+        "left": "309"
+    },
+    "TA_SrNotificationWorkflowFinished": {
+        "id": "TA_SrNotificationWorkflowFinished",
+        "type": "A",
+        "name": "Notifikace o mo\u017enosti zalo\u017een\u00ed bo\u010dn\u00ed smy\u010dky",
+        "canMerge": false,
+        "taskId": "TT_SrNotificationWorkflowFinished",
+        "workplaceId": "WP_System",
+        "setupActionId": "undefined",
+        "term": "",
+        "termType": "day",
+        "nestedWorkflow": {
+            "0": ""
+        },
+        "canRedo": false,
+        "notSendEmail": false,
+        "urgent": false,
+        "outOfWorkFlow": false,
+        "params": "",
+        "autofinishMessage": "",
+        "autoWorkOutAfterTerm": false,
+        "generateCancelOnGlobalCancel": false,
+        "disableControls": false,
+        "top": "1033",
+        "left": "306"
+    },
+    "TA_SrCheckData": {
+        "id": "TA_SrCheckData",
+        "type": "A",
+        "name": "Kontrola konzistence dat",
+        "canMerge": false,
+        "taskId": "TTtfxn1g5vye",
+        "workplaceId": "WP_System",
+        "setupActionId": "undefined",
+        "term": "",
+        "termType": "day",
+        "nestedWorkflow": {
+            "0": ""
+        },
+        "canRedo": false,
+        "notSendEmail": false,
+        "urgent": false,
+        "outOfWorkFlow": false,
+        "params": "",
+        "autofinishMessage": "",
+        "autoWorkOutAfterTerm": false,
+        "generateCancelOnGlobalCancel": false,
+        "disableControls": false,
+        "top": "1034",
+        "left": "554"
+    },
+    "TA_SrCompleteChangeRequest": {
+        "id": "TA_SrCompleteChangeRequest",
+        "type": "A",
+        "name": "Dokon\u010den\u00ed zm\u011bny obchodn\u00edho p\u0159\u00edpadu",
+        "canMerge": false,
+        "taskId": "TT_SrCompleteChangeRequest",
+        "workplaceId": "WP_System",
+        "setupActionId": "undefined",
+        "term": "1",
+        "termType": "hour",
+        "nestedWorkflow": {
+            "0": ""
+        },
+        "canRedo": false,
+        "notSendEmail": false,
+        "urgent": false,
+        "outOfWorkFlow": false,
+        "params": "",
+        "autofinishMessage": "",
+        "autoWorkOutAfterTerm": false,
+        "generateCancelOnGlobalCancel": false,
+        "disableControls": false,
+        "top": "1033",
+        "left": "804"
+    }
+}

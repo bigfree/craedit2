@@ -1,0 +1,57 @@
+{
+    "CNp2mblajrce": {
+        "id": "CNp2mblajrce",
+        "from": "SP_SrServiceCompleationProcess",
+        "to": "CO_SrServiceCustomerTakeover1"
+    },
+    "CNz9117gnlj2": {
+        "id": "CNz9117gnlj2",
+        "from": "CO_SrServiceCustomerTakeover1",
+        "to": "CO_SrServiceCustomerAutoTakeover1"
+    },
+    "CNw48lalpnto": {
+        "id": "CNw48lalpnto",
+        "from": "CO_SrServiceCustomerTakeover1",
+        "to": "CO_SrServiceCustomerAutoTakeover2"
+    },
+    "CNhsuhhiyzie": {
+        "id": "CNhsuhhiyzie",
+        "from": "SP_SrServiceCompleationProcess",
+        "to": "CO_SrServiceCustomerTakeover2"
+    },
+    "CN1orv02uqlp": {
+        "id": "CN1orv02uqlp",
+        "from": "CO_SrServiceCustomerAutoTakeover1",
+        "to": "TA_SrServiceDelivery2"
+    },
+    "CNjy4q3tfwzv": {
+        "id": "CNjy4q3tfwzv",
+        "from": "CO_SrServiceCustomerAutoTakeover2",
+        "to": "TA_SrServiceDelivery3"
+    },
+    "CNbul9th1kps": {
+        "id": "CNbul9th1kps",
+        "from": "CO_SrServiceCustomerTakeover2",
+        "to": "TA_SrSeCompleteChangeRequest1"
+    },
+    "CN2tifksv3g2": {
+        "id": "CN2tifksv3g2",
+        "from": "TA_SrServiceDelivery2",
+        "to": "TA_SrSeCompleteChangeRequest2"
+    },
+    "CNzr8228lnlf": {
+        "id": "CNzr8228lnlf",
+        "from": "TA_SrServiceDelivery3",
+        "to": "TA_SrSeCompleteChangeRequest3"
+    },
+    "CNauyxi6rele": {
+        "id": "CNauyxi6rele",
+        "from": "TA_SrServiceDelivery3",
+        "to": "TA_SrSendCompleationCertificate1"
+    },
+    "CN2opj4pje0y": {
+        "id": "CN2opj4pje0y",
+        "from": "TA_SrServiceDelivery2",
+        "to": "TA_SrSendCompleationCertificate2"
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "TA_SrPortReservation": {
+        "id": "TA_SrPortReservation",
+        "type": "M",
+        "name": "P\u0159id\u011blen\u00ed SDH port\u016f  pro v\u00fdstavbu",
+        "canMerge": false,
+        "taskId": "TT_SrServiceConfiguration",
+        "workplaceId": "WP_ConfigurationSdh",
+        "setupActionId": "SA_CommonNewTaskNotifyCustom",
+        "term": "2",
+        "termType": "work_day",
+        "nestedWorkflow": null,
+        "canRedo": false,
+        "notSendEmail": false,
+        "urgent": false,
+        "outOfWorkFlow": false,
+        "params": "{\"recipients\":[\"porty_SDH@radiokomunikace.cz\"]}",
+        "autofinishMessage": "",
+        "autoWorkOutAfterTerm": false,
+        "generateCancelOnGlobalCancel": false,
+        "disableControls": false,
+        "top": "132",
+        "left": "258"
+    },
+    "TA_CircuitCompleteNotification": {
+        "id": "TA_CircuitCompleteNotification",
+        "type": "A",
+        "name": "Odesl\u00e1n\u00ed notifikace o v\u00fdsledku spoje",
+        "canMerge": false,
+        "taskId": "TT_SrCircuitCompleteNotify",
+        "workplaceId": "WP_System",
+        "setupActionId": "undefined",
+        "term": "",
+        "termType": "day",
+        "nestedWorkflow": {
+            "0": ""
+        },
+        "canRedo": false,
+        "notSendEmail": false,
+        "urgent": false,
+        "outOfWorkFlow": false,
+        "params": "{\"WFKP_KOD\":\"TA_SrPortReservation\"}",
+        "autofinishMessage": "",
+        "autoWorkOutAfterTerm": false,
+        "generateCancelOnGlobalCancel": false,
+        "disableControls": false,
+        "top": "223",
+        "left": "333"
+    }
+}

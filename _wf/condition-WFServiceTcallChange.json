@@ -1,0 +1,34 @@
+{
+    "CO_SrPreCompletedByUser": {
+        "id": "CO_SrPreCompletedByUser",
+        "conditionId": "CT_CommonTaskPassedByUser",
+        "name": "Karta slu\u017eby nebyla p\u0159edvypln\u011bna",
+        "params": "{\"WFKP_KOD\":\"TA_SrPreCompleteServiceInformation\",\"_result\":0}",
+        "top": "396",
+        "left": "319"
+    },
+    "CO_SrNumberAttributes5": {
+        "id": "CO_SrNumberAttributes5",
+        "conditionId": "CT_SrNumberAttribute",
+        "name": "Provozovatel je 224 nebo 888, Vlastn\u00edk je 224",
+        "params": "{\"OPE_ID_P\":[224,888],\"OPE_ID_V\":[224]}",
+        "top": "1046",
+        "left": "860"
+    },
+    "CO_SrNumberAttributes6": {
+        "id": "CO_SrNumberAttributes6",
+        "conditionId": "CT_SrNumberAttribute",
+        "name": "Provozovatel je 224 nebo 888, Vlastn\u00edk nen\u00ed 224",
+        "params": "{\"OPE_ID_P\":[224,888],\"OPE_ID_V!\":[224]}",
+        "top": "1045",
+        "left": "1092"
+    },
+    "CO_SrNumberAttributes7": {
+        "id": "CO_SrNumberAttributes7",
+        "conditionId": "CT_SrNumberAttribute",
+        "name": "Provozovatel je 888",
+        "params": "{\"OPE_ID_P\":[888]}",
+        "top": "1187",
+        "left": "859"
+    }
+}

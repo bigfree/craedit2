@@ -1,0 +1,138 @@
+{
+    "CO_SrExchacgeSoftswitch": {
+        "id": "CO_SrExchacgeSoftswitch",
+        "conditionId": "CT_SrNumberExchangeType",
+        "name": "\u00dast\u0159edna Softswitch",
+        "params": "{\"EXCH_TYP\":0}",
+        "top": "707",
+        "left": "334"
+    },
+    "CO_SrExchacgeEwsd": {
+        "id": "CO_SrExchacgeEwsd",
+        "conditionId": "CT_SrNumberExchangeType",
+        "name": "\u00dast\u0159edna EWSD",
+        "params": "{\"EXCH_TYP\":1}",
+        "top": "692",
+        "left": "597"
+    },
+    "CO_SrWsServiceOwnNumbers": {
+        "id": "CO_SrWsServiceOwnNumbers",
+        "conditionId": "CT_SrWsServiceOwnNumbers",
+        "name": "Nen\u00ed WS slu\u017eba s vlastn\u00edmi \u010d\u00edsly",
+        "params": "{\"_result\":0}",
+        "top": "859",
+        "left": "521"
+    },
+    "CO_SrNumberAttributes1": {
+        "id": "CO_SrNumberAttributes1",
+        "conditionId": "CT_SrNumberAttribute",
+        "name": "Provozovatel \u010d\u00edsla je 230, 224, nebo 888",
+        "params": "{\"OPE_ID_P\":[230, 224, 888]}",
+        "top": "935",
+        "left": "614"
+    },
+    "CO_SrNumberExternalLocation": {
+        "id": "CO_SrNumberExternalLocation",
+        "conditionId": "CT_SrNumberExternalLocation",
+        "name": "\u010c\u00edslo um\u00edst\u011bno jinde",
+        "params": "",
+        "top": "1015",
+        "left": "702"
+    },
+    "CO_SrNumberAttributes2": {
+        "id": "CO_SrNumberAttributes2",
+        "conditionId": "CT_SrNumberAttribute",
+        "name": "Vlastn\u00edk i provozovatel jin\u00fd ne\u017e 230",
+        "params": "{\"OPE_ID_V\":[230],\"OPE_ID_P\":[230],\"_result\":0}",
+        "top": "1100",
+        "left": "791"
+    },
+    "CO_SrNumberAttributes3": {
+        "id": "CO_SrNumberAttributes3",
+        "conditionId": "CT_SrNumberAttribute",
+        "name": "Provozovatel je 230 a vlastn\u00edk jin\u00fd ne\u017e 230",
+        "params": "{\"OPE_ID_P\":[230],\"OPE_ID_V!\":[230]}",
+        "top": "1187",
+        "left": "630"
+    },
+    "CO_SrNumberAttributes4": {
+        "id": "CO_SrNumberAttributes4",
+        "conditionId": "CT_SrIpAdressCount",
+        "name": "Neplat\u00ed: Provozovatel je 230 a vlastn\u00edk jin\u00fd ne\u017e 230",
+        "params": "{\"OPE_ID_P\":[230],\"OPE_ID_V!\":[230],\"_result\":0}",
+        "top": "1184",
+        "left": "987"
+    },
+    "CO_SrNumberAttributes5": {
+        "id": "CO_SrNumberAttributes5",
+        "conditionId": "CT_SrNumberAttribute",
+        "name": "Provozovatel je 224",
+        "params": "{\"OPE_ID_P\":[224]}",
+        "top": "1266",
+        "left": "1119"
+    },
+    "CO_SrNumberAttributes6": {
+        "id": "CO_SrNumberAttributes6",
+        "conditionId": "CT_SrNumberAttribute",
+        "name": "Provozovatel nen\u00ed 224",
+        "params": "{\"OPE_ID_P\":[224],\"_result\":0}",
+        "top": "1265",
+        "left": "853"
+    },
+    "CO_SrNumberAttributes7": {
+        "id": "CO_SrNumberAttributes7",
+        "conditionId": "CT_SrNumberAttribute",
+        "name": "Provozovatel \u010d\u00edsla je 230, 224, nebo 888",
+        "params": "{\"OPE_ID_P\":[230, 224, 888]}",
+        "top": "856",
+        "left": "773"
+    },
+    "CO_SrNumberExternalLocation2": {
+        "id": "CO_SrNumberExternalLocation2",
+        "conditionId": "CT_SrNumberExternalLocation",
+        "name": "\u010c\u00edslo um\u00edst\u011bno jinde",
+        "params": "",
+        "top": "936",
+        "left": "862"
+    },
+    "CO_SrNumberAttributes8": {
+        "id": "CO_SrNumberAttributes8",
+        "conditionId": "CT_SrNumberAttribute",
+        "name": "Vlastn\u00edk i provozovatel jin\u00fd ne\u017e 230",
+        "params": "{\"OPE_ID_V\":[230],\"OPE_ID_P\":[230],\"_result\":0}",
+        "top": "1010",
+        "left": "953"
+    },
+    "CO_SrNumberAttributes9": {
+        "id": "CO_SrNumberAttributes9",
+        "conditionId": "CT_SrNumberAttribute",
+        "name": "Provozovatel je 230 a vlastn\u00edk jin\u00fd ne\u017e 230",
+        "params": "{\"OPE_ID_P\":[230],\"OPE_ID_V!\":[230]}",
+        "top": "1099",
+        "left": "1046"
+    },
+    "CO_SrNumberAttributes10": {
+        "id": "CO_SrNumberAttributes10",
+        "conditionId": "CT_SrNumberAttribute",
+        "name": "Neplat\u00ed: Provozovatel je 230 a vlastn\u00edk jin\u00fd ne\u017e 230",
+        "params": "{\"OPE_ID_P\":[230],\"OPE_ID_V!\":[230],\"_result\":0}",
+        "top": "1041",
+        "left": "1510"
+    },
+    "CO_SrNumberAttributes11": {
+        "id": "CO_SrNumberAttributes11",
+        "conditionId": "CT_SrNumberAttribute",
+        "name": "Provozovatel je 224",
+        "params": "{\"OPE_ID_P\":[224]}",
+        "top": "1120",
+        "left": "1379"
+    },
+    "CO_SrNumberAttributes12": {
+        "id": "CO_SrNumberAttributes12",
+        "conditionId": "CT_SrNumberAttribute",
+        "name": "Provozovatel nen\u00ed 224",
+        "params": "{\"OPE_ID_P\":[224],\"_result\":0}",
+        "top": "1115",
+        "left": "1654"
+    }
+}

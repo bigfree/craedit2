@@ -1,0 +1,92 @@
+{
+    "CN4hnilarh9g": {
+        "id": "CN4hnilarh9g",
+        "from": "CO_UtServiceIsSuspended1",
+        "to": "TA_UtSuspend"
+    },
+    "CNss0rxl8gvm": {
+        "id": "CNss0rxl8gvm",
+        "from": "SP_UtResume",
+        "to": "SP_UtResumeFinish"
+    },
+    "CNtrlx1rhhhr": {
+        "id": "CNtrlx1rhhhr",
+        "from": "SP_UtSuspend",
+        "to": "SP_UtSuspendFinish"
+    },
+    "CNklbe6y91n9": {
+        "id": "CNklbe6y91n9",
+        "from": "SP_UtResumeFinish",
+        "to": "TA_UtResumeNotification"
+    },
+    "CNrmyxnj6fhi": {
+        "id": "CNrmyxnj6fhi",
+        "from": "SP_UtSuspendFinish",
+        "to": "CO_UtNoServiceCeaseRequest1"
+    },
+    "CNu4cl6xzuvb": {
+        "id": "CNu4cl6xzuvb",
+        "from": "CO_UtNoServiceCeaseRequest1",
+        "to": "SP_UtResume"
+    },
+    "CNbfcnin0zoi": {
+        "id": "CNbfcnin0zoi",
+        "from": "TA_UtResumeConfirm",
+        "to": "CO_UtServiceCeaseRequest"
+    },
+    "CNc24jmbfy6r": {
+        "id": "CNc24jmbfy6r",
+        "from": "CO_UtServiceCeaseRequest",
+        "to": "TA_UtServiceCease"
+    },
+    "CNq58huzyd0x": {
+        "id": "CNq58huzyd0x",
+        "from": "CO_UtServiceIsSuspended1",
+        "to": "TA_UtSuspendRequestNotification"
+    },
+    "CNsoj7fje342": {
+        "id": "CNsoj7fje342",
+        "from": "CO_UtServiceIsSuspended2",
+        "to": "TA_UtSuspendNotification"
+    },
+    "CNlzd5t6a53n": {
+        "id": "CNlzd5t6a53n",
+        "from": "CO_UtNoServiceCeaseRequest2",
+        "to": "TA_UtResumeConfirm"
+    },
+    "CN1yjmv6lic8": {
+        "id": "CN1yjmv6lic8",
+        "from": "SP_UtSuspendFinish",
+        "to": "CO_UtServiceSuspendConfirmed"
+    },
+    "CN8gq38p1sn2": {
+        "id": "CN8gq38p1sn2",
+        "from": "CO_UtServiceSuspendConfirmed",
+        "to": "CO_UtServiceIsSuspended2"
+    },
+    "CN30h26iq77p": {
+        "id": "CN30h26iq77p",
+        "from": "CO_UtServiceSuspendConfirmed",
+        "to": "CO_UtNoServiceCeaseRequest2"
+    },
+    "CNc3k7s00tbx": {
+        "id": "CNc3k7s00tbx",
+        "from": "SP_UtResume",
+        "to": "CO_UtServiceResumed"
+    },
+    "CNpq4r8dw9qm": {
+        "id": "CNpq4r8dw9qm",
+        "from": "CO_UtServiceResumed",
+        "to": "TA_UtResumeAwc"
+    },
+    "CN5r0r3le6e2": {
+        "id": "CN5r0r3le6e2",
+        "from": "SP_UtSuspend",
+        "to": "TA_UtCopyPropertiesFromSuspendGroup"
+    },
+    "CNjm5iz1xw43": {
+        "id": "CNjm5iz1xw43",
+        "from": "TA_UtCopyPropertiesFromSuspendGroup",
+        "to": "CO_UtServiceIsSuspended1"
+    }
+}

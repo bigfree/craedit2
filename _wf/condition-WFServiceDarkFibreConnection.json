@@ -1,0 +1,10 @@
+{
+    "CO_SrCpeConfigurationRequired": {
+        "id": "CO_SrCpeConfigurationRequired",
+        "conditionId": "CT_SrCpeConfigurationRequired",
+        "name": "Po\u017eadov\u00e1na konfigurace CPE",
+        "params": "",
+        "top": "536",
+        "left": "480"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "CNjz0wm8x6g6": {
+        "id": "CNjz0wm8x6g6",
+        "from": "SP_SrPartnerSurvey",
+        "to": "TA_SrSurveyPartnerSelect"
+    },
+    "CNpob45fpxp9": {
+        "id": "CNpob45fpxp9",
+        "from": "TA_SrSurveyPartnerSelect",
+        "to": "TA_SrPartnerSurvey"
+    },
+    "CN5xtekt8rt0": {
+        "id": "CN5xtekt8rt0",
+        "from": "SP_SrPartnerSurvey",
+        "to": "SP_SrSurveyAccountManagerNotification"
+    },
+    "CNqtvybn03qu": {
+        "id": "CNqtvybn03qu",
+        "from": "SP_SrSurveyAccountManagerNotification",
+        "to": "TA_SrSurveyAccountManagerNotification"
+    },
+    "CN5m7pfld40t": {
+        "id": "CN5m7pfld40t",
+        "from": "TA_SrSurveyPartnerSelect",
+        "to": "TA_SrNotifyExternalCompany"
+    }
+}

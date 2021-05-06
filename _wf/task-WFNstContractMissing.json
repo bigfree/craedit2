@@ -1,0 +1,25 @@
+{
+    "TA_SrContractMissing": {
+        "id": "TA_SrContractMissing",
+        "type": "M",
+        "name": "Dod\u00e1n\u00ed smluvn\u00edch dokument\u016f",
+        "canMerge": false,
+        "taskId": "TT_SrStandardTask",
+        "workplaceId": "WP_InternalSales",
+        "setupActionId": "SA_SrSetAccountManagerWorkplace",
+        "term": "3",
+        "termType": "work_day",
+        "nestedWorkflow": null,
+        "canRedo": false,
+        "notSendEmail": false,
+        "urgent": false,
+        "outOfWorkFlow": false,
+        "params": "",
+        "autofinishMessage": "",
+        "autoWorkOutAfterTerm": false,
+        "generateCancelOnGlobalCancel": false,
+        "disableControls": false,
+        "top": "132",
+        "left": "257"
+    }
+}

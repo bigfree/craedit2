@@ -1,0 +1,18 @@
+{
+    "CO_StTechNoTSWimax": {
+        "id": "CO_StTechNoTSWimax",
+        "conditionId": "CT_SrNoTSWimax",
+        "name": "N\u011bco jin\u00e9ho ne\u017e Wimax bez TS od \u010cRa",
+        "params": "",
+        "top": "220",
+        "left": "289"
+    },
+    "CO_SrInternalMotage": {
+        "id": "CO_SrInternalMotage",
+        "conditionId": "CT_SrIsMontageGroupCra",
+        "name": "Mont\u00e1\u017e je prov\u00e1d\u011bna intern\u011b",
+        "params": "",
+        "top": "317",
+        "left": "621"
+    }
+}

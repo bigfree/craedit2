@@ -1,0 +1,26 @@
+{
+    "SP_StornoNotifications": {
+        "id": "SP_StornoNotifications",
+        "type": "A",
+        "name": "Notifikace o stornu",
+        "urgent": false,
+        "taskId": "TT_Automat",
+        "workplaceId": "WP_System",
+        "setupActionId": "undefined",
+        "params": "",
+        "top": "100",
+        "left": "22"
+    },
+    "SP_StornoAll": {
+        "id": "SP_StornoAll",
+        "type": "A",
+        "name": "Vlastn\u00ed stornov\u00e1n\u00ed",
+        "urgent": false,
+        "taskId": "TT_Automat",
+        "workplaceId": "WP_System",
+        "setupActionId": "undefined",
+        "params": "",
+        "top": "474",
+        "left": "20"
+    }
+}

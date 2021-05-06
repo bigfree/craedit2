@@ -1,0 +1,38 @@
+{
+    "SP_SrSurveyAccountManagerNotification": {
+        "id": "SP_SrSurveyAccountManagerNotification",
+        "type": "A",
+        "name": "Odesl\u00e1n\u00ed notifikace",
+        "urgent": false,
+        "taskId": "TT_SrAutomat",
+        "workplaceId": "WP_System",
+        "setupActionId": "undefined",
+        "syncType": "NONE",
+        "term": "1",
+        "termType": "hour",
+        "params": "",
+        "autofinishMessage": "",
+        "autoWorkOutAfterTerm": false,
+        "generateCancelOnGlobalCancel": false,
+        "top": "129",
+        "left": "298"
+    },
+    "SP_SrCheckCloud": {
+        "id": "SP_SrCheckCloud",
+        "type": "A",
+        "name": "Pr\u016fzkum (CLOUD)",
+        "urgent": false,
+        "taskId": "TT_Automat",
+        "workplaceId": "WP_System",
+        "setupActionId": "undefined",
+        "syncType": "NONE",
+        "term": "2",
+        "termType": "work_day",
+        "params": "",
+        "autofinishMessage": "",
+        "autoWorkOutAfterTerm": false,
+        "generateCancelOnGlobalCancel": false,
+        "top": "101",
+        "left": "44"
+    }
+}

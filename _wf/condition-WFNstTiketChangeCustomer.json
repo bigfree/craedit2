@@ -1,0 +1,18 @@
+{
+    "CO_UtCheckCustomerTransferNeeded": {
+        "id": "CO_UtCheckCustomerTransferNeeded",
+        "conditionId": "CT_UtCheckCustomerTransfer",
+        "name": "Je pot\u0159eba zkontrolovat p\u0159enos z\u00e1kazn\u00edka",
+        "params": "",
+        "top": "429.015625",
+        "left": "832.015625"
+    },
+    "CO_UtCheckCustomerNameChangeNeeded": {
+        "id": "CO_UtCheckCustomerNameChangeNeeded",
+        "conditionId": "CT_UtCheckCustomerNameChange",
+        "name": "Je pot\u0159eba zkontrolovat zm\u011bnu n\u00e1zvu z\u00e1kazn\u00edka",
+        "params": "",
+        "top": "596",
+        "left": "474"
+    }
+}

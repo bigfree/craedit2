@@ -1,0 +1,22 @@
+{
+    "CNwnxyinzce5": {
+        "id": "CNwnxyinzce5",
+        "from": "SP_SrSeMigCreate",
+        "to": "TA_SrSeMigCreate"
+    },
+    "CNpdx3ghc7vo": {
+        "id": "CNpdx3ghc7vo",
+        "from": "TA_SrSeMigCreate",
+        "to": "TA_SrSeMigInvoice"
+    },
+    "CNgofr8ccde8": {
+        "id": "CNgofr8ccde8",
+        "from": "TA_SrSeMigInvoice",
+        "to": "TA_SrSeMigControlling"
+    },
+    "CNlnl4pz2v0b": {
+        "id": "CNlnl4pz2v0b",
+        "from": "SP_SrSeMigCreate",
+        "to": "SP_SrEndPoint"
+    }
+}

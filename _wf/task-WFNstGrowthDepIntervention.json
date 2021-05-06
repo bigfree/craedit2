@@ -1,0 +1,25 @@
+{
+    "TA_SrHousingIntervention": {
+        "id": "TA_SrHousingIntervention",
+        "type": "M",
+        "name": "Fyzick\u00fd z\u00e1sah na housing",
+        "canMerge": false,
+        "taskId": "TT_SrCompleteServiceInformation",
+        "workplaceId": "WP_ServiceManager",
+        "setupActionId": "undefined",
+        "term": "",
+        "termType": "day",
+        "nestedWorkflow": null,
+        "canRedo": false,
+        "notSendEmail": false,
+        "urgent": false,
+        "outOfWorkFlow": false,
+        "params": "",
+        "autofinishMessage": "",
+        "autoWorkOutAfterTerm": false,
+        "generateCancelOnGlobalCancel": false,
+        "disableControls": false,
+        "top": "137",
+        "left": "268"
+    }
+}

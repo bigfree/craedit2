@@ -1,0 +1,20 @@
+{
+    "SP_SrTechDocumentationMissing": {
+        "id": "SP_SrTechDocumentationMissing",
+        "type": "A",
+        "name": "\u017d\u00e1dost o dopln\u011bn\u00ed technick\u00fdch parametr\u016f slu\u017eby",
+        "urgent": false,
+        "taskId": "TT_Automat",
+        "workplaceId": "WP_System",
+        "setupActionId": "undefined",
+        "syncType": "NONE",
+        "term": "1",
+        "termType": "work_day",
+        "params": "",
+        "autofinishMessage": "",
+        "autoWorkOutAfterTerm": false,
+        "generateCancelOnGlobalCancel": false,
+        "top": "100",
+        "left": "10"
+    }
+}

@@ -1,0 +1,98 @@
+{
+    "CO_BcNewReject6": {
+        "id": "CO_BcNewReject6",
+        "conditionId": "CT_BcRejected",
+        "name": "BusinessCase byl schv\u00e1len",
+        "params": "{\"_result\":0}",
+        "top": "448",
+        "left": "17"
+    },
+    "CO_BcNewReject7": {
+        "id": "CO_BcNewReject7",
+        "conditionId": "CT_BcRejected",
+        "name": "BusinessCase byl zam\u00edtnut",
+        "params": "",
+        "top": "804",
+        "left": "20"
+    },
+    "CO_BcGenerated": {
+        "id": "CO_BcGenerated",
+        "conditionId": "CT_BcGenerated",
+        "name": "Generovan\u00fd BC",
+        "params": "",
+        "top": "250",
+        "left": "397"
+    },
+    "CO_PriceGrMinPrice": {
+        "id": "CO_PriceGrMinPrice",
+        "conditionId": "CT_PriceGrMinPrice",
+        "name": "Prod cena >= min prod cena",
+        "params": "",
+        "top": "298",
+        "left": "496"
+    },
+    "CO_PriceGrMinPrice1": {
+        "id": "CO_PriceGrMinPrice1",
+        "conditionId": "CT_PriceGrMinPrice",
+        "name": "Prod cena < min prod cena",
+        "params": "{\"_result\":0}",
+        "top": "438",
+        "left": "498"
+    },
+    "CO_PriceSmMinPriceCon1": {
+        "id": "CO_PriceSmMinPriceCon1",
+        "conditionId": "CT_PriceSmMinPriceCon1",
+        "name": "Prod cena < 100% min prod cena",
+        "params": "",
+        "top": "502",
+        "left": "582"
+    },
+    "CO_PriceSmMinPriceCon2": {
+        "id": "CO_PriceSmMinPriceCon2",
+        "conditionId": "CT_PriceSmMinPriceCon2",
+        "name": "Prod cena < 95% min prod cena",
+        "params": "",
+        "top": "501",
+        "left": "804"
+    },
+    "CO_PriceSmMinPriceCon3": {
+        "id": "CO_PriceSmMinPriceCon3",
+        "conditionId": "CT_PriceSmMinPriceCon3",
+        "name": "Individu\u00e1ln\u00ed cen\u00edk, ru\u010dn\u00ed BC, cena < 95%",
+        "params": "",
+        "top": "504",
+        "left": "1049"
+    },
+    "CO_IndividualPriceList": {
+        "id": "CO_IndividualPriceList",
+        "conditionId": "CT_BcGenerated",
+        "name": "Individu\u00e1ln\u00ed cen\u00edk, Ru\u010dn\u00ed BC",
+        "params": "{\"_result\":0}",
+        "top": "662",
+        "left": "418"
+    },
+    "CO_PriceSmMinPriceCon4": {
+        "id": "CO_PriceSmMinPriceCon4",
+        "conditionId": "CT_PriceSmMinPriceCon1",
+        "name": "Prod cena < 100% min prod cena",
+        "params": "",
+        "top": "741",
+        "left": "461"
+    },
+    "CO_PriceSmMinPriceCon5": {
+        "id": "CO_PriceSmMinPriceCon5",
+        "conditionId": "CT_PriceSmMinPriceCon2",
+        "name": "Prod cena < 95% min prod cena",
+        "params": "",
+        "top": "743",
+        "left": "705"
+    },
+    "CO_PriceSmMinPriceCon6": {
+        "id": "CO_PriceSmMinPriceCon6",
+        "conditionId": "CT_PriceSmMinPriceCon3",
+        "name": "Individu\u00e1ln\u00ed cen\u00edk, ru\u010dn\u00ed BC, cena < 95%",
+        "params": "",
+        "top": "743",
+        "left": "962"
+    }
+}

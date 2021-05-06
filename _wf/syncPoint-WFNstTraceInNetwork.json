@@ -1,0 +1,20 @@
+{
+    "SP_SrTraceInNetwork": {
+        "id": "SP_SrTraceInNetwork",
+        "type": "A",
+        "name": "Vytrasov\u00e1n\u00ed v s\u00edti",
+        "urgent": false,
+        "taskId": "TT_Automat",
+        "workplaceId": "WP_CircuitDesign",
+        "setupActionId": "undefined",
+        "syncType": "NONE",
+        "term": "",
+        "termType": "day",
+        "params": "",
+        "autofinishMessage": "",
+        "autoWorkOutAfterTerm": false,
+        "generateCancelOnGlobalCancel": false,
+        "top": "100",
+        "left": "10"
+    }
+}

@@ -1,0 +1,152 @@
+{
+    "CNc0gk6u7ytr": {
+        "id": "CNc0gk6u7ytr",
+        "from": "SP_SrOrder",
+        "to": "SP_SrFinalizedServiceParameters"
+    },
+    "CNrl1wrm8cxt": {
+        "id": "CNrl1wrm8cxt",
+        "from": "SP_SrFinalizedServiceParameters",
+        "to": "SP_SrNumberSAP"
+    },
+    "CNd2fnarami1": {
+        "id": "CNd2fnarami1",
+        "from": "SP_SrNumberSAP",
+        "to": "SP_SrCommision"
+    },
+    "CNlamlmbwxd1": {
+        "id": "CNlamlmbwxd1",
+        "from": "SP_SrCommision",
+        "to": "SP_SrInstallation"
+    },
+    "CNmgq909ylcl": {
+        "id": "CNmgq909ylcl",
+        "from": "SP_SrInstallation",
+        "to": "SP_PreConfigurationCompleted"
+    },
+    "CNywr45795u9": {
+        "id": "CNywr45795u9",
+        "from": "SP_PreConfigurationCompleted",
+        "to": "SP_SrTechnologyReady"
+    },
+    "CNnlx7bd621r": {
+        "id": "CNnlx7bd621r",
+        "from": "SP_SrTechnologyReady",
+        "to": "SP_SrDsFinished"
+    },
+    "CN474lmi9xao": {
+        "id": "CN474lmi9xao",
+        "from": "SP_SrDsFinished",
+        "to": "SP_SrDelivery"
+    },
+    "CNig927yh6ej": {
+        "id": "CNig927yh6ej",
+        "from": "SP_SrDelivery",
+        "to": "SP_SrFinish"
+    },
+    "CN4yywfg326r": {
+        "id": "CN4yywfg326r",
+        "from": "SP_SrFinish",
+        "to": "SP_SrEndPoint"
+    },
+    "CN4agnm9f4tg": {
+        "id": "CN4agnm9f4tg",
+        "from": "SP_SrCommision",
+        "to": "CO_SrCpeConfigurationRequired"
+    },
+    "CNp1wizszqwq": {
+        "id": "CNp1wizszqwq",
+        "from": "CO_SrCpeConfigurationRequired",
+        "to": "TA_SrCpePreConfiguration"
+    },
+    "CNmbojkacp47": {
+        "id": "CNmbojkacp47",
+        "from": "SP_PreConfigurationCompleted",
+        "to": "TA_SrServiceConfiguration"
+    },
+    "CNgv6k83ku7o": {
+        "id": "CNgv6k83ku7o",
+        "from": "SP_SrDemand",
+        "to": "SP_SrSurvey"
+    },
+    "CNej93v9rh35": {
+        "id": "CNej93v9rh35",
+        "from": "SP_SrSurvey",
+        "to": "SP_SrOffer"
+    },
+    "CNydqgu25l9l": {
+        "id": "CNydqgu25l9l",
+        "from": "SP_SrOffer",
+        "to": "SP_SrOrder"
+    },
+    "CNo8lbrs41j5": {
+        "id": "CNo8lbrs41j5",
+        "from": "SP_SrCommision",
+        "to": "TA_SrCreateTransferNesting2"
+    },
+    "CNo8lbrs5555": {
+        "id": "CNo8lbrs5555",
+        "from": "SP_SrOrder",
+        "to": "TA_SrCreateTransferNesting1"
+    },
+    "CNxle65sv79z": {
+        "id": "CNxle65sv79z",
+        "from": "TA_SrServiceConfiguration",
+        "to": "CO_SrCpeConfigurationRequired1"
+    },
+    "CNv8t7likpjv": {
+        "id": "CNv8t7likpjv",
+        "from": "SP_SrDelivery",
+        "to": "TA_SrProfitcentrumTaskCheck"
+    },
+    "CNztsv9wrzr8": {
+        "id": "CNztsv9wrzr8",
+        "from": "TA_SrProfitcentrumTaskCheck",
+        "to": "TA_SrServiceCompleationInit"
+    },
+    "CNxjndgvz4hf": {
+        "id": "CNxjndgvz4hf",
+        "from": "TA_SrServiceConfiguration",
+        "to": "CO_SrServiceDocumentationRequired"
+    },
+    "CNd928q0eai4": {
+        "id": "CNd928q0eai4",
+        "from": "CO_SrServiceDocumentationRequired",
+        "to": "TA_SrServiceDocumentation"
+    },
+    "CNuafiowno3p": {
+        "id": "CNuafiowno3p",
+        "from": "SP_SrDemand",
+        "to": "TA_SrPreCompleteServiceInformation"
+    },
+    "CNvc4ff59q7l": {
+        "id": "CNvc4ff59q7l",
+        "from": "SP_SrOrder",
+        "to": "CO_SrPreCompletedByUser"
+    },
+    "CNe34ezvacvy": {
+        "id": "CNe34ezvacvy",
+        "from": "CO_SrPreCompletedByUser",
+        "to": "TA_SrPreCompleteServiceInformationCancel"
+    },
+    "CN2jlf72t2y3": {
+        "id": "CN2jlf72t2y3",
+        "from": "CO_SrPreCompletedByUser",
+        "to": "TA_SrCompleteServiceInformation1"
+    },
+    "CN7xlul5akor": {
+        "id": "CN7xlul5akor",
+        "from": "SP_SrOrder",
+        "to": "TA_SrCompleteServiceInformation2"
+    },
+    "CNs82ucqk22u": {
+        "id": "CNs82ucqk22u",
+        "from": "CO_SrCpeConfigurationRequired1",
+        "to": "CO_SrCPEConfigurationPassedByUser"
+    },
+    "CN88ct3a4iwj": {
+        "id": "CN88ct3a4iwj",
+        "from": "CO_SrCPEConfigurationPassedByUser",
+        "to": "TA_SrPreconfigrationCancel"
+    }
+}

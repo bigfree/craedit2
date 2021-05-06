@@ -1,0 +1,12 @@
+{
+    "CNffp3hn22po": {
+        "id": "CNffp3hn22po",
+        "from": "SP_SrFibersAllocation",
+        "to": "TA_SrFibersAllocation"
+    },
+    "CN6kzxsl5bxr": {
+        "id": "CN6kzxsl5bxr",
+        "from": "TA_SrFibersAllocation",
+        "to": "TA_FibersCompleteNotification"
+    }
+}

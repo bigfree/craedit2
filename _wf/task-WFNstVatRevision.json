@@ -1,0 +1,27 @@
+{
+    "TA_SrVatRevision": {
+        "id": "TA_SrVatRevision",
+        "type": "M",
+        "name": "\u017d\u00e1dost o revizi DPH",
+        "canMerge": false,
+        "taskId": "TT_SrStandardTask",
+        "workplaceId": "WP_InternalSales",
+        "setupActionId": "SA_SrSetAccountManagerWorkplace",
+        "term": "",
+        "termType": "day",
+        "nestedWorkflow": {
+            "0": ""
+        },
+        "canRedo": false,
+        "notSendEmail": false,
+        "urgent": false,
+        "outOfWorkFlow": false,
+        "params": "",
+        "autofinishMessage": "",
+        "autoWorkOutAfterTerm": false,
+        "generateCancelOnGlobalCancel": false,
+        "disableControls": false,
+        "top": "194",
+        "left": "231"
+    }
+}

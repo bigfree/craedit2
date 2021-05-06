@@ -1,0 +1,7 @@
+{
+    "SBofqhmbd1ic": {
+        "id": "SBofqhmbd1ic",
+        "from": "TA_SrCustomerTransferSuccessful1",
+        "to": "TA_SrSubscriberTransfer"
+    }
+}

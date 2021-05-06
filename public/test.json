@@ -9,5 +9,10 @@
     "id": "ebfc3757-d39d-443d-b29f-e535d218f376",
     "data": { "label": "Another Node" },
     "position": { "x": 100, "y": 125 }
+  },
+  {
+    "id": "ebfc3757-d39d-443d-b29f-e535d218f37h",
+    "data": { "label": "Another Node" },
+    "position": { "x": 150, "y": 125 }
   }
 ]

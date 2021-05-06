@@ -1,0 +1,87 @@
+{
+    "CNosb36mnkiv": {
+        "id": "CNosb36mnkiv",
+        "from": "SP_SrCommision",
+        "to": "SP_SrTechnologyCreated"
+    },
+    "CNvxerq61nst": {
+        "id": "CNvxerq61nst",
+        "from": "SP_SrTechnologyCreated",
+        "to": "SP_SrInstallation"
+    },
+    "CN7fokqggk6q": {
+        "id": "CN7fokqggk6q",
+        "from": "SP_SrInstallation",
+        "to": "SP_PreConfigurationCompleted"
+    },
+    "CNet08k9qxdp": {
+        "id": "CNet08k9qxdp",
+        "from": "SP_PreConfigurationCompleted",
+        "to": "SP_SrTechnologyReady"
+    },
+    "CNm7l9b2019n": {
+        "id": "CNm7l9b2019n",
+        "from": "SP_SrTechnologyReady",
+        "to": "SP_SrDelivery"
+    },
+    "CN5ktmvf2dzc": {
+        "id": "CN5ktmvf2dzc",
+        "from": "SP_SrDelivery",
+        "to": "SP_SrFinish"
+    },
+    "CNl6hkddw8jl": {
+        "id": "CNl6hkddw8jl",
+        "from": "SP_SrFinish",
+        "to": "SP_SrEndPoint"
+    },
+    "CNc819u0gzwl": {
+        "id": "CNc819u0gzwl",
+        "from": "TA_SrMontage",
+        "to": "TA_SrTakeoverDateCompletion"
+    },
+    "CNpm33tzexv0": {
+        "id": "CNpm33tzexv0",
+        "from": "SP_PreConfigurationCompleted",
+        "to": "TA_SrConfiguration"
+    },
+    "CNkv10raim42": {
+        "id": "CNkv10raim42",
+        "from": "SP_SrCommision",
+        "to": "TA_SrSetStornoMode"
+    },
+    "CNd4ounj6g41": {
+        "id": "CNd4ounj6g41",
+        "from": "SP_SrDelivery",
+        "to": "TA_SrNewStornoDisable"
+    },
+    "CNxdgynyhxml": {
+        "id": "CNxdgynyhxml",
+        "from": "CO_SrInternalMotage",
+        "to": "TA_SrMontage"
+    },
+    "CNqm7bvu2uen": {
+        "id": "CNqm7bvu2uen",
+        "from": "SP_SrTechnologyCreated",
+        "to": "CO_StTechNoTSWimax"
+    },
+    "CN611gfx5t52": {
+        "id": "CN611gfx5t52",
+        "from": "CO_StTechNoTSWimax",
+        "to": "TA_SrPartnerAllocarion"
+    },
+    "CN4muwqggxgn": {
+        "id": "CN4muwqggxgn",
+        "from": "TA_SrPartnerAllocarion",
+        "to": "CO_SrInternalMotage"
+    },
+    "CNwkyyzkxdqp": {
+        "id": "CNwkyyzkxdqp",
+        "from": "CO_SrInternalMotage",
+        "to": "TA_SrNotifyExternalCompany"
+    },
+    "CN1qd9y5b996": {
+        "id": "CN1qd9y5b996",
+        "from": "SP_SrDelivery",
+        "to": "TA_SrServiceCompleationInit"
+    }
+}

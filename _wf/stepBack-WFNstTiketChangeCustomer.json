@@ -1,0 +1,17 @@
+{
+    "SB7te0mwuxyb": {
+        "id": "SB7te0mwuxyb",
+        "from": "TA_UtTiketCustomerTransferCheck",
+        "to": "TA_UtCustomerTransfer"
+    },
+    "SBzzefxuady4": {
+        "id": "SBzzefxuady4",
+        "from": "TA_UtTiketCustomerTransferCheck",
+        "to": "TA_UtSubscriberTransfer"
+    },
+    "SB1xmzvde1y5": {
+        "id": "SB1xmzvde1y5",
+        "from": "TA_UtTiketCustomerTransferCheck",
+        "to": "TA_UtPayerTransfer"
+    }
+}

@@ -1,0 +1,77 @@
+{
+    "CN52k37wl769": {
+        "id": "CN52k37wl769",
+        "from": "TA_SrTO2OrderAcceptReject1",
+        "to": "CO_SrTO2Accept1"
+    },
+    "CN34xocov9oy": {
+        "id": "CN34xocov9oy",
+        "from": "CO_SrTO2Accept1",
+        "to": "TA_SrTO2InstallationComplete1"
+    },
+    "CNt8bqqa992o": {
+        "id": "CNt8bqqa992o",
+        "from": "TA_SrTO2OrderAcceptReject1",
+        "to": "CO_SrTO2Reject1"
+    },
+    "CN41kyaabak2": {
+        "id": "CN41kyaabak2",
+        "from": "CO_SrTO2Reject1",
+        "to": "TA_SrRejectInformation1"
+    },
+    "CNqzcgdgd6nz": {
+        "id": "CNqzcgdgd6nz",
+        "from": "SP_SrTO2CeaseOrder",
+        "to": "TA_SrTO2OrderCompletion"
+    },
+    "CN9axpcdskjb": {
+        "id": "CN9axpcdskjb",
+        "from": "TA_SrTO2OrderCompletion",
+        "to": "CO_SrOhsCeaseRequestDelayed2"
+    },
+    "CNyvms8xkkvs": {
+        "id": "CNyvms8xkkvs",
+        "from": "TA_SrTO2OrderCompletion",
+        "to": "CO_SrOhsCeaseRequestDelayed1"
+    },
+    "CNqdp7vyg5v0": {
+        "id": "CNqdp7vyg5v0",
+        "from": "TA_SrTO2OrderAcceptReject2",
+        "to": "CO_SrTO2Accept2"
+    },
+    "CNb8ru0e33n8": {
+        "id": "CNb8ru0e33n8",
+        "from": "TA_SrTO2OrderAcceptReject2",
+        "to": "CO_SrTO2Reject2"
+    },
+    "CNvkf01fuzkg": {
+        "id": "CNvkf01fuzkg",
+        "from": "CO_SrTO2Accept2",
+        "to": "TA_SrTO2InstallationComplete2"
+    },
+    "CNdj3xowgnwh": {
+        "id": "CNdj3xowgnwh",
+        "from": "CO_SrTO2Reject2",
+        "to": "TA_SrRejectInformation2"
+    },
+    "CNcxlrwxjd00": {
+        "id": "CNcxlrwxjd00",
+        "from": "TA_SrTO2InstallationComplete1",
+        "to": "TA_SrAcceptInformation1"
+    },
+    "CNhas90si2b6": {
+        "id": "CNhas90si2b6",
+        "from": "TA_SrTO2InstallationComplete2",
+        "to": "TA_SrAcceptInformation2"
+    },
+    "CNbm7e7cb790": {
+        "id": "CNbm7e7cb790",
+        "from": "CO_SrOhsCeaseRequestDelayed1",
+        "to": "TA_SrTO2OrderAcceptReject1"
+    },
+    "CN5co9zs72te": {
+        "id": "CN5co9zs72te",
+        "from": "CO_SrOhsCeaseRequestDelayed2",
+        "to": "TA_SrTO2OrderAcceptReject2"
+    }
+}

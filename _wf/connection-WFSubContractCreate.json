@@ -1,0 +1,12 @@
+{
+    "CN0i4ek2ier4": {
+        "id": "CN0i4ek2ier4",
+        "from": "SP_ScSubcontractCreate",
+        "to": "TA_ScCompleteInformation"
+    },
+    "CN_jklokng99": {
+        "id": "CN_jklokng99",
+        "from": "TA_ScCompleteInformation",
+        "to": "TA_ScOrderSubcontract"
+    }
+}

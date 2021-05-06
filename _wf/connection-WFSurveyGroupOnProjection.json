@@ -1,0 +1,17 @@
+{
+    "CN3fyq89a11v": {
+        "id": "CN3fyq89a11v",
+        "from": "SP_SrProjectionSurvey",
+        "to": "TA_SrCreateSurveyGroup"
+    },
+    "CNw17vcu8kqu": {
+        "id": "CNw17vcu8kqu",
+        "from": "SP_SrProjectionSurvey",
+        "to": "SP_SrSurveyAccountManagerNotification"
+    },
+    "CNx0g6pcgkrn": {
+        "id": "CNx0g6pcgkrn",
+        "from": "SP_SrSurveyAccountManagerNotification",
+        "to": "TA_SrSurveyAccountManagerNotification"
+    }
+}

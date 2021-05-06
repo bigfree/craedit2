@@ -1,0 +1,20 @@
+{
+    "SP_SrAdministration": {
+        "id": "SP_SrAdministration",
+        "type": "A",
+        "name": "Zalo\u017een\u00ed zm\u011bny",
+        "urgent": false,
+        "taskId": "TT_SrAutomat",
+        "workplaceId": "WP_System",
+        "setupActionId": "undefined",
+        "syncType": "NONE",
+        "term": "",
+        "termType": "day",
+        "params": "",
+        "autofinishMessage": "",
+        "autoWorkOutAfterTerm": false,
+        "generateCancelOnGlobalCancel": false,
+        "top": "146",
+        "left": "62"
+    }
+}

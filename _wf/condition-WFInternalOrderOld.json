@@ -1,0 +1,42 @@
+{
+    "CO_IoOrderType": {
+        "id": "CO_IoOrderType",
+        "conditionId": "undefined",
+        "name": "V\u00fdstavbov\u00e1 intern\u00ed zak\u00e1zka",
+        "params": "",
+        "top": "369",
+        "left": "321"
+    },
+    "CO_IoOrderType2": {
+        "id": "CO_IoOrderType2",
+        "conditionId": "undefined",
+        "name": "Konfigura\u010dn\u00ed intern\u00ed zak\u00e1zka",
+        "params": "",
+        "top": "440",
+        "left": "318"
+    },
+    "CO_IoOrderType3": {
+        "id": "CO_IoOrderType3",
+        "conditionId": "undefined",
+        "name": "V\u00fdstavbov\u00e1 intern\u00ed zak\u00e1zka",
+        "params": "",
+        "top": "698",
+        "left": "434"
+    },
+    "CO_IoOrderType4": {
+        "id": "CO_IoOrderType4",
+        "conditionId": "undefined",
+        "name": "Logistick\u00fd intern\u00ed zak\u00e1zka",
+        "params": "",
+        "top": "536",
+        "left": "325"
+    },
+    "CO_IoOrderType5": {
+        "id": "CO_IoOrderType5",
+        "conditionId": "undefined",
+        "name": "Logistick\u00fd intern\u00ed zak\u00e1zka",
+        "params": "",
+        "top": "698",
+        "left": "163"
+    }
+}

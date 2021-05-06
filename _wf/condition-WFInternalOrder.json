@@ -1,0 +1,90 @@
+{
+    "CO_SrTechnologyGroupKo": {
+        "id": "CO_SrTechnologyGroupKo",
+        "conditionId": "CT_SrRequestTechnology",
+        "name": "Je p\u0159ipojena technologie po\u017eadov\u00e1na pro Kontrukci okruh\u016f",
+        "params": "{\"TECHNOLOGY_GROUP\":\"KONSTRUKCE_OKRUHU\"}",
+        "top": "2006",
+        "left": "604"
+    },
+    "CO_SrIsBCPConnected1": {
+        "id": "CO_SrIsBCPConnected1",
+        "conditionId": "CT_SrBcpConnected",
+        "name": "Provozn\u00ed Business case nen\u00ed vypln\u011bn",
+        "params": "{\"_result\":0}",
+        "top": 506,
+        "left": 375
+    },
+    "CO_SrBCPIsConnected2": {
+        "id": "CO_SrBCPIsConnected2",
+        "conditionId": "CT_SrBcpConnected",
+        "name": "Provozn\u00ed Business case je vypln\u011bn",
+        "params": "",
+        "top": 501,
+        "left": 636
+    },
+    "CO_SrIsTypeConstruction": {
+        "id": "CO_SrIsTypeConstruction",
+        "conditionId": "CT_SrIsOrderConstruction",
+        "name": "Typ zak\u00e1zky - v\u00fdstavba",
+        "params": "",
+        "top": "1237",
+        "left": "213"
+    },
+    "CO_SrIsSurveyRequired": {
+        "id": "CO_SrIsSurveyRequired",
+        "conditionId": "CT_SrIsSurveyRequired",
+        "name": "Jsou po\u017eadov\u00e1ny pr\u016fzkumy",
+        "params": "",
+        "top": 891,
+        "left": 981
+    },
+    "CO_SrIsBCPRequired1": {
+        "id": "CO_SrIsBCPRequired1",
+        "conditionId": "CT_SrBcpRequired",
+        "name": "Provozn\u00ed Business case je vy\u017eadov\u00e1n",
+        "params": "",
+        "top": 434,
+        "left": 512
+    },
+    "CO_SrIsBCPRequired2": {
+        "id": "CO_SrIsBCPRequired2",
+        "conditionId": "CT_SrBcpRequired",
+        "name": "Provozn\u00ed Business case nen\u00ed vy\u017eadov\u00e1n",
+        "params": "{\"_result\":0}",
+        "top": "429",
+        "left": "1551"
+    },
+    "CO_SrIsBCRequired1": {
+        "id": "CO_SrIsBCRequired1",
+        "conditionId": "CT_SrBcRequired",
+        "name": "Obchodn\u00ed Business case je vy\u017eadov\u00e1n",
+        "params": "",
+        "top": "430",
+        "left": "1143"
+    },
+    "CO_SrIsBCRequired2": {
+        "id": "CO_SrIsBCRequired2",
+        "conditionId": "CT_SrBcRequired",
+        "name": "Obchodn\u00ed Business case nen\u00ed vy\u017eadov\u00e1n",
+        "params": "{\"_result\":0}",
+        "top": "550",
+        "left": "1642"
+    },
+    "CO_SrIsBCConnected1": {
+        "id": "CO_SrIsBCConnected1",
+        "conditionId": "CT_SrBcConnected",
+        "name": "Obchodn\u00ed Business case nen\u00ed vypln\u011bn",
+        "params": "{\"_result\":0}",
+        "top": "501",
+        "left": "1006"
+    },
+    "CO_SrBCIsConnected2": {
+        "id": "CO_SrBCIsConnected2",
+        "conditionId": "CT_SrBcConnected",
+        "name": "Obchodn\u00ed Business case je vypln\u011bn",
+        "params": "",
+        "top": "499",
+        "left": "1273"
+    }
+}

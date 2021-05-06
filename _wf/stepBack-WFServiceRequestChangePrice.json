@@ -1,0 +1,22 @@
+{
+    "SBtk4s5dsfc0": {
+        "id": "SBtk4s5dsfc0",
+        "from": "TA_SrCustomerAcceptation1",
+        "to": "TA_SrBcConnection"
+    },
+    "SBunvyz2w44p": {
+        "id": "SBunvyz2w44p",
+        "from": "TA_SrCustomerAcceptation2",
+        "to": "TA_SrBcConnection"
+    },
+    "SB2aj4x0nvzk": {
+        "id": "SB2aj4x0nvzk",
+        "from": "TA_SrStornoDecision",
+        "to": "TA_SrBcEvaluation"
+    },
+    "SBqcrfriwwvm": {
+        "id": "SBqcrfriwwvm",
+        "from": "TA_SrStornoDecision",
+        "to": "TA_SrBcConnection"
+    }
+}

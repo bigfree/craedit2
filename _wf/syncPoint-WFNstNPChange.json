@@ -1,0 +1,14 @@
+{
+    "SP_SrNpChange": {
+        "id": "SP_SrNpChange",
+        "type": "A",
+        "name": "Po\u017eadavek NP change",
+        "urgent": false,
+        "taskId": "TT_Automat",
+        "workplaceId": "WP_System",
+        "setupActionId": "undefined",
+        "params": "",
+        "top": "100",
+        "left": "10"
+    }
+}

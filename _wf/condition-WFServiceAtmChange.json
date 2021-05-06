@@ -1,0 +1,66 @@
+{
+    "CO_SrCpeConfigurationRequired": {
+        "id": "CO_SrCpeConfigurationRequired",
+        "conditionId": "CT_SrCpeConfigurationRequired",
+        "name": "Po\u017eadov\u00e1na konfigurace CPE",
+        "params": "",
+        "top": "658",
+        "left": "317"
+    },
+    "CO_SrCpeConfigurationRequired1": {
+        "id": "CO_SrCpeConfigurationRequired1",
+        "conditionId": "CT_SrCpeConfigurationRequired",
+        "name": "Po\u017eadov\u00e1na konfigurace CPE",
+        "params": "",
+        "top": "899",
+        "left": "631"
+    },
+    "CO_SrServiceDocumentationRequired": {
+        "id": "CO_SrServiceDocumentationRequired",
+        "conditionId": "CT_SrServiceSurveylanceDocumented",
+        "name": "Po\u017eadov\u00e1no zakreslen\u00ed do dohledu",
+        "params": "",
+        "top": "938",
+        "left": "425"
+    },
+    "CO_SrPreCompletedByUser": {
+        "id": "CO_SrPreCompletedByUser",
+        "conditionId": "CT_CommonTaskPassedByUser",
+        "name": "Karta slu\u017eby nebyla p\u0159edvypln\u011bna",
+        "params": "{\"WFKP_KOD\":\"TA_SrPreCompleteServiceInformation\",\"_result\":0}",
+        "top": "384",
+        "left": "308"
+    },
+    "CO_SrCPEConfigurationPassedByUser": {
+        "id": "CO_SrCPEConfigurationPassedByUser",
+        "conditionId": "CT_CommonTaskPassedByUser",
+        "name": "P\u0159edkonfigrace CPE nebyla dod\u00e1na",
+        "params": "{\"WFKP_KOD\":\"TA_SrCpePreConfiguration\",\"_result\":0}",
+        "top": "955",
+        "left": "722"
+    },
+    "CO_Sr_SynchronizeToNetVisionChange": {
+        "id": "CO_Sr_SynchronizeToNetVisionChange",
+        "conditionId": "CT646x6cgy70",
+        "name": "Zm\u011bnila se priorita pro NetVision",
+        "params": "",
+        "top": "455",
+        "left": "802"
+    },
+    "CO_Sr_SynchronizeToNetVisionRemove": {
+        "id": "CO_Sr_SynchronizeToNetVisionRemove",
+        "conditionId": "CT_Sr_SynchronizeToNetVisionOperation",
+        "name": "Vymaz\u00e1n\u00ed kritick\u00e9 slu\u017eby",
+        "params": "{\"_result\": 0}",
+        "top": "540",
+        "left": "997"
+    },
+    "CO_Sr_SynchronizeToNetVisionAdd": {
+        "id": "CO_Sr_SynchronizeToNetVisionAdd",
+        "conditionId": "CT_Sr_SynchronizeToNetVisionOperation",
+        "name": "Zakreslen\u00ed kritick\u00e9 slu\u017eby",
+        "params": "",
+        "top": "539",
+        "left": "662"
+    }
+}

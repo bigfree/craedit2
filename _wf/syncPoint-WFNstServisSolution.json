@@ -1,0 +1,20 @@
+{
+    "SP_SrServisSolution": {
+        "id": "SP_SrServisSolution",
+        "type": "A",
+        "name": "Po\u017eadavek na z\u00e1sah servisn\u00ed skupiny",
+        "urgent": false,
+        "taskId": "TT_SrStandardTask",
+        "workplaceId": "WP_System",
+        "setupActionId": "undefined",
+        "syncType": "NONE",
+        "term": "",
+        "termType": "day",
+        "params": "",
+        "autofinishMessage": "",
+        "autoWorkOutAfterTerm": false,
+        "generateCancelOnGlobalCancel": false,
+        "top": "105",
+        "left": "40"
+    }
+}

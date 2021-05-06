@@ -1,0 +1,25 @@
+{
+    "TA_ConfigurationSDH": {
+        "id": "TA_ConfigurationSDH",
+        "type": "M",
+        "name": "Konfigurace SDH",
+        "canMerge": false,
+        "taskId": "TT_SrServiceConfiguration",
+        "workplaceId": "WP_ConfigurationSdh",
+        "setupActionId": "undefined",
+        "term": "1",
+        "termType": "work_day",
+        "nestedWorkflow": null,
+        "canRedo": false,
+        "notSendEmail": false,
+        "urgent": false,
+        "outOfWorkFlow": false,
+        "params": "",
+        "autofinishMessage": "",
+        "autoWorkOutAfterTerm": false,
+        "generateCancelOnGlobalCancel": false,
+        "disableControls": false,
+        "top": "132",
+        "left": "259"
+    }
+}

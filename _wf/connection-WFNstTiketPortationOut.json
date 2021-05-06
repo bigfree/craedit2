@@ -1,0 +1,47 @@
+{
+    "CNqhcjpyi7ap": {
+        "id": "CNqhcjpyi7ap",
+        "from": "SP_UtPortationOut",
+        "to": "TA_UtPortationOutAccept"
+    },
+    "CNhjgphtr1et": {
+        "id": "CNhjgphtr1et",
+        "from": "TA_UtPortationOutAccept",
+        "to": "TA_UtPortationOutProcessing"
+    },
+    "CNd8bvjo253y": {
+        "id": "CNd8bvjo253y",
+        "from": "TA_UtPortationOutProcessing",
+        "to": "TA_UtPortationOutCommit"
+    },
+    "CNl9dew8liya": {
+        "id": "CNl9dew8liya",
+        "from": "TA_UtPortationOutCommit",
+        "to": "TA_UtPortationOutResult"
+    },
+    "CNbx9zwvab11": {
+        "id": "CNbx9zwvab11",
+        "from": "TA_UtPortationOutCommit",
+        "to": "TA_UtPortationOutBilling"
+    },
+    "CNpr3aalbbe3": {
+        "id": "CNpr3aalbbe3",
+        "from": "TA_UtPortationOutProcessing",
+        "to": "TA_UtPortationOutInfo1Cancel"
+    },
+    "CNulcwmzaenx": {
+        "id": "CNulcwmzaenx",
+        "from": "TA_UtPortationOutInfo1Cancel",
+        "to": "TA_UtPortationOutInfo2"
+    },
+    "CNsycccsmpq5": {
+        "id": "CNsycccsmpq5",
+        "from": "TA_UtPortationOutResult",
+        "to": "TA_UtPortationOutInfo2Cancel"
+    },
+    "CN8yu7rgsrf5": {
+        "id": "CN8yu7rgsrf5",
+        "from": "SP_UtPortationOut",
+        "to": "TA_UtPortationOutInfo1"
+    }
+}

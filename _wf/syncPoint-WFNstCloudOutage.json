@@ -1,0 +1,20 @@
+{
+    "SP_SrOutageSchedule": {
+        "id": "SP_SrOutageSchedule",
+        "type": "A",
+        "name": "Napl\u00e1nov\u00e1n\u00ed v\u00fdlukov\u00e9ho okna",
+        "urgent": false,
+        "taskId": "TT_SrAutomat",
+        "workplaceId": "WP_System",
+        "setupActionId": "undefined",
+        "syncType": "NONE",
+        "term": "",
+        "termType": "day",
+        "params": "",
+        "autofinishMessage": "",
+        "autoWorkOutAfterTerm": false,
+        "generateCancelOnGlobalCancel": false,
+        "top": "139",
+        "left": "64"
+    }
+}

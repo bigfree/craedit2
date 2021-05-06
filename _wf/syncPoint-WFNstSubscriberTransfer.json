@@ -1,0 +1,20 @@
+{
+    "SP_SrSubscriberTransfer": {
+        "id": "SP_SrSubscriberTransfer",
+        "type": "A",
+        "name": "P\u0159enos odb\u011bratele",
+        "urgent": false,
+        "taskId": "TT_Automat",
+        "workplaceId": "WP_System",
+        "setupActionId": "undefined",
+        "syncType": "FULL",
+        "term": "1",
+        "termType": "work_day",
+        "params": "",
+        "autofinishMessage": "",
+        "autoWorkOutAfterTerm": false,
+        "generateCancelOnGlobalCancel": false,
+        "top": "103",
+        "left": "78"
+    }
+}

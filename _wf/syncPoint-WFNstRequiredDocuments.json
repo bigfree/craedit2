@@ -1,0 +1,20 @@
+{
+    "SP_SrRequiredDocuments": {
+        "id": "SP_SrRequiredDocuments",
+        "type": "A",
+        "name": "Zaji\u0161t\u011bn\u00ed podklad\u016f",
+        "urgent": false,
+        "taskId": "TT_SrAutomat",
+        "workplaceId": "WP_System",
+        "setupActionId": "undefined",
+        "syncType": "NONE",
+        "term": "",
+        "termType": "day",
+        "params": "",
+        "autofinishMessage": "",
+        "autoWorkOutAfterTerm": false,
+        "generateCancelOnGlobalCancel": false,
+        "top": "119",
+        "left": "49"
+    }
+}

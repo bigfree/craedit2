@@ -1,0 +1,42 @@
+{
+    "CNtpq1regtgp": {
+        "id": "CNtpq1regtgp",
+        "from": "SP_Suspend",
+        "to": "CO_WorkflowType1"
+    },
+    "CNyf451izits": {
+        "id": "CNyf451izits",
+        "from": "SP_Suspend",
+        "to": "CO_WorkflowType16"
+    },
+    "CNisu4lhnrqq": {
+        "id": "CNisu4lhnrqq",
+        "from": "CO_WorkflowType1",
+        "to": "TA_SubtaskBc"
+    },
+    "CN3pibhpuu3a": {
+        "id": "CN3pibhpuu3a",
+        "from": "CO_WorkflowType16",
+        "to": "TA_SuspendComplaint"
+    },
+    "CNx9smae8tdx": {
+        "id": "CNx9smae8tdx",
+        "from": "SP_Suspend",
+        "to": "CO_WorkflowType2"
+    },
+    "CNizz33hpb32": {
+        "id": "CNizz33hpb32",
+        "from": "CO_WorkflowType2",
+        "to": "TA_SuspedServiceRequest"
+    },
+    "CNudjz8m2uzw": {
+        "id": "CNudjz8m2uzw",
+        "from": "SP_Suspend",
+        "to": "CO_WorkflowType4"
+    },
+    "CNizq4hbjkp8": {
+        "id": "CNizq4hbjkp8",
+        "from": "CO_WorkflowType4",
+        "to": "TA_SuspendTiket"
+    }
+}

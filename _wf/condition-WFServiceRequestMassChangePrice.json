@@ -1,0 +1,34 @@
+{
+    "CO_SrSapTsExportRequired": {
+        "id": "CO_SrSapTsExportRequired",
+        "conditionId": "CT_SrSapTsExportRequired",
+        "name": "Smlouvy budou exportov\u00e1ny do SAPu",
+        "params": "",
+        "top": "654",
+        "left": "318"
+    },
+    "CO_SrTsEntryRequired1": {
+        "id": "CO_SrTsEntryRequired1",
+        "conditionId": "CT_SrTsEntryRequired",
+        "name": "Je vy\u017eadov\u00e1n p\u0159enos TS do SAP",
+        "params": "{\"_result\":0}",
+        "top": "1516",
+        "left": "282"
+    },
+    "CO_SrManualAdditionBulkChangeRequired": {
+        "id": "CO_SrManualAdditionBulkChangeRequired",
+        "conditionId": "CT_SrManualAdditionRequired",
+        "name": "Je pot\u0159eba manu\u00e1ln\u00ed dopln\u011bn\u00ed hromadn\u00e9 zm\u011bny",
+        "params": "",
+        "top": "495",
+        "left": "138"
+    },
+    "CO_SrFillVat": {
+        "id": "CO_SrFillVat",
+        "conditionId": "CT_SrFillVat",
+        "name": "Je pot\u0159eba vyplnit DPH",
+        "params": "",
+        "top": 495,
+        "left": 864
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "SP_UtServisSolution": {
+        "id": "SP_UtServisSolution",
+        "type": "A",
+        "name": "Po\u017eadavek na vy\u0159e\u0161en\u00ed servisem",
+        "urgent": false,
+        "taskId": "TT_UtStandardTask",
+        "workplaceId": "WP_System",
+        "setupActionId": "undefined",
+        "syncType": "NONE",
+        "term": "",
+        "termType": "day",
+        "params": "",
+        "autofinishMessage": "",
+        "autoWorkOutAfterTerm": false,
+        "generateCancelOnGlobalCancel": false,
+        "top": "105",
+        "left": "40"
+    }
+}

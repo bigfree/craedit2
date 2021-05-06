@@ -1,0 +1,17 @@
+{
+    "CNffp3hn22po": {
+        "id": "CNffp3hn22po",
+        "from": "SP_SrDeviceDocumentation",
+        "to": "TA_SrPriceRevision"
+    },
+    "CNbfl6z3ajmu": {
+        "id": "CNbfl6z3ajmu",
+        "from": "SP_SrDeviceDocumentation",
+        "to": "TA_SrNotifyPricesRevisionInit"
+    },
+    "CNjtbdce5ekh": {
+        "id": "CNjtbdce5ekh",
+        "from": "TA_SrPriceRevision",
+        "to": "TA_SrNotifyPricesRevisionFinish"
+    }
+}

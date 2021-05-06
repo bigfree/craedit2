@@ -1,0 +1,20 @@
+{
+    "SP_SrContractMissing": {
+        "id": "SP_SrContractMissing",
+        "type": "A",
+        "name": "\u017d\u00e1dost o dod\u00e1n\u00ed smluvn\u00edch dokument\u016f",
+        "urgent": false,
+        "taskId": "TT_Automat",
+        "workplaceId": "WP_System",
+        "setupActionId": "undefined",
+        "syncType": "NONE",
+        "term": "3",
+        "termType": "work_day",
+        "params": "",
+        "autofinishMessage": "",
+        "autoWorkOutAfterTerm": false,
+        "generateCancelOnGlobalCancel": false,
+        "top": "100",
+        "left": "10"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "CNdekopr4sdf": {
+        "id": "CNdekopr4sdf",
+        "from": "TA_UtFaultApprovement",
+        "to": "TA_UtFaultEvaluation"
+    },
+    "CNh6zce4rmcx": {
+        "id": "CNh6zce4rmcx",
+        "from": "TA_UtFaultEvaluation",
+        "to": "TA_UtFaultSubTiketUpdate"
+    },
+    "CN43z5z8onvn": {
+        "id": "CN43z5z8onvn",
+        "from": "SP_UtFaultSolution",
+        "to": "TA_UtFaultApprovement"
+    },
+    "CN96rg3v64n4": {
+        "id": "CN96rg3v64n4",
+        "from": "TA_UtFaultEvaluation",
+        "to": "TA_UtNotificationFinishPlannedFailure"
+    }
+}

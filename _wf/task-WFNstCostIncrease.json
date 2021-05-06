@@ -1,0 +1,50 @@
+{
+    "TA_SrConfirmCostsIncreaseResult": {
+        "id": "TA_SrConfirmCostsIncreaseResult",
+        "type": "M",
+        "name": "Zaps\u00e1n\u00ed v\u00fdsledku schvalov\u00e1n\u00ed nav\u00fd\u0161en\u00ed n\u00e1klad\u016f",
+        "canMerge": false,
+        "taskId": "TT_SrPropositionAccepted",
+        "workplaceId": "WP_SalesReporting",
+        "setupActionId": "undefined",
+        "syncType": "FULL",
+        "term": "",
+        "termType": "day",
+        "nestedWorkflow": {
+            "0": ""
+        },
+        "canRedo": false,
+        "sendEmail": false,
+        "urgent": false,
+        "outOfWorkFlow": false,
+        "params": "",
+        "autofinishMessage": "",
+        "autoWorkOutAfterTerm": false,
+        "generateCancelOnGlobalCancel": false,
+        "top": "189",
+        "left": "37"
+    },
+    "TA_SrTechDocUpdate": {
+        "id": "TA_SrTechDocUpdate",
+        "type": "M",
+        "name": "\u00daprava technick\u00e9 dokumentace",
+        "canMerge": false,
+        "taskId": "TT_TechDocUpdate",
+        "workplaceId": "WP_TechnicalSupport",
+        "setupActionId": "SA_SrAutoTakeTSTasks",
+        "term": "",
+        "termType": "day",
+        "nestedWorkflow": null,
+        "canRedo": false,
+        "notSendEmail": false,
+        "urgent": false,
+        "outOfWorkFlow": true,
+        "params": "",
+        "autofinishMessage": "",
+        "autoWorkOutAfterTerm": false,
+        "generateCancelOnGlobalCancel": false,
+        "disableControls": false,
+        "top": "365",
+        "left": "35"
+    }
+}

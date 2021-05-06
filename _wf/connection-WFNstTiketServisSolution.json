@@ -1,0 +1,27 @@
+{
+    "CNyt7lqefjee": {
+        "id": "CNyt7lqefjee",
+        "from": "SP_UtServisSolution",
+        "to": "TA_UtSetServiceId"
+    },
+    "CNysv3neaklf": {
+        "id": "CNysv3neaklf",
+        "from": "TA_UtSetServiceId",
+        "to": "TA_UtServisSolution"
+    },
+    "CNpqe2u1hpy2": {
+        "id": "CNpqe2u1hpy2",
+        "from": "TA_UtSetServiceId",
+        "to": "TA_UtServisNotification"
+    },
+    "CNyx6x6jartn": {
+        "id": "CNyx6x6jartn",
+        "from": "TA_UtServisSolution",
+        "to": "TA_UtResetServiceId"
+    },
+    "CNxg5gawvzq2": {
+        "id": "CNxg5gawvzq2",
+        "from": "TA_UtResetServiceId",
+        "to": "TA_UtHelpdeskNotification"
+    }
+}

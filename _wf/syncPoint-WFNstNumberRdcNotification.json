@@ -1,0 +1,14 @@
+{
+    "SP_SrNumberRdcNotification": {
+        "id": "SP_SrNumberRdcNotification",
+        "type": "A",
+        "name": "Z\u00e1pis \u00fa\u010dastnick\u00e9ho \u010d\u00edsla do RD\u010c",
+        "urgent": false,
+        "taskId": "TT_Automat",
+        "workplaceId": "WP_System",
+        "setupActionId": "undefined",
+        "params": "",
+        "top": "100",
+        "left": "10"
+    }
+}

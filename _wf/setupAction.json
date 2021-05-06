@@ -1,0 +1,422 @@
+{
+    "SA_BcSetStatus": {
+        "id": "SA_BcSetStatus",
+        "name": "Nastav\u00ed stav business case",
+        "className": "Cra_WF_SetupAction_Bc_SetStatus"
+    },
+    "SA_BcSetWorkplaceByType": {
+        "id": "SA_BcSetWorkplaceByType",
+        "name": "Nastav\u00ed pracovi\u0161t\u011b dle typu schvalov\u00e1n\u00ed",
+        "className": "Cra_WF_SetupAction_Bc_SetWorkplaceByType"
+    },
+    "SA_StornoWorplaceApprove": {
+        "id": "SA_StornoWorplaceApprove",
+        "name": "Pracovi\u0161t\u011b pro schv\u00e1len\u00ed storna",
+        "className": "Cra_WF_SetupAction_StornoWorkplaceApprove"
+    },
+    "SA_StornoStructureURL": {
+        "id": "SA_StornoStructureURL",
+        "name": "Vygeneruje URL pro glob\u00e1ln\u00ed storno objektu",
+        "className": "Cra_WF_SetupAction_URL_StornoByWorkflowType"
+    },
+    "SA_StornoMarkStructureURL": {
+        "id": "SA_StornoMarkStructureURL",
+        "name": "Vygeneruje URL pro ozna\u010den\u00ed storna objektu",
+        "className": "Cra_WF_SetupAction_StornoMarkStructure"
+    },
+    "SA_ComplaintSetWorkplaceByAmount": {
+        "id": "SA_ComplaintSetWorkplaceByAmount",
+        "name": "Nastav\u00ed pracovi\u0161t\u011b dle reklamovan\u00e9 \u010d\u00e1stky",
+        "className": "Cra_WF_SetupAction_Complaint_SetWorkplaceByAmount"
+    },
+    "SA_StornoNotificationURL": {
+        "id": "SA_StornoNotificationURL",
+        "name": "Vygeneruje URL pro emailovou notifikaci glob\u00e1ln\u00edho storna",
+        "className": "Cra_WF_SetupAction_URL_StornoNotificationByWorkflowType"
+    },
+    "SA_BcSetDecisionDate": {
+        "id": "SA_BcSetDecisionDate",
+        "name": "Nastav\u00ed datum rozhodnut\u00ed",
+        "className": "Cra_WF_SetupAction_Bc_SetDecisionDate"
+    },
+    "SA_SetWorkflowPhase": {
+        "id": "SA_SetWorkflowPhase",
+        "name": "Nastav\u00ed f\u00e1zi worklfow",
+        "className": "Cra_WF_SetupAction_Common_SetWorkflowPhase"
+    },
+    "SA_CommonSetStornoMode": {
+        "id": "SA_CommonSetStornoMode",
+        "name": "Nastav\u00ed povolen\u00fd typ storna",
+        "className": "Cra_WF_SetupAction_Common_SetStornoMode"
+    },
+    "SA_BcSetIsamWorkplace": {
+        "id": "SA_BcSetIsamWorkplace",
+        "name": "Nastav\u00ed pracovi\u0161t\u011b ISAM dle obchodn\u00edho kan\u00e1lu",
+        "className": "Cra_WF_SetupAction_Bc_SetIsamWorkplace"
+    },
+    "SA_BcSetSapAdministrationWorkplace": {
+        "id": "SA_BcSetSapAdministrationWorkplace",
+        "name": "Nastav\u00ed pracovi\u0161t\u011b zad\u00e1v\u00e1n\u00ed SAPu dle obchodn\u00edho kan\u00e1lu",
+        "className": "Cra_WF_SetupAction_Bc_SetSapAdministrationWorkplace"
+    },
+    "SA_BcSetApproveWorkplace": {
+        "id": "SA_BcSetApproveWorkplace",
+        "name": "Nastav\u00ed pracovi\u0161t\u011b schvalov\u00e1n\u00ed dle obchodn\u00edho kan\u00e1lu",
+        "className": "Cra_WF_SetupAction_Bc_SetApproveWorkplace"
+    },
+    "SA_SrSetIsamWorkplace": {
+        "id": "SA_SrSetIsamWorkplace",
+        "name": "Nastav\u00ed pracovi\u0161t\u011b ISAM dle obchodn\u00edho kan\u00e1lu OP",
+        "className": "Cra_WF_SetupAction_Sr_SetIsamWorkplace"
+    },
+    "SA_SrSetAccountManagerWorkplace": {
+        "id": "SA_SrSetAccountManagerWorkplace",
+        "name": "Nastav\u00ed pracovi\u0161t\u011b obchodn\u00edka dle obch, kan\u00e1lu OP",
+        "className": "Cra_WF_SetupAction_Sr_SetAccountManagerWorkplace"
+    },
+    "SA_SrSetProjectionWorkplace": {
+        "id": "SA_SrSetProjectionWorkplace",
+        "name": "Nastav\u00ed pracovi\u0161t\u011b projekce dle lokality",
+        "className": "Cra_WF_SetupAction_Sr_SetProjectionWorkplace"
+    },
+    "SA_SrSetStatus": {
+        "id": "SA_SrSetStatus",
+        "name": "Nastav\u00ed stav obchodn\u00edho p\u0159\u00edpadu",
+        "className": "Cra_WF_SetupAction_Sr_SetStatus"
+    },
+    "SA_SrServiceSetStatus": {
+        "id": "SA_SrServiceSetStatus",
+        "name": "Nastav\u00ed stav elementu obchodn\u00edho p\u0159\u00edpadu",
+        "className": "Cra_WF_SetupAction_Sr_ServiceSetStatus"
+    },
+    "SA_StornoStrutctureCancelURL": {
+        "id": "SA_StornoStrutctureCancelURL",
+        "name": "Vygeneruje URL zru\u0161en\u00ed storna podle typu workflow",
+        "className": "Cra_WF_SetupAction_URL_StornoCancelByWorkflowType"
+    },
+    "SA_SrOhsOrderCreate": {
+        "id": "SA_SrOhsOrderCreate",
+        "name": "Vygeneruje objedn\u00e1vku veden\u00ed u TO2",
+        "className": "Cra_WF_SetupAction_Sr_OhsOrderCreate"
+    },
+    "SA_SrDispatchMaterial ": {
+        "id": "SA_SrDispatchMaterial ",
+        "name": "Nastav\u00ed vyskladn\u011bn\u00ed na ANO",
+        "className": "Cra_WF_SetupAction_Sr_DispatchMaterial "
+    },
+    "SA_SrSetMontageWorkplace": {
+        "id": "SA_SrSetMontageWorkplace",
+        "name": "Nastav\u00ed pracovi\u0161t\u011b mont\u00e1\u017ee dle vybran\u00e9 mont\u00e1\u017en\u00ed skupiny",
+        "className": "Cra_WF_SetupAction_Sr_SetMontageWorkplace"
+    },
+    "SA_SrServicemanAutoAssign": {
+        "id": "SA_SrServicemanAutoAssign",
+        "name": "Automatick\u00e9 p\u0159evzet\u00ed \u00fakolu na vybran\u00e9ho technika servisu",
+        "className": "Cra_WF_SetupAction_Sr_ServicemanAutoAssign"
+    },
+    "SA_UtSetDefaultWorkplace": {
+        "id": "SA_UtSetDefaultWorkplace",
+        "name": "Nastav\u00ed v\u00fdchoz\u00ed pracovi\u0161t\u011b tiketu",
+        "className": "Cra_WF_SetupAction_Ut_SetDefaultWorkplace"
+    },
+    "SA_ComplaintSetAccountManagerWorkplace": {
+        "id": "SA_ComplaintSetAccountManagerWorkplace",
+        "name": "Nastav\u00ed pracovi\u0161t\u011b na reklamaci dle obchodn\u00edka",
+        "className": "Cra_WF_SetupAction_Complaint_SetAccountManagerWorkplace"
+    },
+    "SA_SrSetWorkplaceByObject": {
+        "id": "SA_SrSetWorkplaceByObject",
+        "name": "Nastav\u00ed pracovi\u0161t\u011b dle objektu (telehousing)",
+        "className": "Cra_WF_SetupAction_Sr_SetWorkplaceByObject"
+    },
+    "SA_SrSetActivationDate": {
+        "id": "SA_SrSetActivationDate",
+        "name": "Nastav\u00ed datum aktivace na getdate()",
+        "className": "Cra_WF_SetupAction_Sr_SetActivationDate"
+    },
+    "SA_SrGenerateTsNumbers": {
+        "id": "SA_SrGenerateTsNumbers",
+        "name": "P\u0159edvypln\u00ed \u010d\u00edsla technick\u00fdch specifikac\u00ed",
+        "className": "Cra_WF_SetupAction_Sr_GenerateTsNumbers"
+    },
+    "SA_SrResetVatServices": {
+        "id": "SA_SrResetVatServices",
+        "name": "Vymaz\u00e1n\u00ed k\u00f3d\u016f DPH",
+        "className": "Cra_WF_SetupAction_Sr_ResetVatServices"
+    },
+    "SA_UtSetAllowedExtUserService": {
+        "id": "SA_UtSetAllowedExtUserService",
+        "name": "Nastav\u00ed povolen\u00e9 pracovi\u0161t\u011b servisu pro tiket",
+        "className": "Cra_WF_SetupAction_Ut_SetAllowedExtUserService"
+    },
+    "SA_SrSetAllowedExtUserElement": {
+        "id": "SA_SrSetAllowedExtUserElement",
+        "name": "Povolen\u00ed p\u0159\u00edstupu pro extern\u00ed firmu",
+        "className": "Cra_WF_SetupAction_Sr_SetAllowedExtUserElement"
+    },
+    "SA_UtSetStatus": {
+        "id": "SA_UtSetStatus",
+        "name": "Nastav\u00ed stav tiketu",
+        "className": "Cra_WF_SetupAction_Ut_SetStatus"
+    },
+    "SA_SrSetActivationDateFromParent": {
+        "id": "SA_SrSetActivationDateFromParent",
+        "name": "Nastav\u00ed datum aktivace dopl\u0148kov\u00e9 slu\u017eby z hlavn\u00ed",
+        "className": "Cra_WF_SetupAction_Sr_ServiceSetParentActivationDate"
+    },
+    "SA_SrSetAllowedExtUserSurvey": {
+        "id": "SA_SrSetAllowedExtUserSurvey",
+        "name": "Povolen\u00ed p\u0159\u00edstupu pro pr\u016fzkum extern\u00ed firmou",
+        "className": "Cra_WF_SetupAction_Sr_SetAllowedExtUserSurvey"
+    },
+    "SA_SrSetAllowedExtUserService": {
+        "id": "SA_SrSetAllowedExtUserService",
+        "name": "Povolen\u00ed p\u0159\u00edstupu pro servisn\u00ed skupinu",
+        "className": "Cra_WF_SetupAction_Sr_SetAllowedExtUserService"
+    },
+    "SA_UtSetAccountManagerWorkplace": {
+        "id": "SA_UtSetAccountManagerWorkplace",
+        "name": "Nastav\u00ed pracovi\u0161t\u011b obchodn\u00edka na tiketu",
+        "className": "Cra_WF_SetupAction_Ut_SetAccountManagerWorkplace"
+    },
+    "SA_SrSetExtUserAndWorkplace": {
+        "id": "SA_SrSetExtUserAndWorkplace",
+        "name": "Nastav\u00ed pracovi\u0161t\u011b dle mont. skup. a povol\u00ed p\u0159\u00edstup pro ext. firmu",
+        "className": "Cra_WF_SetupAction_Sr_SetExtUserAndWorkplace"
+    },
+    "SA_SrSetConfigurationWorkplace": {
+        "id": "SA_SrSetConfigurationWorkplace",
+        "name": "Nastav\u00ed pracovi\u0161t\u011b konfigurace",
+        "className": "Cra_WF_SetupAction_Sr_SetConfigurationWorkplace"
+    },
+    "SA_CommonSetDefaultWorkplace": {
+        "id": "SA_CommonSetDefaultWorkplace",
+        "name": "Nastav\u00ed v\u00fdchoz\u00ed pracovi\u0161t\u011b dle zam\u011bstnance",
+        "className": "Cra_WF_SetupAction_Common_SetDefaultWorkplace"
+    },
+    "SA_SrGenerateAdminPassword": {
+        "id": "SA_SrGenerateAdminPassword",
+        "name": "Vygeneruje administr\u00e1torsk\u00e9 heslo do vlastnosti",
+        "className": "Cra_WF_SetupAction_Sr_GenerateAdminPassword"
+    },
+    "SA_SrNotifyAssignedContractDirector": {
+        "id": "SA_SrNotifyAssignedContractDirector",
+        "name": "Odesl\u00e1n\u00ed notifikace o mo\u017enosti p\u0159evzet\u00ed \u00fakolu dle \u0159\u00edd\u00edc\u00edho zak\u00e1zky",
+        "className": "Cra_WF_SetupAction_Sr_NotifyAssignedContractDirector"
+    },
+    "SA_SrSetWorkplaceAndEmailNotification": {
+        "id": "SA_SrSetWorkplaceAndEmailNotification",
+        "name": "Nastaven\u00ed prac. proj. dle lok. a odesl\u00e1n\u00ed notif. dle \u0159\u00edd\u00edc\u00edho zak.",
+        "className": "Cra_WF_SetupAction_Sr_SetWorkplaceAndEmailNotification"
+    },
+    "SA_SrSetWorkplaceByElement": {
+        "id": "SA_SrSetWorkplaceByElement",
+        "name": "Nastav\u00ed v\u00fdchoz\u00ed pracovi\u0161t\u011b dle produktov\u00e9ho elementu",
+        "className": "Cra_WF_SetupAction_Sr_SetWorkplaceByElement"
+    },
+    "SA_SrSetTaskTerm": {
+        "id": "SA_SrSetTaskTerm",
+        "name": "Nastaven\u00ed term\u00ednu kroku dekonfigurace",
+        "className": "Cra_WF_SetupAction_Sr_SetTaskTerm"
+    },
+    "SA_SrAutoTakeTSTasks": {
+        "id": "SA_SrAutoTakeTSTasks",
+        "name": "Automatick\u00e9 p\u0159evzet\u00ed \u00fakolu Technick\u00e9 podpory zpracovatelem pr\u016fzkumu",
+        "className": "Cra_WF_SetupAction_Sr_AutoTakeTSTasks"
+    },
+    "SA_SrHideNumberPortabilityAcceptation": {
+        "id": "SA_SrHideNumberPortabilityAcceptation",
+        "name": "Skryt\u00ed \u00fakolu Akceptace NP",
+        "className": "Cra_WF_SetupAction_Sr_HideNumberPortabilityAcceptation"
+    },
+    "SA_CommonSetTermFromPoint": {
+        "id": "SA_CommonSetTermFromPoint",
+        "name": "Nastav\u00ed term\u00edn dle jin\u00e9ho kroku ve WF",
+        "className": "Cra_WF_SetupAction_Common_SetTermFromPoint"
+    },
+    "SA_UtSetIsamWorkplace": {
+        "id": "SA_UtSetIsamWorkplace",
+        "name": "Nastav\u00ed pracovi\u0161t\u011b ISAM  na tiketu podle z\u00e1kazn\u00edka",
+        "className": "Cra_WF_SetupAction_Ut_SetIsamWorkplace"
+    },
+    "SA_UtHideTasks": {
+        "id": "SA_UtHideTasks",
+        "name": "Skryje kroky workflow tiketu do ur\u010dit\u00e9ho term\u00ednu",
+        "className": "Cra_WF_SetupAction_Ut_HideTasks"
+    },
+    "SA_SrAutomaticBillingPass": {
+        "id": "SA_SrAutomaticBillingPass",
+        "name": "Automatick\u00e9 odpracov\u00e1n\u00ed \u00fakolu fakturace",
+        "className": "Cra_WF_SetupAction_Sr_AutomaticBillingPass"
+    },
+    "SA_SrCheckChangeRequestInvoiceDate": {
+        "id": "SA_SrCheckChangeRequestInvoiceDate",
+        "name": "Zkontroluje k\u0159\u00ed\u017een\u00ed dat fakturace",
+        "className": "Cra_WF_SetupAction_Sr_CheckChangeRequestInvoiceDate"
+    },
+    "SA_SrSetTerminByNP": {
+        "id": "SA_SrSetTerminByNP",
+        "name": "Nastaven\u00ed term\u00ednu dle po\u017eadovan\u00e9ho data NP",
+        "className": "Cra_WF_SetupAction_Sr_SetTerminByNP"
+    },
+    "SA_SrNotifyStartLine": {
+        "id": "SA_SrNotifyStartLine",
+        "name": "Notifikace uveden\u00ed spoje do provozu",
+        "className": "Cra_WF_SetupAction_Sr_NotifyStartLine"
+    },
+    "SA_SrSetAndAssignDMLeaderWorkplace": {
+        "id": "SA_SrSetAndAssignDMLeaderWorkplace",
+        "name": "Nastav\u00ed prac. a p\u0159id\u011bl\u00ed \u00fakol na vedouc\u00edho delivery man.",
+        "className": "Cra_WF_SetupAction_Sr_SetAndAssignDMLeaderWorkplace"
+    },
+    "SA_SrSetAndAssignDMWorkplace": {
+        "id": "SA_SrSetAndAssignDMWorkplace",
+        "name": "Nastav\u00ed prac. a p\u0159id\u011bl\u00ed \u00fakol na p\u0159i\u0159azen\u00e9ho delivery man.",
+        "className": "Cra_WF_SetupAction_Sr_SetAndAssignDMWorkplace"
+    },
+    "SA_CommonAutomaticPass": {
+        "id": "SA_CommonAutomaticPass",
+        "name": "Automaticky odpracuje \u00fakol",
+        "className": "Cra_WF_SetupAction_Common_AutomaticPass"
+    },
+    "Cra_ComplaintSetIsamWorkplace": {
+        "id": "Cra_ComplaintSetIsamWorkplace",
+        "name": "Nastav\u00ed pracovi\u0161t\u011b ISAM pro \u00fakol reklamace",
+        "className": "Cra_WF_SetupAction_Complaint_SetIsamWorkplace"
+    },
+    "SA_SrAutoTakeTSTasksOrFinish": {
+        "id": "SA_SrAutoTakeTSTasksOrFinish",
+        "name": "Automatick\u00e9 p\u0159evzet\u00ed \u00fakolu Technick\u00e9 podpory zpracovatelem pr\u016fzkumu nebo odpracov\u00e1n\u00ed kroku",
+        "className": "Cra_WF_SetupAction_Sr_AutoTakeTSTasksOrFinish"
+    },
+    "SA_SrSetTaskTermByReturnOut": {
+        "id": "SA_SrSetTaskTermByReturnOut",
+        "name": "Nastaven\u00ed term\u00ednu kroku dle Return OUT",
+        "className": "Cra_WF_SetupAction_Sr_SetTaskTermByReturnOut"
+    },
+    "SA_CommonNewTaskNotifyCustom": {
+        "id": "SA_CommonNewTaskNotifyCustom",
+        "name": "Notifikace o vzniku \u00fakolu na zadan\u00fd email",
+        "className": "Cra_WF_SetupAction_Common_NewTaskNotifyCustom"
+    },
+    "SA_SrSetAllowedExtUserServiceAndCustomNotify": {
+        "id": "SA_SrSetAllowedExtUserServiceAndCustomNotify",
+        "name": "Povolen\u00ed p\u0159\u00edstupu pro servisn\u00ed skupinu a notifikace o vzniku \u00fakolu",
+        "className": "Cra_WF_SetupAction_Sr_SetAllowedExtUserServiceAndCustomNotify"
+    },
+    "SA_SrUpdatePrefixFromCustomer": {
+        "id": "SA_SrUpdatePrefixFromCustomer",
+        "name": "Nastav\u00ed prefix profitcentra na SOP ze z\u00e1kazn\u00edka",
+        "className": "Cra_WF_SetupAction_Sr_UpdatePrefixFromCustomer"
+    },
+    "SA_RRVerificationNotifyService": {
+        "id": "SA_RRVerificationNotifyService",
+        "name": "Notifikace servisu o vzniku \u00fakolu RR Verification",
+        "className": "Cra_WF_SetupAction_Sr_RRVerificationNotifyService"
+    },
+    "SA_UtSetConfigurationWorkplace": {
+        "id": "SA_UtSetConfigurationWorkplace",
+        "name": "[UT] Nastav\u00ed pracovi\u0161t\u011b konfigurace",
+        "className": "Cra_WF_SetupAction_Ut_SetConfigurationWorkplace"
+    },
+    "SA_UtSetSuspensionState": {
+        "id": "SA_UtSetSuspensionState",
+        "name": "[UT] Nastav\u00ed stav pozastaven\u00ed slu\u017eby",
+        "className": "Cra_WF_SetupAction_Ut_SetSuspensionState"
+    },
+    "SA_SrSetContractDirectorAndPass": {
+        "id": "SA_SrSetContractDirectorAndPass",
+        "name": "P\u0159i\u0159azen\u00ed \u0159\u00edd\u00edc\u00edho zak\u00e1zky z OP a odpracov\u00e1n\u00ed kroku",
+        "className": "Cra_WF_SetupAction_Sr_SetContractDirectorAndPass"
+    },
+    "SA_SrAutoTakeIAMTasks": {
+        "id": "SA_SrAutoTakeIAMTasks",
+        "name": "Automatick\u00e9 p\u0159evzet\u00ed za intern\u00edho obchodn\u00edka",
+        "className": "Cra_WF_SetupAction_Sr_AutoTakeIAMTasks"
+    },
+    "SA_SrNpEnsureWorkplace": {
+        "id": "SA_SrNpEnsureWorkplace",
+        "name": "Pracovi\u0161t\u011b pro zaji\u0161t\u011bn\u00ed NP dle TECH",
+        "className": "Cra_WF_SetupAction_Sr_NpEnsureWorkplace"
+    },
+    "SA_SrFinishIfReferral": {
+        "id": "SA_SrFinishIfReferral",
+        "name": "P\u0159esko\u010d\u00ed \u00fakol elementu v p\u0159\u00edpad\u011b postoupen\u00ed",
+        "className": "Cra_WF_SetupAction_Sr_FinishIfReferral"
+    },
+    "SA_UtSendCustomerTransferNotificationISAM": {
+        "id": "SA_UtSendCustomerTransferNotificationISAM",
+        "name": "[UT] Ode\u0161le notifikaci ISAM o p\u0159enosu z\u00e1kazn\u00edka",
+        "className": "Cra_WF_SetupAction_Ut_CustomerTransferISAMNotification"
+    },
+    "SA_SrSetIzConfigWorkplace": {
+        "id": "SA_SrSetIzConfigWorkplace",
+        "name": "Nastav\u00ed pracovi\u0161t\u011b konfigurace podle IZ",
+        "className": "Cra_WF_SetupAction_Sr_SetIzConfigWorkplace"
+    },
+    "SA_SrSetIzTechflowWorkplace": {
+        "id": "SA_SrSetIzTechflowWorkplace",
+        "name": "Nastav\u00ed pracovi\u0161t\u011b v\u00fdstavby podle IZ",
+        "className": "Cra_WF_SetupAction_Sr_SetIzTechflowWorkplace"
+    },
+    "SA_SrSetSkipConnectBC": {
+        "id": "SA_SrSetSkipConnectBC",
+        "name": "P\u0159esko\u010den\u00ed P\u0159ipojeni BCO a p\u0159evzet\u00ed za IAM",
+        "className": "Cra_WF_SetupAction_Sr_SetSkipConnectBC"
+    },
+    "SA_SrAutoTakeIZTasks": {
+        "id": "SA_SrAutoTakeIZTasks",
+        "name": "Automatick\u00e9 p\u0159evzet\u00ed za zakladatele IZ",
+        "className": "Cra_WF_SetupAction_Sr_AutoTakeIZTasks"
+    },
+    "SA_CloneWfStepForWorkplace": {
+        "id": "SA_CloneWfStepForWorkplace",
+        "name": "Klonov\u00e1n\u00ed krok\u016f pro zadan\u00e1 pracovi\u0161t\u011b",
+        "className": "Cra_WF_SetupAction_Sr_CloneWfStepForWorkplace"
+    },
+    "SA_StornoWorkplaceUrls": {
+        "id": "SA_StornoWorkplaceUrls",
+        "name": "Nastav\u00ed pracovi\u0161t\u011b pro storno a vygeneruje URL",
+        "className": "Cra_WF_SetupAction_StornoWorkplaceUrls"
+    },
+    "SA_CommonStornoResultNotificationURL": {
+        "id": "SA_CommonStornoResultNotificationURL",
+        "name": "Vygeneruje URL pro odeslani notifikace o vysledku storna.",
+        "className": "Cra_WF_SetupAction_URL_StornoResultNotificationByWorkflowType"
+    },
+    "SA_StornoAutomaticApprove": {
+        "id": "SA_StornoAutomaticApprove",
+        "name": "Automatick\u00e9 schv\u00e1len\u00ed po\u017eadavku na glob\u00e1ln\u00ed storno",
+        "className": "Cra_WF_SetupAction_Common_StornoAutomaticApprove"
+    },
+    "SA_SrAutoAssigningControlOrder": {
+        "id": "SA_SrAutoAssigningControlOrder",
+        "name": "Automatick\u00e9 p\u0159i\u0159a\u017een\u00ed projektanta dle pr\u016fzkumu",
+        "className": "Cra_WF_SetupAction_Sr_AutoAssigningControlOrder"
+    },
+    "SA_SrSetAllowedExtUserSurveyProjection": {
+        "id": "SA_SrSetAllowedExtUserSurveyProjection",
+        "name": "Povolen\u00ed p\u0159\u00edstupu pro pr\u016fzkum extern\u00ed firmou Projekce",
+        "className": "Cra_WF_SetupAction_Sr_SetAllowedExtUserSurveyProjection"
+    },
+    "SA_Sr_SetWorkplaceByWorkplaceSAP": {
+        "id": "SA_Sr_SetWorkplaceByWorkplaceSAP",
+        "name": "Nastaven\u00ed pracovi\u0161t\u011b podle Pracovi\u0161t\u011b SAP",
+        "className": "Cra_WF_SetupAction_Sr_SetWorkplaceByWorkplaceSAP"
+    },
+    "SA_SrSetCommissionTypeWithoutSap": {
+        "id": "SA_SrSetCommissionTypeWithoutSap",
+        "name": "Nastav\u00ed typ zak\u00e1zky Bez SAP",
+        "className": "Cra_WF_SetupAction_Sr_SetCommissionTypeWithoutSap"
+    },
+    "SA_SrRemoveAddressFromSurvey": {
+        "id": "SA_SrRemoveAddressFromSurvey",
+        "name": "Odebere adresu na dan\u00e9m pr\u016fzkumu",
+        "className": "Cra_WF_SetupAction_Sr_RemoveAddressFromSurvey"
+    },
+    "SA_SrAddProperty": {
+        "id": "SA_SrAddProperty",
+        "name": "P\u0159id\u00e1n\u00ed vlastnosti elementu",
+        "className": "Cra_WF_SetupAction_Sr_AddElementProperties"
+    }
+}

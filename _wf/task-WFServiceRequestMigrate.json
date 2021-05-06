@@ -1,0 +1,24 @@
+{
+    "TA_SrMigCreate": {
+        "id": "TA_SrMigCreate",
+        "type": "M",
+        "name": "Uzav\u0159en\u00ed obchodn\u00edho p\u0159\u00edpadu",
+        "canMerge": false,
+        "taskId": "TT_SrMig",
+        "workplaceId": "WP_AdminEcho",
+        "setupActionId": "undefined",
+        "term": "",
+        "termType": "day",
+        "nestedWorkflow": null,
+        "canRedo": false,
+        "notSendEmail": false,
+        "urgent": false,
+        "outOfWorkFlow": false,
+        "params": "",
+        "autofinishMessage": "",
+        "autoWorkOutAfterTerm": false,
+        "generateCancelOnGlobalCancel": false,
+        "top": "133",
+        "left": "273"
+    }
+}

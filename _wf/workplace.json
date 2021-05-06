@@ -1,0 +1,294 @@
+{
+    "WP_IsamCorporate": {
+        "id": "WP_IsamCorporate",
+        "name": "ISAM Korpor\u00e1t"
+    },
+    "WP_IsamWholesale": {
+        "id": "WP_IsamWholesale",
+        "name": "ISAM Velkoobchod"
+    },
+    "WP_IsamMajorAccount": {
+        "id": "WP_IsamMajorAccount",
+        "name": "ISAM MA"
+    },
+    "WP_Sales": {
+        "id": "WP_Sales",
+        "name": "Obchod"
+    },
+    "WP_SalesReporting": {
+        "id": "WP_SalesReporting",
+        "name": "Sales Reporting"
+    },
+    "WP_ApproveCorporate": {
+        "id": "WP_ApproveCorporate",
+        "name": "Schvalov\u00e1n\u00ed Corporate"
+    },
+    "WP_ApproveWholesale": {
+        "id": "WP_ApproveWholesale",
+        "name": "Schvalov\u00e1n\u00ed Wholesale"
+    },
+    "WP_ApproveMajorAccount": {
+        "id": "WP_ApproveMajorAccount",
+        "name": "Schvalov\u00e1n\u00ed MA"
+    },
+    "WP_ApproveFinance": {
+        "id": "WP_ApproveFinance",
+        "name": "Schvalov\u00e1n\u00ed Finance"
+    },
+    "WP_ApproveCeo": {
+        "id": "WP_ApproveCeo",
+        "name": "Schvalov\u00e1n\u00ed G\u0158"
+    },
+    "WP_System": {
+        "id": "WP_System",
+        "name": "Automatick\u00e9 pracovi\u0161t\u011b"
+    },
+    "WP_ProjectBoard": {
+        "id": "WP_ProjectBoard",
+        "name": "Schvalov\u00e1n\u00ed Project Board"
+    },
+    "WP_ApproveGovernment": {
+        "id": "WP_ApproveGovernment",
+        "name": "St\u00e1tn\u00ed spr\u00e1va"
+    },
+    "WP_ApproveTelco": {
+        "id": "WP_ApproveTelco",
+        "name": "Schvalov\u00e1n\u00ed TELCO"
+    },
+    "WP_ApproveBroadcast": {
+        "id": "WP_ApproveBroadcast",
+        "name": "Schvalov\u00e1n\u00ed broadcast"
+    },
+    "WP_NetworkInfrastructureSupport": {
+        "id": "WP_NetworkInfrastructureSupport",
+        "name": "Podpora s\u00edt\u011b"
+    },
+    "WP_ComplaintReport": {
+        "id": "WP_ComplaintReport",
+        "name": "Nahl\u00e1\u0161en\u00ed reklamace"
+    },
+    "WP_Billing": {
+        "id": "WP_Billing",
+        "name": "Fakturace"
+    },
+    "WP_NetworkInfrastructureSupportManager": {
+        "id": "WP_NetworkInfrastructureSupportManager",
+        "name": "Mana\u017eer podpory s\u00edt\u011b"
+    },
+    "WP_ApproveCco": {
+        "id": "WP_ApproveCco",
+        "name": "Schvalov\u00e1n\u00ed O\u0158"
+    },
+    "WP_ClaimManagement": {
+        "id": "WP_ClaimManagement",
+        "name": "Spr\u00e1va pohled\u00e1vek"
+    },
+    "WP_Complaint": {
+        "id": "WP_Complaint",
+        "name": "Skupina reklamace"
+    },
+    "WP_ApproveExpansion": {
+        "id": "WP_ApproveExpansion",
+        "name": "Schvalov\u00e1n\u00ed rozvoj s\u00edt\u011b"
+    },
+    "WP_BcOpInsert": {
+        "id": "WP_BcOpInsert",
+        "name": "Zad\u00e1v\u00e1n\u00ed provozn\u00edch business case"
+    },
+    "WP_TechnicalSupport": {
+        "id": "WP_TechnicalSupport",
+        "name": "Technick\u00e1 podpora"
+    },
+    "WP_ContractProcessing": {
+        "id": "WP_ContractProcessing",
+        "name": "Zpracov\u00e1n\u00ed smluv"
+    },
+    "WP_Logistics": {
+        "id": "WP_Logistics",
+        "name": "Logistika"
+    },
+    "WP_Controlling": {
+        "id": "WP_Controlling",
+        "name": "Controlling"
+    },
+    "WP_ProjectionManager": {
+        "id": "WP_ProjectionManager",
+        "name": "Projekce \u0159\u00edzen\u00ed"
+    },
+    "WP_Projection": {
+        "id": "WP_Projection",
+        "name": "Projekce"
+    },
+    "WP_ExtPartnerManager": {
+        "id": "WP_ExtPartnerManager",
+        "name": "\u0158\u00edzen\u00ed extern\u00edch firem"
+    },
+    "WP_ExtPartner": {
+        "id": "WP_ExtPartner",
+        "name": "Extern\u00ed firma"
+    },
+    "WP_AzsTO2": {
+        "id": "WP_AzsTO2",
+        "name": "AZS CETIN"
+    },
+    "WP_ConfigurationAWC": {
+        "id": "WP_ConfigurationAWC",
+        "name": "Konfigurace AWC"
+    },
+    "WP_ConfigurationData": {
+        "id": "WP_ConfigurationData",
+        "name": "Konfigurace DATA"
+    },
+    "WP_HelpDesk": {
+        "id": "WP_HelpDesk",
+        "name": "Helpdesk"
+    },
+    "WP_ServiceDelivery": {
+        "id": "WP_ServiceDelivery",
+        "name": "P\u0159ed\u00e1v\u00e1n\u00ed slu\u017eeb"
+    },
+    "WP_ConfigurationSdh": {
+        "id": "WP_ConfigurationSdh",
+        "name": "Konfigurace SDH"
+    },
+    "WP_ConfigurationVoip": {
+        "id": "WP_ConfigurationVoip",
+        "name": "Konfigurace VOIP"
+    },
+    "WP_NumberAllocation": {
+        "id": "WP_NumberAllocation",
+        "name": "P\u0159id\u011blov\u00e1n\u00ed telefonn\u00edch \u010d\u00edsel"
+    },
+    "WP_NetworkDevelopmentDepartment": {
+        "id": "WP_NetworkDevelopmentDepartment",
+        "name": "\u00datvar rozvoje"
+    },
+    "WP_ConfigurationInternet": {
+        "id": "WP_ConfigurationInternet",
+        "name": "Konfigurace INTERNET"
+    },
+    "WP_AzsNp": {
+        "id": "WP_AzsNp",
+        "name": "AZS NP"
+    },
+    "WP_AzsTmcz": {
+        "id": "WP_AzsTmcz",
+        "name": "AZS TMCZ"
+    },
+    "WP_ServiceManager": {
+        "id": "WP_ServiceManager",
+        "name": "Vedouc\u00ed servisu"
+    },
+    "WP_FrequencySpectrumAdministration": {
+        "id": "WP_FrequencySpectrumAdministration",
+        "name": "Spr\u00e1va kmito\u010dtov\u00e9ho spektra"
+    },
+    "WP_Service": {
+        "id": "WP_Service",
+        "name": "Servis"
+    },
+    "WP_Statements": {
+        "id": "WP_Statements",
+        "name": "V\u00fdkaznictv\u00ed"
+    },
+    "WP_AdminEcho": {
+        "id": "WP_AdminEcho",
+        "name": "Administrace ECHO"
+    },
+    "WP_CircuitDesign": {
+        "id": "WP_CircuitDesign",
+        "name": "Konstrukce okruh\u016f"
+    },
+    "WP_ConstructionMoravia": {
+        "id": "WP_ConstructionMoravia",
+        "name": "V\u00fdstavba Morava"
+    },
+    "WP_ConstructionCzech": {
+        "id": "WP_ConstructionCzech",
+        "name": "V\u00fdstavba \u010cechy"
+    },
+    "WP_ConstructionExternal": {
+        "id": "WP_ConstructionExternal",
+        "name": "V\u00fdstavba extern\u00ed"
+    },
+    "WP_TiketService": {
+        "id": "WP_TiketService",
+        "name": "Servis (\u0159e\u0161en\u00ed tiket\u016f)"
+    },
+    "WP_Cloud": {
+        "id": "WP_Cloud",
+        "name": "Cloud"
+    },
+    "WP_HelpdesSupport": {
+        "id": "WP_HelpdesSupport",
+        "name": "Helpdesk  (podpora)"
+    },
+    "WP_DeliveryManager": {
+        "id": "WP_DeliveryManager",
+        "name": "Delivery manager"
+    },
+    "WP_Surveillance": {
+        "id": "WP_Surveillance",
+        "name": "Dohledy"
+    },
+    "WP_SalesSupport": {
+        "id": "WP_SalesSupport",
+        "name": "Obchodn\u00ed podpora"
+    },
+    "WP_Claims": {
+        "id": "WP_Claims",
+        "name": "Pohled\u00e1vky"
+    },
+    "WP_DataCenterOperations": {
+        "id": "WP_DataCenterOperations",
+        "name": "Provoz datov\u00fdch center"
+    },
+    "WP_InternalSales": {
+        "id": "WP_InternalSales",
+        "name": "Intern\u00ed obchodn\u00edk"
+    },
+    "WP_ConfigurationOtt": {
+        "id": "WP_ConfigurationOtt",
+        "name": "Konfigurace OTT"
+    },
+    "WP_BroadcastTechnicalSupport": {
+        "id": "WP_BroadcastTechnicalSupport",
+        "name": "Broadcast technick\u00e1 podpora"
+    },
+    "WP_MobileTransmission": {
+        "id": "WP_MobileTransmission",
+        "name": "Mobiln\u00ed p\u0159enosy"
+    },
+    "WP_ConfigurationVoice": {
+        "id": "WP_ConfigurationVoice",
+        "name": "Konfigurace Hlas"
+    },
+    "WP_CyberSecurity": {
+        "id": "WP_CyberSecurity",
+        "name": "Spr\u00e1va IPK"
+    },
+    "WP_OrderManager": {
+        "id": "WP_OrderManager",
+        "name": "\u0158\u00edzen\u00ed zak\u00e1zek"
+    },
+    "WP_ServiceSupport": {
+        "id": "WP_ServiceSupport",
+        "name": "Podpora provozu"
+    },
+    "WP_SalesIoT": {
+        "id": "WP_SalesIoT",
+        "name": "Obchod IoT"
+    },
+    "WP_ConfigurationIoT": {
+        "id": "WP_ConfigurationIoT",
+        "name": "Konfigurace IoT"
+    },
+    "WP_ConfigurationNetwork": {
+        "id": "WP_ConfigurationNetwork",
+        "name": "Konfigurace s\u00edt\u011b"
+    },
+    "WP_SubContracts": {
+        "id": "WP_SubContracts",
+        "name": "Subdod\u00e1vky"
+    }
+}

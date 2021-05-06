@@ -1,0 +1,34 @@
+{
+    "CO_SrCallFlowCheckRequest": {
+        "id": "CO_SrCallFlowCheckRequest",
+        "conditionId": "CT_SrCallFlowCheckRequest",
+        "name": "Po\u017eadov\u00e1na kontrola call flow",
+        "params": "",
+        "top": "659",
+        "left": "341"
+    },
+    "CO_SrPreCompletedByUser": {
+        "id": "CO_SrPreCompletedByUser",
+        "conditionId": "CT_CommonTaskPassedByUser",
+        "name": "Karta slu\u017eby nebyla p\u0159edvypln\u011bna",
+        "params": "{\"WFKP_KOD\":\"TA_SrPreCompleteServiceInformation\",\"_result\":0}",
+        "top": "401",
+        "left": "338"
+    },
+    "CO_SrExchacgeSoftswitch": {
+        "id": "CO_SrExchacgeSoftswitch",
+        "conditionId": "CT_SrNumberExchangeType",
+        "name": "\u00dast\u0159edna Softswitch",
+        "params": "{\"EXCH_TYP\":0}",
+        "top": "874",
+        "left": "409"
+    },
+    "CO_SrExchacgeEwsd": {
+        "id": "CO_SrExchacgeEwsd",
+        "conditionId": "CT_SrNumberExchangeType",
+        "name": "\u00dast\u0159edna EWSD",
+        "params": "{\"EXCH_TYP\":1}",
+        "top": "870",
+        "left": "689"
+    }
+}

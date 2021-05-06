@@ -1,0 +1,77 @@
+{
+    "TA_UtPostponeAndAlertOn": {
+        "id": "TA_UtPostponeAndAlertOn",
+        "type": "A",
+        "name": "Odlo\u017e\u00ed \u00fakol a nastav\u00ed p\u0159ipomenut\u00ed",
+        "canMerge": false,
+        "taskId": "TT_UtAlertOn",
+        "workplaceId": "WP_System",
+        "setupActionId": "undefined",
+        "term": "",
+        "termType": "day",
+        "nestedWorkflow": {
+            "0": ""
+        },
+        "canRedo": false,
+        "notSendEmail": false,
+        "urgent": false,
+        "outOfWorkFlow": false,
+        "params": "",
+        "autofinishMessage": "",
+        "autoWorkOutAfterTerm": false,
+        "generateCancelOnGlobalCancel": false,
+        "disableControls": false,
+        "top": "231",
+        "left": "131"
+    },
+    "TA_UtActivateAndAlertOff": {
+        "id": "TA_UtActivateAndAlertOff",
+        "type": "A",
+        "name": "Nastav\u00ed stav po odlo\u017een\u00ed",
+        "canMerge": false,
+        "taskId": "TT_UtAlertOff",
+        "workplaceId": "WP_System",
+        "setupActionId": "undefined",
+        "term": "",
+        "termType": "day",
+        "nestedWorkflow": {
+            "0": ""
+        },
+        "canRedo": false,
+        "notSendEmail": false,
+        "urgent": false,
+        "outOfWorkFlow": false,
+        "params": "",
+        "autofinishMessage": "",
+        "autoWorkOutAfterTerm": false,
+        "generateCancelOnGlobalCancel": false,
+        "disableControls": false,
+        "top": "420",
+        "left": "308"
+    },
+    "TA_UtAlertTimeWaiting": {
+        "id": "TA_UtAlertTimeWaiting",
+        "type": "M",
+        "name": "\u010cek\u00e1n\u00ed na term\u00edn p\u0159ipomenut\u00ed",
+        "canMerge": false,
+        "taskId": "TT_UtStandardTask",
+        "workplaceId": "WP_HelpDesk",
+        "setupActionId": "SA_CommonSetMySyncpointTerm",
+        "term": "",
+        "termType": "day",
+        "nestedWorkflow": {
+            "0": ""
+        },
+        "canRedo": false,
+        "notSendEmail": false,
+        "urgent": false,
+        "outOfWorkFlow": false,
+        "params": "",
+        "autofinishMessage": "",
+        "autoWorkOutAfterTerm": true,
+        "generateCancelOnGlobalCancel": false,
+        "disableControls": false,
+        "top": "328",
+        "left": "222"
+    }
+}

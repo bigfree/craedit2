@@ -1,0 +1,130 @@
+{
+    "CO_SrServiceHelpdeskTakeover": {
+        "id": "CO_SrServiceHelpdeskTakeover",
+        "conditionId": "CT_SrServiceHdTakeover",
+        "name": "P\u0159ed\u00e1n\u00ed slu\u017eby helpdesku",
+        "params": "",
+        "top": "200",
+        "left": "46"
+    },
+    "CO_SrServiceCustomerAutoTakeover1": {
+        "id": "CO_SrServiceCustomerAutoTakeover1",
+        "conditionId": "CT_SrServiceCustomerAutoTakeover",
+        "name": "Slu\u017eba se p\u0159ed\u00e1v\u00e1 z\u00e1kazn\u00edkovi automaticky",
+        "params": "",
+        "top": "335",
+        "left": "780"
+    },
+    "CO_SrServiceCustomerAutoTakeover2": {
+        "id": "CO_SrServiceCustomerAutoTakeover2",
+        "conditionId": "CT_SrServiceCustomerAutoTakeover",
+        "name": "Slu\u017eba se p\u0159ed\u00e1v\u00e1 z\u00e1kazn\u00edkovi ru\u010dn\u011b",
+        "params": "{\"_result\":0}",
+        "top": "335",
+        "left": "391"
+    },
+    "CO_SrServiceCustomerTakeover1": {
+        "id": "CO_SrServiceCustomerTakeover1",
+        "conditionId": "CT_SrServiceCustomerTakeover",
+        "name": "Slu\u017eba se p\u0159ed\u00e1v\u00e1 z\u00e1kazn\u00edkovi",
+        "params": "",
+        "top": "232",
+        "left": "561"
+    },
+    "CO_SrServiceCustomerTakeover2": {
+        "id": "CO_SrServiceCustomerTakeover2",
+        "conditionId": "CT_SrServiceCustomerTakeover",
+        "name": "Slu\u017eba se nep\u0159ed\u00e1v\u00e1 z\u00e1kazn\u00edkovi",
+        "params": "{\"_result\":0}",
+        "top": "133",
+        "left": "839"
+    },
+    "CO_SrServiceBillingAutoTransfer1": {
+        "id": "CO_SrServiceBillingAutoTransfer1",
+        "conditionId": "CT_SrServiceBillingAutoTransfer",
+        "name": "Slu\u017eba se p\u0159en\u00e1\u0161\u00ed do billingu automaticky",
+        "params": "",
+        "top": "662",
+        "left": "37"
+    },
+    "CO_SrServiceBillingAutoTransfer2": {
+        "id": "CO_SrServiceBillingAutoTransfer2",
+        "conditionId": "CT_SrServiceBillingAutoTransfer",
+        "name": "Slu\u017eba se p\u0159en\u00e1\u0161\u00ed do billingu ru\u010dn\u011b",
+        "params": "{\"_result\":0}",
+        "top": "659",
+        "left": "418"
+    },
+    "CO_SrServiceBillingAutoTransfer3": {
+        "id": "CO_SrServiceBillingAutoTransfer3",
+        "conditionId": "CT_SrServiceBillingAutoTransfer",
+        "name": "Slu\u017eba se p\u0159en\u00e1\u0161\u00ed do billingu automaticky",
+        "params": "",
+        "top": "654",
+        "left": "1022"
+    },
+    "CO_SrServiceBillingAutoTransfer4": {
+        "id": "CO_SrServiceBillingAutoTransfer4",
+        "conditionId": "CT_SrServiceBillingAutoTransfer",
+        "name": "Slu\u017eba se p\u0159en\u00e1\u0161\u00ed do billingu ru\u010dn\u011b",
+        "params": "{\"_result\":0}",
+        "top": "655",
+        "left": "1320"
+    },
+    "CO_SrServiceBillingAutoTransfer5": {
+        "id": "CO_SrServiceBillingAutoTransfer5",
+        "conditionId": "CT_SrServiceBillingAutoTransfer",
+        "name": "Slu\u017eba se p\u0159en\u00e1\u0161\u00ed do billingu automaticky",
+        "params": "",
+        "top": "183",
+        "left": "1462"
+    },
+    "CO_SrServiceBillingAutoTransfer6": {
+        "id": "CO_SrServiceBillingAutoTransfer6",
+        "conditionId": "CT_SrServiceBillingAutoTransfer",
+        "name": "Slu\u017eba se p\u0159en\u00e1\u0161\u00ed do billingu ru\u010dn\u011b",
+        "params": "{\"_result\":0}",
+        "top": "187",
+        "left": "1178"
+    },
+    "CO_SrServiceIsTransferred1": {
+        "id": "CO_SrServiceIsTransferred1",
+        "conditionId": "CT_SrServiceIsTransfered",
+        "name": "Slu\u017eba ji\u017e byla p\u0159enesena",
+        "params": "{\"_result\":0}",
+        "top": "794",
+        "left": "28"
+    },
+    "CO_SrServiceIsTransferred2": {
+        "id": "CO_SrServiceIsTransferred2",
+        "conditionId": "CT_SrServiceIsTransfered",
+        "name": "Slu\u017eba ji\u017e byla p\u0159enesena",
+        "params": "{\"_result\":0}",
+        "top": "775",
+        "left": "933"
+    },
+    "CO_SrServiceIsTransferred3": {
+        "id": "CO_SrServiceIsTransferred3",
+        "conditionId": "CT_SrServiceIsTransfered",
+        "name": "Slu\u017eba ji\u017e byla p\u0159enesena",
+        "params": "{\"_result\":0}",
+        "top": "318",
+        "left": "1465"
+    },
+    "CO_SrIsInfomailToBeSend1": {
+        "id": "CO_SrIsInfomailToBeSend1",
+        "conditionId": "CT_SrIsInfomailToBeSend",
+        "name": "M\u00e1 se odeslat Infomail",
+        "params": "",
+        "top": "496",
+        "left": "456"
+    },
+    "CO_SrIsInfomailToBeSend2": {
+        "id": "CO_SrIsInfomailToBeSend2",
+        "conditionId": "CT_SrIsInfomailToBeSend",
+        "name": "M\u00e1 se odeslat Infomail",
+        "params": "",
+        "top": "497",
+        "left": "739"
+    }
+}

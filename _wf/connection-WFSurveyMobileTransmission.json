@@ -1,0 +1,22 @@
+{
+    "CNror7zbyr53": {
+        "id": "CNror7zbyr53",
+        "from": "SP_SrCheckAvailability",
+        "to": "TA_SrCreateSurvey"
+    },
+    "CNsfnkuyhirx": {
+        "id": "CNsfnkuyhirx",
+        "from": "TA_SrCreateSurvey",
+        "to": "TA_SrSurveyResult"
+    },
+    "CNi4uvvnp9fr": {
+        "id": "CNi4uvvnp9fr",
+        "from": "TA_SrSurveyResult",
+        "to": "Co_SrSurveyIsPositive"
+    },
+    "CN6u3wzjxd5u": {
+        "id": "CN6u3wzjxd5u",
+        "from": "Co_SrSurveyIsPositive",
+        "to": "TA_SrConfiguration"
+    }
+}

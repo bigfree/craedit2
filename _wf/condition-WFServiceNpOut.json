@@ -1,0 +1,18 @@
+{
+    "CO_SrNPNotifyTechContact2": {
+        "id": "CO_SrNPNotifyTechContact2",
+        "conditionId": "CT_SrNPNotifyTechContact",
+        "name": "Odeslat notifikaci o portaci \u010d\u00edsel na technick\u00fd kontakt",
+        "params": "",
+        "top": "629",
+        "left": "634"
+    },
+    "CO_SrInternalMontage": {
+        "id": "CO_SrInternalMontage",
+        "conditionId": "CT_SrIsMontageGroupCra",
+        "name": "Mont\u00e1\u017e je prov\u00e1d\u011bna extern\u00ed firmou",
+        "params": "",
+        "top": "927",
+        "left": "844"
+    }
+}

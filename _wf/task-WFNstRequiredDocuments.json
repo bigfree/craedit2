@@ -1,0 +1,25 @@
+{
+    "TA_SrRequiredDocuments": {
+        "id": "TA_SrRequiredDocuments",
+        "type": "M",
+        "name": "Zaji\u0161t\u011bn\u00ed podklad\u016f",
+        "canMerge": false,
+        "taskId": "TT_SrCompleteServiceInformation",
+        "workplaceId": "WP_TechnicalSupport",
+        "setupActionId": "SA_SrAutoTakeTSTasks",
+        "term": "",
+        "termType": "day",
+        "nestedWorkflow": null,
+        "canRedo": false,
+        "notSendEmail": false,
+        "urgent": false,
+        "outOfWorkFlow": false,
+        "params": "",
+        "autofinishMessage": "",
+        "autoWorkOutAfterTerm": false,
+        "generateCancelOnGlobalCancel": false,
+        "disableControls": false,
+        "top": "150",
+        "left": "294"
+    }
+}

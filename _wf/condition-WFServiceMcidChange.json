@@ -1,0 +1,34 @@
+{
+    "CO_SrEwsdExchange": {
+        "id": "CO_SrEwsdExchange",
+        "conditionId": "CT_SrNumberExchangeType",
+        "name": "\u00dast\u0159edna EWSD",
+        "params": "{\"EXCH_TYP\":1}",
+        "top": "741",
+        "left": "8"
+    },
+    "CO_SrSswExchange": {
+        "id": "CO_SrSswExchange",
+        "conditionId": "CT_SrNumberExchangeType",
+        "name": "\u00dast\u0159edna SoftSwitch",
+        "params": "{\"EXCH_TYP\":0}",
+        "top": "693",
+        "left": "485"
+    },
+    "CO_SrServiceDeliveryByPost": {
+        "id": "CO_SrServiceDeliveryByPost",
+        "conditionId": "CT_SrServiceDeliveryType",
+        "name": "P\u0159ed\u00e1n\u00ed slu\u017eby po\u0161tou",
+        "params": "{\"DELIVERY_TYPE\":0}",
+        "top": "952",
+        "left": "25"
+    },
+    "CO_SrStandardServiceDelivery": {
+        "id": "CO_SrStandardServiceDelivery",
+        "conditionId": "CT_SrServiceDeliveryType",
+        "name": "Standardn\u00ed p\u0159ed\u00e1n\u00ed slu\u017eby",
+        "params": "{\"DELIVERY_TYPE\":1}",
+        "top": "931",
+        "left": "310"
+    }
+}

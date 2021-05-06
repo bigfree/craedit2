@@ -1,0 +1,22 @@
+{
+    "CNror7zbyr53": {
+        "id": "CNror7zbyr53",
+        "from": "SP_SrCheckAvailability",
+        "to": "TA_SrCreateSurvey"
+    },
+    "CNsfnkuyhirx": {
+        "id": "CNsfnkuyhirx",
+        "from": "TA_SrCreateSurvey",
+        "to": "TA_SrSurveyResult"
+    },
+    "CNh3v9qo8sus": {
+        "id": "CNh3v9qo8sus",
+        "from": "SP_SrCheckAvailability",
+        "to": "SP_SrSurveyAccountManagerNotification"
+    },
+    "CN2z8layij5g": {
+        "id": "CN2z8layij5g",
+        "from": "SP_SrSurveyAccountManagerNotification",
+        "to": "TA_SrSurveyAccountManagerNotification"
+    }
+}

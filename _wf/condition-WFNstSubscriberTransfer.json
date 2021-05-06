@@ -1,0 +1,10 @@
+{
+    "CO_CustomerAlreadyTransferred1": {
+        "id": "CO_CustomerAlreadyTransferred1",
+        "conditionId": "CT_SrCustomerAlreadyTransferred",
+        "name": "Odb\u011bratel je\u0161t\u011b nebyl p\u0159enesen",
+        "params": "{\"_result\":0,\"type\":\"subscriber\"}",
+        "top": "131",
+        "left": "326"
+    }
+}

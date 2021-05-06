@@ -1,0 +1,25 @@
+{
+    "TA_SrSurveySpecificationRequest": {
+        "id": "TA_SrSurveySpecificationRequest",
+        "type": "M",
+        "name": "Up\u0159esn\u011bn\u00ed technick\u00e9ho \u0159e\u0161en\u00ed",
+        "canMerge": false,
+        "taskId": "TT_SrStandardTask",
+        "workplaceId": "WP_TechnicalSupport",
+        "setupActionId": "undefined",
+        "term": "",
+        "termType": "day",
+        "nestedWorkflow": null,
+        "canRedo": false,
+        "notSendEmail": false,
+        "urgent": false,
+        "outOfWorkFlow": false,
+        "params": "{\"_nestings\":[\"WFSurveyGroupOnProjection\",\"WFSurveyGroupOnRef\",\"WFSurveyFibre\",\"WFSurveyLeasedLine\",\"WFSurveyLicensedRadio\",\"WFSurveyFreeRadio\",\"WFSurveyCloud\",\"WFSurveyLoRaGw\"], \"connectionsPanel\":{\"type\":\"survey\", \"canRepeat\":true,\"term\":432000,\"termErrorMessage\":\"Datum: minim\u00e1ln\u011b p\u011bt pracovn\u00edch dn\u00ed!\"}}",
+        "autofinishMessage": "",
+        "autoWorkOutAfterTerm": false,
+        "generateCancelOnGlobalCancel": false,
+        "disableControls": false,
+        "top": "181",
+        "left": "150"
+    }
+}

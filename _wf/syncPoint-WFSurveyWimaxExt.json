@@ -1,0 +1,38 @@
+{
+    "SP_SrSurveyWirelesConnectivityExt": {
+        "id": "SP_SrSurveyWirelesConnectivityExt",
+        "type": "A",
+        "name": "Pr\u016fzkum (dostupnost uzlu s extern\u00ed firmou)",
+        "urgent": false,
+        "taskId": "TT_Automat",
+        "workplaceId": "WP_System",
+        "setupActionId": "undefined",
+        "syncType": "NONE",
+        "term": "5",
+        "termType": "work_day",
+        "params": "",
+        "autofinishMessage": "",
+        "autoWorkOutAfterTerm": false,
+        "generateCancelOnGlobalCancel": false,
+        "top": "148",
+        "left": "58"
+    },
+    "SP_SrSurveyAccountManagerNotification": {
+        "id": "SP_SrSurveyAccountManagerNotification",
+        "type": "A",
+        "name": "Odesl\u00e1n\u00ed notifikace",
+        "urgent": false,
+        "taskId": "TT_SrAutomat",
+        "workplaceId": "WP_System",
+        "setupActionId": "undefined",
+        "syncType": "NONE",
+        "term": "1",
+        "termType": "hour",
+        "params": "",
+        "autofinishMessage": "",
+        "autoWorkOutAfterTerm": false,
+        "generateCancelOnGlobalCancel": false,
+        "top": "357",
+        "left": "58"
+    }
+}

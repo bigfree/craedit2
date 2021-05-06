@@ -1,0 +1,14 @@
+{
+    "SP_SrNpAccept": {
+        "id": "SP_SrNpAccept",
+        "type": "A",
+        "name": "Po\u017eadavek NP accept",
+        "urgent": false,
+        "taskId": "TT_Automat",
+        "workplaceId": "WP_System",
+        "setupActionId": "undefined",
+        "params": "",
+        "top": "100",
+        "left": "10"
+    }
+}

@@ -1,0 +1,152 @@
+{
+    "CNc0gk6u7ytr": {
+        "id": "CNc0gk6u7ytr",
+        "from": "SP_SrOrder",
+        "to": "SP_SrFinalizedServiceParameters"
+    },
+    "CNrl1wrm8cxt": {
+        "id": "CNrl1wrm8cxt",
+        "from": "SP_SrFinalizedServiceParameters",
+        "to": "SP_SrNumberSAP"
+    },
+    "CNd2fnarami1": {
+        "id": "CNd2fnarami1",
+        "from": "SP_SrNumberSAP",
+        "to": "SP_SrCommision"
+    },
+    "CNlamlmbwxd1": {
+        "id": "CNlamlmbwxd1",
+        "from": "SP_SrCommision",
+        "to": "SP_SrInstallation"
+    },
+    "CNmgq909ylcl": {
+        "id": "CNmgq909ylcl",
+        "from": "SP_SrInstallation",
+        "to": "SP_PreConfigurationCompleted"
+    },
+    "CNywr45795u9": {
+        "id": "CNywr45795u9",
+        "from": "SP_PreConfigurationCompleted",
+        "to": "SP_SrTechnologyReady"
+    },
+    "CNnlx7bd621r": {
+        "id": "CNnlx7bd621r",
+        "from": "SP_SrTechnologyReady",
+        "to": "SP_SrDsFinished"
+    },
+    "CN474lmi9xao": {
+        "id": "CN474lmi9xao",
+        "from": "SP_SrDsFinished",
+        "to": "SP_SrDelivery"
+    },
+    "CNig927yh6ej": {
+        "id": "CNig927yh6ej",
+        "from": "SP_SrDelivery",
+        "to": "SP_SrFinish"
+    },
+    "CN4yywfg326r": {
+        "id": "CN4yywfg326r",
+        "from": "SP_SrFinish",
+        "to": "SP_SrEndPoint"
+    },
+    "CNenye7oueqe": {
+        "id": "CNenye7oueqe",
+        "from": "SP_SrDelivery",
+        "to": "TA_SrServiceCompleationInit"
+    },
+    "CNgv6k83ku7o": {
+        "id": "CNgv6k83ku7o",
+        "from": "SP_SrDemand",
+        "to": "SP_SrSurvey"
+    },
+    "CNej93v9rh35": {
+        "id": "CNej93v9rh35",
+        "from": "SP_SrSurvey",
+        "to": "SP_SrOffer"
+    },
+    "CNydqgu25l9l": {
+        "id": "CNydqgu25l9l",
+        "from": "SP_SrOffer",
+        "to": "SP_SrOrder"
+    },
+    "CNo8lbrs41j5": {
+        "id": "CNo8lbrs41j5",
+        "from": "SP_SrCommision",
+        "to": "TA_SrCreateTransferNesting2"
+    },
+    "CNo8lbrs5555": {
+        "id": "CNo8lbrs5555",
+        "from": "SP_SrOrder",
+        "to": "TA_SrCreateTransferNesting1"
+    },
+    "CNjq386dsdte": {
+        "id": "CNjq386dsdte",
+        "from": "SP_SrOrder",
+        "to": "TA_SrCompleteServiceInformation1"
+    },
+    "CNvm2u68e2gr": {
+        "id": "CNvm2u68e2gr",
+        "from": "SP_SrDemand",
+        "to": "TA_SrPreCompleteServiceInformation"
+    },
+    "CN2sxokn2ot1": {
+        "id": "CN2sxokn2ot1",
+        "from": "SP_SrOrder",
+        "to": "CO_SrPreCompletedByUser"
+    },
+    "CN3spiigfn02": {
+        "id": "CN3spiigfn02",
+        "from": "CO_SrPreCompletedByUser",
+        "to": "TA_SrPreCompleteServiceInformationCancel"
+    },
+    "CN8saw2m5g6j": {
+        "id": "CN8saw2m5g6j",
+        "from": "CO_SrPreCompletedByUser",
+        "to": "TA_SrCompleteServiceInformation2"
+    },
+    "CNv9u2xppq83": {
+        "id": "CNv9u2xppq83",
+        "from": "TA_SrCompleteServiceInformation1",
+        "to": "TA_SrActivateRemoteHands"
+    },
+    "CNooq841zjsg": {
+        "id": "CNooq841zjsg",
+        "from": "TA_SrActivateRemoteHands",
+        "to": "TA_SrActivateData"
+    },
+    "CNihpbi7bfsw": {
+        "id": "CNihpbi7bfsw",
+        "from": "TA_SrActivateData",
+        "to": "TA_SrActivateVoice"
+    },
+    "CNpkf0h8qvjs": {
+        "id": "CNpkf0h8qvjs",
+        "from": "TA_SrFinishActivate",
+        "to": "TA_SrDeactivateRemoteHands"
+    },
+    "CN13gvdaxp1x": {
+        "id": "CN13gvdaxp1x",
+        "from": "TA_SrFinishActivate",
+        "to": "TA_SrDeactivateData"
+    },
+    "CNw9kwqyiqht": {
+        "id": "CNw9kwqyiqht",
+        "from": "TA_SrFinishActivate",
+        "to": "TA_SrDeactivateVoice"
+    },
+    "CN1mr7dmstlm": {
+        "id": "CN1mr7dmstlm",
+        "from": "TA_SrActivateVoice",
+        "to": "TA_SrActivateCloud"
+    },
+    "CNva5x7wbqe0": {
+        "id": "CNva5x7wbqe0",
+        "from": "TA_SrActivateCloud",
+        "to": "TA_SrFinishActivate"
+    },
+    "CN6bj400b39z": {
+        "id": "CN6bj400b39z",
+        "from": "TA_SrFinishActivate",
+        "to": "TA_SrDeactivateCloud"
+    }
+}

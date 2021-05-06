@@ -1,0 +1,112 @@
+{
+    "CNosb36mnkiv": {
+        "id": "CNosb36mnkiv",
+        "from": "SP_SrCommision",
+        "to": "SP_SrTechnologyCreated"
+    },
+    "CNvxerq61nst": {
+        "id": "CNvxerq61nst",
+        "from": "SP_SrTechnologyCreated",
+        "to": "SP_SrInstallation"
+    },
+    "CN7fokqggk6q": {
+        "id": "CN7fokqggk6q",
+        "from": "SP_SrInstallation",
+        "to": "SP_PreConfigurationCompleted"
+    },
+    "CNet08k9qxdp": {
+        "id": "CNet08k9qxdp",
+        "from": "SP_PreConfigurationCompleted",
+        "to": "SP_SrTechnologyReady"
+    },
+    "CNm7l9b2019n": {
+        "id": "CNm7l9b2019n",
+        "from": "SP_SrTechnologyReady",
+        "to": "SP_SrDelivery"
+    },
+    "CN5ktmvf2dzc": {
+        "id": "CN5ktmvf2dzc",
+        "from": "SP_SrDelivery",
+        "to": "SP_SrFinish"
+    },
+    "CNl6hkddw8jl": {
+        "id": "CNl6hkddw8jl",
+        "from": "SP_SrFinish",
+        "to": "SP_SrEndPoint"
+    },
+    "CNrg9mn3a9br": {
+        "id": "CNrg9mn3a9br",
+        "from": "SP_SrTechnologyCreated",
+        "to": "TA_SrCommisionCompletion"
+    },
+    "CNbqemuzv00i": {
+        "id": "CNbqemuzv00i",
+        "from": "TA_SrMontage",
+        "to": "TA_SrMontageTakeover"
+    },
+    "CNqgcv1vfwiy": {
+        "id": "CNqgcv1vfwiy",
+        "from": "TA_SrMontageTakeover",
+        "to": "CO_SrTechCheckRequired"
+    },
+    "CN07emi8z1j6": {
+        "id": "CN07emi8z1j6",
+        "from": "CO_SrTechCheckRequired",
+        "to": "TA_SrTechnicianAssignment"
+    },
+    "CNb2xchest2g": {
+        "id": "CNb2xchest2g",
+        "from": "TA_SrTechnicianAssignment",
+        "to": "TA_SrRRCheck"
+    },
+    "CNlkllm26w2u": {
+        "id": "CNlkllm26w2u",
+        "from": "TA_SrRRCheck",
+        "to": "CO_SrTechCheckFailed"
+    },
+    "CN3qo6ahzfhl": {
+        "id": "CN3qo6ahzfhl",
+        "from": "CO_SrTechCheckFailed",
+        "to": "TA_SrProjectionFinish"
+    },
+    "CNyrrf1j7byh": {
+        "id": "CNyrrf1j7byh",
+        "from": "CO_SrInternalMotage",
+        "to": "TA_SrMontage"
+    },
+    "CNp92zoaez01": {
+        "id": "CNp92zoaez01",
+        "from": "SP_SrTechnologyCreated",
+        "to": "TA_SrTechCopyDataFromService"
+    },
+    "CN3yf2fqw60e": {
+        "id": "CN3yf2fqw60e",
+        "from": "SP_SrCommision",
+        "to": "TA_SrSetStornoMode"
+    },
+    "CN3dcgypnztr": {
+        "id": "CN3dcgypnztr",
+        "from": "CO_SrInternalMotage",
+        "to": "TA_SrNotifyExternalCompany"
+    },
+    "CNj86gzkw6or": {
+        "id": "CNj86gzkw6or",
+        "from": "SP_PreConfigurationCompleted",
+        "to": "TA_SrWaitingForExternalCompanyDefinition"
+    },
+    "CNu2hrqu2x3j": {
+        "id": "CNu2hrqu2x3j",
+        "from": "TA_SrWaitingForExternalCompanyDefinition",
+        "to": "CO_SrInternalMotage"
+    },
+    "CNldnyh2ozh6": {
+        "id": "CNldnyh2ozh6",
+        "from": "TA_SrWaitingForExternalCompanyDefinition",
+        "to": "TA_SrNewStornoDisable"
+    },
+    "CN0qie4kkegi": {
+        "id": "CN0qie4kkegi",
+        "from": "SP_SrTechnologyReady",
+        "to": "TA_SrNotifyTechflowFinished"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "TA_SrTechRRVerification": {
+        "id": "TA_SrTechRRVerification",
+        "type": "M",
+        "name": "Kontrola parametr\u016f (RR Verification)",
+        "canMerge": false,
+        "taskId": "TT_SrTechnologyConfiguration",
+        "workplaceId": "WP_Service",
+        "setupActionId": "SA_RRVerificationNotifyService",
+        "term": "",
+        "termType": "day",
+        "nestedWorkflow": null,
+        "canRedo": false,
+        "notSendEmail": false,
+        "urgent": false,
+        "outOfWorkFlow": true,
+        "params": "",
+        "autofinishMessage": "",
+        "autoWorkOutAfterTerm": false,
+        "generateCancelOnGlobalCancel": false,
+        "disableControls": false,
+        "top": "181",
+        "left": "179"
+    }
+}

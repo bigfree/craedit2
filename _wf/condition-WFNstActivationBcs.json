@@ -1,0 +1,18 @@
+{
+    "CO_UtIsProductionFlow": {
+        "id": "CO_UtIsProductionFlow",
+        "conditionId": "CT_UtIsProductionFlow",
+        "name": "Jedn\u00e1 se o ostr\u00fd provoz",
+        "params": "",
+        "top": "199",
+        "left": "444"
+    },
+    "CO_UtIsProductionFlow2": {
+        "id": "CO_UtIsProductionFlow2",
+        "conditionId": "CT_UtIsProductionFlow",
+        "name": "Jedn\u00e1 se o ostr\u00fd provoz",
+        "params": "",
+        "top": "554",
+        "left": "670"
+    }
+}

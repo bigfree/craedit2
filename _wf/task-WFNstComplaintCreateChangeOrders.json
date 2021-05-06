@@ -1,0 +1,27 @@
+{
+    "TA_ResponseFromBusiness": {
+        "id": "TA_ResponseFromBusiness",
+        "type": "M",
+        "name": "Zalo\u017een\u00ed BS na zm\u011bnu zceny",
+        "canMerge": false,
+        "taskId": "TT_ComplaintStatement",
+        "workplaceId": "WP_InternalSales",
+        "setupActionId": "undefined",
+        "term": "",
+        "termType": "day",
+        "nestedWorkflow": {
+            "0": ""
+        },
+        "canRedo": false,
+        "notSendEmail": false,
+        "urgent": false,
+        "outOfWorkFlow": true,
+        "params": "",
+        "autofinishMessage": "",
+        "autoWorkOutAfterTerm": false,
+        "generateCancelOnGlobalCancel": false,
+        "disableControls": false,
+        "top": "197",
+        "left": "81"
+    }
+}

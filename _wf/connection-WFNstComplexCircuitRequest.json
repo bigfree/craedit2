@@ -1,0 +1,112 @@
+{
+    "CNjk3josripy": {
+        "id": "CNjk3josripy",
+        "from": "TA_SrCreatePoint",
+        "to": "CO_TaskRequest1"
+    },
+    "CNproq2l1x79": {
+        "id": "CNproq2l1x79",
+        "from": "CO_TaskRequest1",
+        "to": "TA_SrSoftcodeReservation"
+    },
+    "CNclnczjvi8o": {
+        "id": "CNclnczjvi8o",
+        "from": "TA_SrCreatePoint",
+        "to": "CO_SrTaskRequest2"
+    },
+    "CN6sj0qodjf6": {
+        "id": "CN6sj0qodjf6",
+        "from": "CO_SrTaskRequest2",
+        "to": "TA_SrIpReservation"
+    },
+    "CNasgv7fup6f": {
+        "id": "CNasgv7fup6f",
+        "from": "TA_SrCreatePoint",
+        "to": "CO_SrTaskRequest3"
+    },
+    "CNrynk9be810": {
+        "id": "CNrynk9be810",
+        "from": "CO_SrTaskRequest3",
+        "to": "TA_SrPortReservation"
+    },
+    "CNeu5hrb4owu": {
+        "id": "CNeu5hrb4owu",
+        "from": "TA_SrCreatePoint",
+        "to": "CO_SrTaskRequest4"
+    },
+    "CN5usqxdkbej": {
+        "id": "CN5usqxdkbej",
+        "from": "CO_SrTaskRequest4",
+        "to": "TA_SrPortReservation2"
+    },
+    "CN62jj0jn7r3": {
+        "id": "CN62jj0jn7r3",
+        "from": "TA_SrCreatePoint",
+        "to": "CO_SrTaskRequest5"
+    },
+    "CN9o1p3drhiy": {
+        "id": "CN9o1p3drhiy",
+        "from": "CO_SrTaskRequest5",
+        "to": "TA_SrCpeConfigurationRequest"
+    },
+    "CNju6l4zc4d8": {
+        "id": "CNju6l4zc4d8",
+        "from": "SP_SrComplexCircuitRequest",
+        "to": "TA_SrTaskRequest"
+    },
+    "CNsjyr8zokvo": {
+        "id": "CNsjyr8zokvo",
+        "from": "TA_SrTaskRequest",
+        "to": "TA_SrCreatePoint"
+    },
+    "CNq97gvte17s": {
+        "id": "CNq97gvte17s",
+        "from": "TA_SrCreatePoint",
+        "to": "CO_TaskRequest6"
+    },
+    "CNib0al9qkqn": {
+        "id": "CNib0al9qkqn",
+        "from": "CO_TaskRequest6",
+        "to": "TA_SrFrequencyOrder"
+    },
+    "CNa6qq2gk9lg": {
+        "id": "CNa6qq2gk9lg",
+        "from": "SP_SrComplexCircuitRequest",
+        "to": "SP_CompleteNotification"
+    },
+    "CNwc484twzbr": {
+        "id": "CNwc484twzbr",
+        "from": "SP_CompleteNotification",
+        "to": "TA_CircuitCompleteNotification1"
+    },
+    "CNyo3hg3lels": {
+        "id": "CNyo3hg3lels",
+        "from": "TA_SrSoftcodeReservation",
+        "to": "TA_CircuitCompleteNotification2"
+    },
+    "CNgzsxqiz0ox": {
+        "id": "CNgzsxqiz0ox",
+        "from": "TA_SrIpReservation",
+        "to": "TA_SrCircuitCompleteNotification3"
+    },
+    "CNcts61qhmmo": {
+        "id": "CNcts61qhmmo",
+        "from": "TA_SrPortReservation",
+        "to": "TA_SrCircuitCompleteNotification4"
+    },
+    "CNf4c2pli9fo": {
+        "id": "CNf4c2pli9fo",
+        "from": "TA_SrPortReservation2",
+        "to": "TA_CircuitCompleteNotification5"
+    },
+    "CN9t6b43z93f": {
+        "id": "CN9t6b43z93f",
+        "from": "TA_SrCpeConfigurationRequest",
+        "to": "TA_CircuitCompleteNotification6"
+    },
+    "CNw8vnijfy6r": {
+        "id": "CNw8vnijfy6r",
+        "from": "TA_SrFrequencyOrder",
+        "to": "TA_CircuitCompleteNotification7"
+    }
+}

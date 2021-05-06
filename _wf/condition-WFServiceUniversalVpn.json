@@ -1,0 +1,42 @@
+{
+    "CO_SrCpeConfigurationRequired": {
+        "id": "CO_SrCpeConfigurationRequired",
+        "conditionId": "CT_SrCpeConfigurationRequired",
+        "name": "Po\u017eadov\u00e1na konfigurace CPE",
+        "params": "",
+        "top": "736",
+        "left": "326"
+    },
+    "CO_SrCpeConfigurationRequired1": {
+        "id": "CO_SrCpeConfigurationRequired1",
+        "conditionId": "CT_SrCpeConfigurationRequired",
+        "name": "Po\u017eadov\u00e1na konfigurace CPE",
+        "params": "",
+        "top": "965",
+        "left": "666"
+    },
+    "CO_SrServiceDocumentationRequired": {
+        "id": "CO_SrServiceDocumentationRequired",
+        "conditionId": "CT_SrServiceSurveylanceDocumented",
+        "name": "Po\u017eadov\u00e1no zakreslen\u00ed do dohledu",
+        "params": "",
+        "top": "1008",
+        "left": "424"
+    },
+    "CO_SrPreCompletedByUser": {
+        "id": "CO_SrPreCompletedByUser",
+        "conditionId": "CT_CommonTaskPassedByUser",
+        "name": "Karta slu\u017eby nebyla p\u0159edvypln\u011bna",
+        "params": "{\"WFKP_KOD\":\"TA_SrPreCompleteServiceInformation\",\"_result\":0}",
+        "top": "435",
+        "left": "318"
+    },
+    "CO_SrCPEConfigurationPassedByUser": {
+        "id": "CO_SrCPEConfigurationPassedByUser",
+        "conditionId": "CT_CommonTaskPassedByUser",
+        "name": "P\u0159edkonfigrace CPE nebyla dod\u00e1na",
+        "params": "{\"WFKP_KOD\":\"TA_SrCpePreConfiguration\",\"_result\":0}",
+        "top": "1033",
+        "left": "762"
+    }
+}

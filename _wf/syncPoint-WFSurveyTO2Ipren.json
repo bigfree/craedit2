@@ -1,0 +1,38 @@
+{
+    "SP_SrCheckTO2Availability": {
+        "id": "SP_SrCheckTO2Availability",
+        "type": "A",
+        "name": "Pr\u016fzkum (TO2)",
+        "urgent": false,
+        "taskId": "TT_Automat",
+        "workplaceId": "WP_System",
+        "setupActionId": "undefined",
+        "syncType": "NONE",
+        "term": "5",
+        "termType": "work_day",
+        "params": "",
+        "autofinishMessage": "",
+        "autoWorkOutAfterTerm": false,
+        "generateCancelOnGlobalCancel": false,
+        "top": "101",
+        "left": "44"
+    },
+    "SP_SrSurveyAccountManagerNotification": {
+        "id": "SP_SrSurveyAccountManagerNotification",
+        "type": "A",
+        "name": "Odesl\u00e1n\u00ed notifikace",
+        "urgent": false,
+        "taskId": "TT_SrAutomat",
+        "workplaceId": "WP_System",
+        "setupActionId": "undefined",
+        "syncType": "NONE",
+        "term": "",
+        "termType": "day",
+        "params": "",
+        "autofinishMessage": "",
+        "autoWorkOutAfterTerm": false,
+        "generateCancelOnGlobalCancel": false,
+        "top": "135",
+        "left": "294"
+    }
+}

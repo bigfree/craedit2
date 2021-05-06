@@ -1,0 +1,117 @@
+{
+    "CNosb36mnkiv": {
+        "id": "CNosb36mnkiv",
+        "from": "SP_SrCommision",
+        "to": "SP_SrTechnologyCreated"
+    },
+    "CNvxerq61nst": {
+        "id": "CNvxerq61nst",
+        "from": "SP_SrTechnologyCreated",
+        "to": "SP_SrInstallation"
+    },
+    "CN7fokqggk6q": {
+        "id": "CN7fokqggk6q",
+        "from": "SP_SrInstallation",
+        "to": "SP_PreConfigurationCompleted"
+    },
+    "CNet08k9qxdp": {
+        "id": "CNet08k9qxdp",
+        "from": "SP_PreConfigurationCompleted",
+        "to": "SP_SrTechnologyReady"
+    },
+    "CNm7l9b2019n": {
+        "id": "CNm7l9b2019n",
+        "from": "SP_SrTechnologyReady",
+        "to": "SP_SrDelivery"
+    },
+    "CN5ktmvf2dzc": {
+        "id": "CN5ktmvf2dzc",
+        "from": "SP_SrDelivery",
+        "to": "SP_SrFinish"
+    },
+    "CNl6hkddw8jl": {
+        "id": "CNl6hkddw8jl",
+        "from": "SP_SrFinish",
+        "to": "SP_SrEndPoint"
+    },
+    "CNrg9mn3a9br": {
+        "id": "CNrg9mn3a9br",
+        "from": "SP_SrTechnologyCreated",
+        "to": "TA_SrCommisionCompletion"
+    },
+    "CNbqemuzv00i": {
+        "id": "CNbqemuzv00i",
+        "from": "TA_SrMontage",
+        "to": "TA_SrMontageTakeover"
+    },
+    "CNqgcv1vfwiy": {
+        "id": "CNqgcv1vfwiy",
+        "from": "TA_SrMontageTakeover",
+        "to": "CO_SrTechCheckRequired"
+    },
+    "CN07emi8z1j6": {
+        "id": "CN07emi8z1j6",
+        "from": "CO_SrTechCheckRequired",
+        "to": "TA_SrTechnicianAssignment"
+    },
+    "CNb2xchest2g": {
+        "id": "CNb2xchest2g",
+        "from": "TA_SrTechnicianAssignment",
+        "to": "TA_SrRRCheck"
+    },
+    "CNlkllm26w2u": {
+        "id": "CNlkllm26w2u",
+        "from": "TA_SrRRCheck",
+        "to": "CO_SrTechCheckFailed"
+    },
+    "CN3qo6ahzfhl": {
+        "id": "CN3qo6ahzfhl",
+        "from": "CO_SrTechCheckFailed",
+        "to": "TA_SrProjectionFinish"
+    },
+    "CN9ydkij2a1l": {
+        "id": "CN9ydkij2a1l",
+        "from": "CO_SrInternalMotage",
+        "to": "TA_SrMontage"
+    },
+    "CNq9dzald6kx": {
+        "id": "CNq9dzald6kx",
+        "from": "SP_SrTechnologyCreated",
+        "to": "TA_SrTechCopyDataFromService"
+    },
+    "CNso93i2oyy1": {
+        "id": "CNso93i2oyy1",
+        "from": "SP_SrCommision",
+        "to": "TA_SrSetStornoMode"
+    },
+    "CN8wfibsqxtk": {
+        "id": "CN8wfibsqxtk",
+        "from": "CO_SrInternalMotage",
+        "to": "TA_SrNotifyExternalCompany"
+    },
+    "CNssjip8m6nz": {
+        "id": "CNssjip8m6nz",
+        "from": "SP_PreConfigurationCompleted",
+        "to": "TA_SrWaitingForExternalCompanyDefinition"
+    },
+    "CN2dd4m5rdu0": {
+        "id": "CN2dd4m5rdu0",
+        "from": "TA_SrWaitingForExternalCompanyDefinition",
+        "to": "CO_SrInternalMotage"
+    },
+    "CNclqk5kxs9u": {
+        "id": "CNclqk5kxs9u",
+        "from": "TA_SrMontage",
+        "to": "TA_SrFinishRRVerification"
+    },
+    "CN1irdqm89jb": {
+        "id": "CN1irdqm89jb",
+        "from": "TA_SrWaitingForExternalCompanyDefinition",
+        "to": "TA_SrNewStornoDisable"
+    },
+    "CNgflkfxgbza": {
+        "id": "CNgflkfxgbza",
+        "from": "SP_SrTechnologyReady",
+        "to": "TA_SrNotifyTechflowFinished"
+    }
+}

@@ -4,6 +4,10 @@ import { StoreModel } from "./storeModel";
 
 const store = createStore<StoreModel>({
 	nodes: [],
+	node: null,
+	setNode: action((state, payload) => {
+		state.node = payload;
+	}),
 	error: null,
 	addNode: action(({ nodes }, payload) => {
 		nodes.push(payload);

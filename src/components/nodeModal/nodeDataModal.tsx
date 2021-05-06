@@ -1,32 +1,63 @@
-import { FC, useEffect, useState } from "react";
-import { Modal } from 'antd';
+import { Modal, Button, Form, Input } from 'antd';
+import { FC, useEffect } from "react";
+import { FlowElement } from "react-flow-renderer";
+import { useStoreActions, useStoreState } from "../../store/hooks";
 
-type TProps = {
-	openModal: boolean
-}
+const NodeDataModal: FC = (): JSX.Element => {
+	const [form] = Form.useForm();
+	const openModal = useStoreState((state => state.openModal));
+	const node = useStoreState((state => state.node));
 
-const NodeDataModal: FC<TProps> = ({openModal}: TProps): JSX.Element => {
-	const [isModalVisible, setIsModalVisible] = useState<boolean>(openModal);
+	const actions = useStoreActions((actions => actions));
 
 	useEffect(() => {
-		// setIsModalVisible(openModal);
-		console.log(openModal)
-	}, [isModalVisible, openModal]);
-
+		if (node !== null) {
+			form.setFieldsValue({
+				label: node.data?.label
+			});
+		}
+	}, [form, node]);
 
 	const handleOk = () => {
-		setIsModalVisible(false);
+		// actions.setOpenModal(false);
+		const formData = form.getFieldsValue();
+		let customNode = node;
+		if (customNode !== null) {
+			customNode.data.label = formData.label;
+		}
+
+		console.log(customNode);
 	};
 
 	const handleCancel = () => {
-		setIsModalVisible(false);
+		actions.setOpenModal(false);
 	};
 
+	const afterClose = () => {
+		actions.setNode(null);
+		console.info('close modal event');
+	}
+
 	return (
-		<Modal title="Basic Modal" visible={isModalVisible} onOk={handleOk} onCancel={handleCancel}>
-			<p>Some contents...</p>
-			<p>Some contents...</p>
-			<p>Some contents...</p>
+		<Modal
+			title={node?.data.label}
+			visible={openModal}
+			afterClose={afterClose}
+			footer={[
+				<Button key="back" onClick={handleCancel}>
+					Close
+				</Button>,
+				<Button key="submit" type="primary" onClick={handleOk}>
+					Save
+				</Button>
+			]}
+		>
+			<Form form={form} name="control-hooks">
+				<Form.Item name="label" label="Name" rules={[{ required: true }]}>
+					<Input />
+				</Form.Item>
+			</Form>
+			{JSON.stringify(node)}
 		</Modal>
 	)
 }

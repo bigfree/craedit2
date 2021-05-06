@@ -30,6 +30,7 @@ const Flow2: FC = (): JSX.Element => {
 
 	const elementClick = (event: any, element: any) => {
 		console.log(event, element);
+		actions.setNode(element);
 		actions.setOpenModal(true);
 	}
 

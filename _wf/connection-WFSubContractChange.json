@@ -1,7 +1,0 @@
-{
-    "CN0i4ek2ier4": {
-        "id": "CN0i4ek2ier4",
-        "from": "SP_ScSubcontractChange",
-        "to": "TA_ScCompleteInformation"
-    }
-}

@@ -1,7 +1,0 @@
-{
-    "CNstmapa5f73": {
-        "id": "CNstmapa5f73",
-        "from": "SP_SubComplaintBillingResponse",
-        "to": "TA_ResponseFromBilling"
-    }
-}

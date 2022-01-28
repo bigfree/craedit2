@@ -1,7 +1,0 @@
-{
-    "SBplubpd3ric": {
-        "id": "SBplubpd3ric",
-        "from": "TA_SrSapNumber3",
-        "to": "TA_SrCompleteDemandInformation"
-    }
-}

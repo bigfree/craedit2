@@ -1,7 +1,0 @@
-{
-    "SBwbyuf1a10u": {
-        "id": "SBwbyuf1a10u",
-        "from": "TA_SrServiceBilling",
-        "to": "TA_SrServiceBillingTransfer"
-    }
-}
